@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "BODIES OF WATER", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Originally at Lewiston, NY, this falls has over the years moved 7 times upstream", 
+                    "solution": "Niagara Falls", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "While Thatcher looks over Parliament, Parliament looks over this", 
+                    "solution": "the Thames", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The dam you need to make Lake Mead", 
+                    "solution": "Boulder/Hoover Dam", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Only one of the 5 Great Lakes entirely in U.S.", 
+                    "solution": "Lake Michigan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "You can bet on the banks of this California-Nevada lake", 
+                    "solution": "Lake Tahoe", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TELEVISION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Theodore Cleaver's nickname", 
+                    "solution": "Beaver", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Falk's famous fumbler", 
+                    "solution": "Columbo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Series in which Ted Danson doesn't touch liquor, but fondles Shelley Long", 
+                    "solution": "Cheers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "ABC's \"Iran Reports\" led to creation of \"Nightline\" with him as host", 
+                    "solution": "Ted Koppel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Paul Anka's been collecting royalties for this for over 5,700 nights", 
+                    "solution": "the Tonight Show theme", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PEOPLE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Baby Andrew Castiraghi's royal mom & Princess Stephanie's sister", 
+                    "solution": "Princess Caroline", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Type of fiction penned by presidential offspring M. Truman & E. Roosevelt", 
+                    "solution": "mystery books", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PRESIDENTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He held office \"4 score & 7 years\" after founding of our country", 
+                    "solution": "Abraham Lincoln", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "1st president to win Nobel Peace Prize, though he \"carried a big stick\"", 
+                    "solution": "Theodore Roosevelt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "7 of our 1st 12 were from this state", 
+                    "solution": "Virginia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The only 2 presidents born in Texas, they held office only 3 years apart", 
+                    "solution": "Lyndon Johnson & Dwight Eisenhower", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Portly president who set precedent by throwing out season's 1st ball", 
+                    "solution": "William Howard Taft", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "STARTS WITH \"H\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Hawaiian hip heaving", 
+                    "solution": "Hula", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Half the earth", 
+                    "solution": "hemisphere", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A football \"conference\", or to gather together for warmth", 
+                    "solution": "huddle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Bruce Banner's bulky bad side", 
+                    "solution": "the Hulk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The measure of a horse", 
+                    "solution": "hand", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POTENT POTABLES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A dessert wine, or the left side of a ship", 
+                    "solution": "port", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "When water gets gassed", 
+                    "solution": "carbonation", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Ancient Greek law made it illegal not to do this during festival of Dionysus", 
+                    "solution": "to get drunk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Its name comes from legend that first one was stirred with a rooster feather", 
+                    "solution": "cocktail", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "25.6 ounces", 
+                    "solution": "a fifth", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "WORLD WAR I", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"Lafayette, we are here\", referred to Americans landing in this country", 
+                    "solution": "France", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This exotic-dancer-turned-spy was executed by the French in 1917", 
+                    "solution": "Mata Hari", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The German U-boats were this type of craft", 
+                    "solution": "submarine", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Early leadership of an all-black regiment earned him nickname \"Black Jack\"", 
+                    "solution": "John J. Pershing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "French reinforcements came to Battle of the Marne using this form of transport", 
+                    "solution": "taxis (taxicabs of Paris)", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PROVERBS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "According to Harry Truman, what you should do \"if you can't stand the heat\"", 
+                    "solution": "get out of the kitchen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "It's better \"than not to have loved at all\"", 
+                    "solution": "to have loved and lost", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Lord Acton said it \"tends to corrupt\"", 
+                    "solution": "(absolute) power", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Santayana said, \"Those who cannot remember the past are condemned to\" do this", 
+                    "solution": "repeat history", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Nursery rhyme that can be played on touch-tone phone by dialing 3212, 333, 222, 333", 
+                    "solution": "\"Mary Had a Little Lamb\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "3000", 
+                    "prompt": "When spelling numbers, lowest one to contain the letter \"B\"", 
+                    "solution": "billion", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "AMERICAN INDIANS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "He, not Sitting Bull, led the Indians at Custer's Last Stand", 
+                    "solution": "Chief Crazy Horse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Numbering some 140,000, this Southwest tribe is America's largest", 
+                    "solution": "Navajo", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "American golfers claim they hit 111 of them each day", 
+                    "solution": "holes-in-one", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Earl Anthony & Don Carter are kingpins in this sport", 
+                    "solution": "bowling", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Didn't float like a butterfly or sting like a bee, but he knocked out his teeth & Muhammad Ali", 
+                    "solution": "Leon Spinks", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Originally \"mintonette\", it was first played with a basketball & a rope stretched across court", 
+                    "solution": "volleyball", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Didn't drink, smoke, or \"lift anything heavy\" and played hockey until 50", 
+                    "solution": "Gordie Howe", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CHEMISTRY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "\"Plumbum\" in Latin, Ancient Rome's plumbing was made of this heavy metal", 
+                    "solution": "lead", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "WORLD CITIES", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "It's the most populous city in the Western Hemisphere", 
+                    "solution": "Mexico City", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

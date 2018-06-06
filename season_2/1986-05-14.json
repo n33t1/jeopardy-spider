@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "BRITISH ISLES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Since she usually winds down the day with a Scotch, J & B gave this p.m.  their billionth bottle", 
+                    "solution": "(Margaret) Thatcher", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The badge of this family is the bell-heather, not the Big Mac", 
+                    "solution": "MacDonalds", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In 1839, Englishmen put almost 200 tons of it up their noses", 
+                    "solution": "snuff", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "With the Scotch thistle & English rose this symbol of the trinity is part of British coat of arms", 
+                    "solution": "shamrock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "On January 1, 1788 the Daily Universal Register assumed this new name", 
+                    "solution": "London Times", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE FLINTSTONES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Town the Flintstones call home", 
+                    "solution": "Bedrock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "\"Chip off the old Flintstone\" with her own cereal", 
+                    "solution": "Pebbles", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "It's where Fred took the family in the opening of every show", 
+                    "solution": "drive-in theater", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Flintstones celebrated this anniversary October 14, 1985", 
+                    "solution": "25th", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Fred & Barney were lodge members of this \"Loyal Order\"", 
+                    "solution": "Water Buffaloes", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FACTS & FIGURES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "After NYC & Washington, D.C., this New Jersey city is most expensive in U.S. to visit", 
+                    "solution": "Atlantic City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "When hearing this term, almost twice as many people think of the movie as Pres. Reagan's defense plan", 
+                    "solution": "Star Wars", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Of about 5, 25, or 45, percentage of adults in the U.S. who've been on TV", 
+                    "solution": "25", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In # of phones per 100 people, the U.S. ranks third, behind these 2 European countries that begin with S", 
+                    "solution": "Switzerland & Sweden", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "A \"Money\" magazine survey said people still think this is the best way to get rich", 
+                    "solution": "hard work", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "3-LETTER WORDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Latin for \"two\", Batman & Robin are a dynamic one", 
+                    "solution": "duo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Word cried by the last \"little pig\" \"all the way home\"", 
+                    "solution": "wee", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "As an acronym it's a tombstone title; as a word it means \"tear\"", 
+                    "solution": "r.i.p.", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A paronomasia, it's a play on similar sounding words", 
+                    "solution": "pun", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Abbreviated \"Sn\", it's the only 3-letter element", 
+                    "solution": "tin", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BIRDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Heavy consumption of these avian writing implements led to invention of steel pens", 
+                    "solution": "quills", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "An omelette made with 1 of their eggs is equal in size to 1 made with 24 chicken eggs", 
+                    "solution": "ostrich", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Answer to the children's riddle \"Why does a hummingbird hum?\"", 
+                    "solution": "Because he doesn\\'t know the words", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Mythology says Hera was so fond of these birds she adorned their tails with the eyes of her love, Argus", 
+                    "solution": "peacock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "1/2 an hr. before this song was to be recorded, the title was changed from \"Run, Rabbit, Run\" to this:", 
+                    "solution": "\"Fly, Robin, Fly\"", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"FIRE\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The oldest portable one, invented about 1837, used soda-acid", 
+                    "solution": "fire extinguisher", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "It's as old as the code of Hammurabi, which didn't mention what the rates were", 
+                    "solution": "fire insurance", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Most widespread type of this is performed on embers from a wood fire, as in India", 
+                    "solution": "walking on fire", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "To contain a forest fire, it's created by clearing a strip of land ahead of the flames", 
+                    "solution": "fire break", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In this 1983 film, Nick Nolte played a journalist in Nicaragua during the 1979 revolution", 
+                    "solution": "Under Fire", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "LEADERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Founder & leader of the United Farm Workers of America", 
+                    "solution": "Cesar Chavez", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Title shared by Nero, Napoleon, & San Francisco's Joshua Norton", 
+                    "solution": "emperor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The exiled spiritual leader of tibet who fled to India in 1959", 
+                    "solution": "Dalai Lama", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The 2 top Red Chinese leaders who both died in 1976", 
+                    "solution": "Mao Tse-Tung & Chou En-Lai", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Visiting Washington, D.C., this p.m. stated Japan should become an \"unsinkable air-craft carrier\"", 
+                    "solution": "Nakasone", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ICE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Type of lettuce that might sink an ocean liner", 
+                    "solution": "iceberg", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Geometric shape water molecules form in ice; it's why snowflakes look the way they do", 
+                    "solution": "hexagons", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Coleridge poem with the line \"and ice, mast-high, came floating by, as green as emerald\"", 
+                    "solution": "The Rime of the Ancient Mariner\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Before ice machines, New Englanders got ice by this process also used for marble or granite", 
+                    "solution": "cutting into blocks (or quarrying)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "His most important work is \"Northward Over the Great Ice,...In the Years 1886 & 1891-1897\"", 
+                    "solution": "Robert Peary", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "DRAMA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In London Puccini saw this popular David Belasco play about Cio-Cio-San & made it into an opera", 
+                    "solution": "Madame Butterfly", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Henry VIII's lord chancellor, who was a \"Man for All Seasons\"", 
+                    "solution": "Thomas More", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Philosophical phrase about death & dollars, or a Kaufman & Hart play", 
+                    "solution": " You can\\'t take it with you.", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In the 4th century B.C., this type of play was forbidden in Greece as demoralizing in time of war", 
+                    "solution": "satire (comedy)", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE CIVIL WAR", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "He surrendered at Appomattox Court House without the consent of the Confederate president", 
+                    "solution": "General Lee", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Because it opposed high tariffs, this 1st state to secede had threatened to as far back as 1832", 
+                    "solution": "South Carolina", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Nicknamed \"Uncle Billy\", this general believed in total war & proved it marching through Georgia", 
+                    "solution": "Sherman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In 1863, Thomas Bishop wrote words to this popular Civil War song", 
+                    "solution": "\"When Johnny Comes Marching Home\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "1 of 2 states to join Union during the Civil War", 
+                    "solution": "(1 of) West Virginia (or Nevada)", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SICKNESS & HEALTH", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Prosthetic device 1st made in 1851, Peter Falk & Sammy Davis Jr. account for a pair of them", 
+                    "solution": "false eye", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The University of Kansas found music in the delivery room shortens this part of the  birth cycle", 
+                    "solution": "labor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Health insurance financed by 4 Social Security trust funds", 
+                    "solution": "Medicare", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Since there was too little to test, this drug of Fleming's sat \"undiscovered\" for 12 years", 
+                    "solution": "penicillin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In the '40s, Sister Kenny, an Australian nurse, brought her treatment for this disease to the U.S.", 
+                    "solution": "polio", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POP MUSIC", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "He had to pay $1/2 million in damages because \"My Sweet Lord\" was too similar to \"He's So Fine\"", 
+                    "solution": "George Harrison", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Jimmy Buffett \"wasted away\" here in 1977", 
+                    "solution": "Margaritaville", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "One reason this Australian group took its name was to contrast it with the heavy metal sound", 
+                    "solution": "Air Supply", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Stage fright & shyness kept her out of limelight, despite her big hit, \"Chuck E.'s In Love\"", 
+                    "solution": "Rickie Lee Jones", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1981, her \"7 Year Ache\" lasted 7 weeks on the charts", 
+                    "solution": "Rosanne Cash", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "STATE CAPITALS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "The 1st letter in the alphabet that does not begin the name of a state capital", 
+                    "solution": "E", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

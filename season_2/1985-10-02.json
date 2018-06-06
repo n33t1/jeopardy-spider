@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "STARTS WITH \"G\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Command to old dobbin to make him go faster", 
+                    "solution": "giddy-up", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "An early warship propelled by oars, it's now just the kitchen on a ship", 
+                    "solution": "galley", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Member of the iris family with as many as 25 flowers on a single spike", 
+                    "solution": "gladiolus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Inflammation of the gums", 
+                    "solution": "gingivitis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Refers to the moon when it's more than half but not completely full", 
+                    "solution": "gibbous", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANIMALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Even in the wild, this largest of apes takes a midday nap", 
+                    "solution": "gorilla", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Name for both Chinese gooseberry & people of New Zealand comes from this bird", 
+                    "solution": "kiwi", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The only 2 venomous species of lizards, Gila monsters & beaded lizard, are native to this continent", 
+                    "solution": "North America", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Cat-like animal raised for the secretions it produces which are used to make perfumes", 
+                    "solution": "civet", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "According to New York's Bronx Zoo, it's \"the most dangerous animal in the world\"", 
+                    "solution": "man", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NURSERY RHYMES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Hurdler who was nimble & quick", 
+                    "solution": "Jack", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "What Little Tommy Tucker vocalizes for", 
+                    "solution": "his supper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Her dog dies in the 2nd verse, probably from malnutrition", 
+                    "solution": "Old Mother Hubbard", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "They cost \"one-a-penny, two-a-penny\"", 
+                    "solution": "hot cross buns", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Product reserved in bags for the master, the dame, & the little boy", 
+                    "solution": "wool", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSICAL INSTRUMENTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Member of the lute family mentioned in the lyrics of \"Oh Susanna\"", 
+                    "solution": "banjo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Class of instruments to which the flute belongs", 
+                    "solution": "(wood)wind", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The 2 instruments associated with the Smothers Brothers", 
+                    "solution": "guitar and bass", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Instrumental\" title of this, only instrumental no. 1 hit of 1959:", 
+                    "solution": "\"The Happy Organ\"", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "If you put J. Arthur Rank's, Donald Duck's, & Chuck Barris' together, you might have a bonang", 
+                    "solution": "gong", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The name of Hitler's dog, or Deborah Harry's singing group", 
+                    "solution": "Blondie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The only 2 letters not on a telephone dial", 
+                    "solution": "Q and Z", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The only 1 of the 7 dwarfs without a beard, though he was probably too stupid to notice", 
+                    "solution": "Dopey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Until November 3, 1930, this was the name of the Bank of America, capisci?", 
+                    "solution": "the Bank of Italy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Lt. George Patton lost a medal in 1912 Olympics due to poor scores in this warlike skill", 
+                    "solution": "shooting", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. CITIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Ice cream cones & iced tea were both introduced at this Missouri city's 1904 world's fair", 
+                    "solution": "St. Louis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "This Hollywood features dog racing & a beach boardwalk", 
+                    "solution": "Florida", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Columbia, capital of this southern state, had no paved roads until 1908", 
+                    "solution": "South Carolina", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Home\" of the Air Force Academy, it has over 300 days of sunshine yearly", 
+                    "solution": "Colorado Springs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "During WWI, Germany torpedoed U.S. ships within sight of this, Virginia's largest resort", 
+                    "solution": "Virginia Beach", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "THE LAW", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The 5th amendment guards against both self-incrimination  & this segment of our show", 
+                    "solution": "double jeopardy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Matrimony by agreement of both parties, without a civil or religious ceremony", 
+                    "solution": "common law", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The 14th amendment protects against being deprived \"of life, liberty, or property, without\" this", 
+                    "solution": "due process of law", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Once applied to slaves, it's the general legal term for items of personal property", 
+                    "solution": "chattel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Not a pardon, which lifts punishment, it differs by barring prosecution", 
+                    "solution": "amnesty", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SCIENCE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "One who'll give you blood or the kidney off his back", 
+                    "solution": "donor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Around for 400 million yrs., there are now more than 2,000 species of these pesty cricket cousins", 
+                    "solution": "cockroaches", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Intact DNA was recently extracted from one of these ancient \"royal relics\"", 
+                    "solution": "mummy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1800", 
+                    "prompt": "Tracking these, coast guard rates them as bergy bits, growlers, small, medium, & large", 
+                    "solution": "icebergs", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "3-letter suffix used to form chemical terms, esp. names of sugars & other carbohydrates", 
+                    "solution": "-ose", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOOTBALL", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "With 4 victories, this team has won the most Super Bowls", 
+                    "solution": "Pittsburgh Steelers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The primary feature of a \"nickel\" defense", 
+                    "solution": "five backs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "Number of teams in the NFL", 
+                    "solution": "28", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "TELEVISION", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "He played Superman in '50s series whose reruns are 2nd only to \"I Love Lucy\" in popularity", 
+                    "solution": "George Reeve(s)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This newspaper for which Lou Grant worked was in L.A., not Chicago", 
+                    "solution": "The Tribune", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Police show which began as \"Toma\" became much better known with new star & this new name", 
+                    "solution": "Baretta", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "He's coming out of retirement to defend Della Street, his former secretary", 
+                    "solution": "Perry Mason", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "To shed her good-girl \"Waltons\" image, she shed her clothes in the August 1985 Playboy", 
+                    "solution": "Judy Norton-Taylor", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CHINA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Red China encourages families to have only this many children", 
+                    "solution": "one", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "For some 2,000 years, in order to enter gov't services, applicants had to know his sayings", 
+                    "solution": "Confucius", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Teng Hsiao-P'ing tried to unsuccessfully to persuade him to return to Tibet", 
+                    "solution": "Dalai Lama", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Jiang Qing's occupation before she married Mao Tse-tung", 
+                    "solution": "actress", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The 2nd 5-year plan, which forced farmers into giant communes, was also called this", 
+                    "solution": "the Great Leap Forward", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AMERICAN HISTORY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "This 1803 acquisition doubled the size of the U.S.", 
+                    "solution": "Louisiana Purchase", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Though he said he found dueling abhorent, he participated in one in 1804", 
+                    "solution": "Alexander Hamilton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In 1912, it became 48th & last contiguous state to join The Union", 
+                    "solution": "Arizona", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "1st to hold a nominating convention, this 3rd party ironically chose Mason Wm. Wirt to run for Pres.", 
+                    "solution": "Anti-Masonic party", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Upon leading 1894 march of unemployed on Washington, Jacob Coxey was arrested for this trivial of offenses", 
+                    "solution": "stepping on the grass", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE CONTINENTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Of the 7, this continent has the greatest number of independent countries", 
+                    "solution": "Africa", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "EATING IN AMERICA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It's said this SW. feast comes from French \"from snout to tail,\" the way meat is put on a spit", 
+                    "solution": "barbecue", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Though known for pickles and \"slow\" ketchup, this company's 1st product was horseradish", 
+                    "solution": "Heinz", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Since overeating was a status symbol, early rulers of what's now this state often weighed over 400 lbs.", 
+                    "solution": "Hawaii", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1879, Chase & Sanborn became 1st U.S. company to pack this in sealed cans", 
+                    "solution": "coffee", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Due to contamination of crops from N.W. states, growers of this small fruit had a bad Nov. in 1959", 
+                    "solution": "cranberries", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ROCK N' ROLL HEAVEN", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He recorded \"Mack The Knife\" under this name he picked out of a phone book", 
+                    "solution": "Bobby Darin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A drummer, she & brother Richard were best known as vocalists", 
+                    "solution": "Karen Carpenter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Singer of this song, he spent 9 years in a coma before dying", 
+                    "solution": "Jackie Wilson", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Needing time to do laundry on tour, this early rock giant chartered a fatal flight", 
+                    "solution": "Buddy Holly", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "He had 4 Top 40 hits before & 4 after his death at 30 on Sept. 20, 1973", 
+                    "solution": "Jim Croce", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NURSERY RHYMES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Where you are when you \"open the door & see all the people\"", 
+                    "solution": "the church", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In England, \"the merriest month in all the year\"", 
+                    "solution": "May", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Colchester, England was named for this legendary Celtic king immortalized in rhyme", 
+                    "solution": "Old King Cole", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Rub a dub dub\", these 3 went to sea in a tub", 
+                    "solution": "the butcher, the baker, the candlestick maker", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "After turning around, what \"Teddy bear, teddy bear\" does", 
+                    "solution": "touches the ground", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BIOLOGY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In genetics, it's what passing of characteristics from Mom & Dad to Junior is called", 
+                    "solution": "heredity", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "When sexually aroused, the carpenter species of this insect will chase jet liners", 
+                    "solution": "bees", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The period of time between egg laying & hatching is called this", 
+                    "solution": "incubation", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In an apple, it's the \"inside\" name for the pericarp", 
+                    "solution": "the core", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Found even in dinosaurs, this world's oldest known disease is still considered incurable", 
+                    "solution": "arthritis", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LETTER PERFECT", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Letter referring to string originally used to hold up Indians' loincloths", 
+                    "solution": "G", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "How Mr. Rogers' sweaters \"suit him\"", 
+                    "solution": "to a T", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Links \"the wisp\" & will\", or McDonald's \"fish\" & \"filet\"", 
+                    "solution": "O", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Strung together for snoring sleepers", 
+                    "solution": "Z\\'s", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "When doubled, this letter can be shot from a gun", 
+                    "solution": "a B", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AUTO SHOP", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It keeps your neck warm in the winter, or your engine quiet all year", 
+                    "solution": "a muffler", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The frame of the car without the out shell, some are classy", 
+                    "solution": "a chassis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In newer cars it has generally replaced the generator for keeping the battery charged", 
+                    "solution": "an alternator", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "You might throw a fit if you \"throw\" this part joining the crankshaft & piston", 
+                    "solution": "a connecting rod", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Used to open & close points & valves, they come in single or double overhead, if you're cool", 
+                    "solution": "a cam", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "THEATER", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Before the 17th century, the word theater referred only to this", 
+                    "solution": "the building itself", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 15th century, Italian scholars saw commedia Erudita, nobles saw commedia intermezzi, & commoners, this", 
+                    "solution": "commedia dell\\'arte", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Greek for \"cleansing\", Aristotle used it to mean the purging of emotions in an audience", 
+                    "solution": "catharsis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In Paris, this musical was called \"Brilliantine\" & in Mexico City, \"Vaselina\"", 
+                    "solution": "Grease", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1700, his \"The Way of the World\" was so poorly received, he wrote no more plays", 
+                    "solution": "William Congreve", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NEWSPAPERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "National British newspaper that was formerly published in Manchester", 
+                    "solution": "The Guardian", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1844, \"The Cherokee Advocate\" became the 1st paper ever published in what's now this state", 
+                    "solution": "Oklahoma", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1500", 
+                    "prompt": "What N.Y. World-Telegram & Sun, St. Louis Globe-Democrat & Wash. Star currently have in common", 
+                    "solution": "they are no longer being published", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Despite its name, this large Midwest city's \"Free Press\" costs 20 cents, 75 cents on Sundays", 
+                    "solution": "Detroit", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The Rutland Herald, begun in 1794, is still publishing in this state", 
+                    "solution": "Vermont", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE U.N.", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The U.N. basically copied the structure of this, its forerunner", 
+                    "solution": "The League of Nations", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The hub of the U.N., it's been called the \"Town Meeting of the World\"", 
+                    "solution": "the General Assembly", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Currently, it's Javier Perez de Cuellar of Peru", 
+                    "solution": "the Secretary-General", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "900", 
+                    "prompt": "The 5 permanent members of the Security Council", 
+                    "solution": "the U.S.A., the Soviet Union, Great Britain, France & China", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1963, the U.N. declared this area should benefit mankind & no nation could claim it", 
+                    "solution": "(outer) space", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE FAMILY BIBLE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Deuteronomy 24 provides a no fault legal procedure for this, but only for men", 
+                    "solution": "divorce", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Word used over 25 times in Genesis 11, it's the Biblically polite way of saying \"fathered\"", 
+                    "solution": "begat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "2ND CENTURY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "This young religion was becoming so popular, a school teaching it was estab. in Alexandria", 
+                    "solution": "Christianity", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "By 193, Rome had sunk so low, Juliannus bought this at public auction, but never reigned on it", 
+                    "solution": "a throne", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "This civilization's pyramids & hieroglyphic writing were making their initial appearance", 
+                    "solution": "Mayans", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "\"Handy Tables\", \"Harmonica\", & \"The Almagest\" are among this astronomers surviving works", 
+                    "solution": "Ptolemy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRAVEL AND TOURISM", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "To visit the largest lake in all of Britain, you have to go to this lake's \"bonnie, bonnie banks\"", 
+                    "solution": "Loch Lomond", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "If a Muslim calls himself \"Haji\", it means he's visited there", 
+                    "solution": "Mecca", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Main attraction of New Orleans' Preservation Hall", 
+                    "solution": "a jazz band", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In 1983 & 84, this country got more tourists from around the world than any other in Europe", 
+                    "solution": "Italy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Since the publication of Alex Haley's \"Roots\", tourism has increased to this African country", 
+                    "solution": "Gambia", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE SUPREME COURT", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "This president appointed more Supreme Court justices than any other", 
+                    "solution": "George Washington", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

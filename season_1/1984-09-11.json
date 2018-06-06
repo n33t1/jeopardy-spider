@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TRANSPORTATION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Type of auto engine, or a tomato cocktail", 
+                    "solution": "V8", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Lindbergh was not first to fly the Atlantic, but first to do it this way", 
+                    "solution": "solo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Derived from words \"American\", \"travel\", & \"track\", it provides most U.S. passenger rail service", 
+                    "solution": "Amtrak", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "London's, not New York's, was the first ever built", 
+                    "solution": "subway (underground, metro)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Changing lines, you could have at one time ridden these from Freeport, IL to Utica, NY", 
+                    "solution": "streetcars", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "STATE CAPITALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Until 1875 its dual capitals were New Haven & Hartford", 
+                    "solution": "Connecticut", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "This N.M. town is the oldest city that's a state capital", 
+                    "solution": "Santa Fe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Crossing the Delaware on Xmas, 1776, Washington defeated the Hessians at this N.J. capital", 
+                    "solution": "Trenton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "It actually is 5,280 feet above sea level", 
+                    "solution": "Denver", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The name shows its founder, Roger Williams, believed God led him there", 
+                    "solution": "Providence", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "COUNTRY MUSIC", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A grandma before her 30th birthday, she's the real \"Coal Miner's Daughter\"", 
+                    "solution": "Loretta Lynn", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Nashville's Ryman Auditorium was its home for years", 
+                    "solution": "the Grand Ole Opry", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In \"True Grit\", he played a cowboy, but not his famous Rhinestone one", 
+                    "solution": "Glen Campbell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "His famed San Quentin concert inspired inmate Merle Haggard", 
+                    "solution": "Johnny Cash", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BY THE NUMBERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The 2 digits that give James Bond license to kill", 
+                    "solution": "00", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Three Dog Night called this the loneliest number", 
+                    "solution": "\"One\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Number of red stripes on current U.S. flag", 
+                    "solution": "7", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Total of Disney's Dalmatians and dwarfs", 
+                    "solution": "108", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Broadway hit that takes Fellini film a \u00bd step further", 
+                    "solution": "Nine", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "HOMONYMS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE '40'S", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Though faster than a speeding bullet, he was ruled 4-F", 
+                    "solution": "Superman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "By war's end, they had banked over 13 million units of blood for plasma", 
+                    "solution": "the Red Cross", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Not his singing, but a lack of lunch caused fan to swoon at his Paramount Theater concert", 
+                    "solution": "Frank Sinatra", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Destination of MacArthur's \"I shall return\"", 
+                    "solution": "the Philippines", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Wartime pseudonym of Mrs. I. Toguri D'Aquino", 
+                    "solution": "Tokyo Rose", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "WILD WEST", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "One of its newspapers was appropriately called \"The Epitaph\"", 
+                    "solution": "Tombstone", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "She once shot a cigarette from the mouth of the German crown prince", 
+                    "solution": "Annie Oakley", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In 650,000 miles the mail was lost only once", 
+                    "solution": "the Pony Express", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Brothers Virgil & Morgan were shot here, but Wyatt Earp emerged unscathed", 
+                    "solution": "(the gunfight at) the OK Corral", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It ran 2,000 miles, from Independence, Missouri to Oregon City, Oregon", 
+                    "solution": "the Oregon Trail", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BIOLOGY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Genus Rana; frequent victim of biology class dissections", 
+                    "solution": "a frog", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "L.B.J.'s hound dog or Darwin's ship", 
+                    "solution": "the Beagle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The basic unit of life; 3 billion die every minute in your body", 
+                    "solution": "cells", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "It puts the green in greenery", 
+                    "solution": "chlorophyll", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Deoxyribonucleic acid", 
+                    "solution": "DNA", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "OPERA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The Lone Ranger's theme is the opera's overture", 
+                    "solution": "(The) William Tell (Overture)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Profession of Rossini's Figaro", 
+                    "solution": "a barber", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "This aria from \"Pagliacci\" gave him the first million-selling record ever", 
+                    "solution": "Enrico Caruso", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Lt. Pinkerton's girlfriend Cio-Cio-San", 
+                    "solution": "Madame Butterfly", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "1976 was also the bicentennial of this famed Milan opera house", 
+                    "solution": "Teatro alla Scala", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOREIGN PHRASES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In Germany, said before a toast & after a sneeze", 
+                    "solution": "Gesundheit", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "American equivalent to English \"the bonnet on a lorry\"", 
+                    "solution": "the hood of a truck", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "From French, it literally means \"a pen name\"", 
+                    "solution": "nom de plume", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The vidi, in \"Veni, vidi, vici\"", 
+                    "solution": "I saw", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The Greeks reckoned time from this event, first held in Olympia in 776 B.C.", 
+                    "solution": "the Olympics", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "RELIGION", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "He was the doubter among the Apostles", 
+                    "solution": "(St.) Thomas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Continent with the largest Jewish population", 
+                    "solution": "North America", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Color of smoke signifying election of new Pope", 
+                    "solution": "white", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "This Buddhist sect seeks truth through concepts like \"the sound of one hand clapping\"", 
+                    "solution": "Zen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "This word for the Mohammedan religion means \"submission to the will of God\"", 
+                    "solution": "Islam", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE CALENDAR", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Calendar date with which the 20th century began", 
+                    "solution": "January 1, 1901", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

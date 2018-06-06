@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "BALLET", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Part of body used to dance on \"pointe\"", 
+                    "solution": "toe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Tchaikovsky's fowl aquatic ballet", 
+                    "solution": "\"Swan Lake\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "New York City Ballet's \"Mr. B.\"", 
+                    "solution": "George Balanchine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The arrangement of dance movements", 
+                    "solution": "choreography", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Formerly England's Sadler's Wells Ballet", 
+                    "solution": "the Royal Ballet", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TV TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Jim Henson coined this word from a combination of \"marionette\" & \"puppet\"", 
+                    "solution": "muppet", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "David Janssen's private eye with the last name Orwell", 
+                    "solution": "Harry O", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Yancy's fancy pistol", 
+                    "solution": "derringer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Cook Graham Kerr was known as this", 
+                    "solution": "The Galloping Gourmet", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "From the Swahili word for \"doctor\", the show featured a cross-eyed lion", 
+                    "solution": "Daktari", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"MARCH\" ON", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Definitely not Caesar's time of month", 
+                    "solution": "the ides of March", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Founded by F.D.R. in 1938, it works to prevent birth defects", 
+                    "solution": "the March of Dimes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Way of saying \"loony as a spring rabbit\"", 
+                    "solution": "mad as a March hare", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BOATS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Venice's taxis", 
+                    "solution": "gondolas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A small boat used to move big boats", 
+                    "solution": "tug", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A flat-bottomed boat propelled by a pole, or a 4th down football play", 
+                    "solution": "punt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "JAPAN", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Raw fish dish", 
+                    "solution": "sushi", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Known originally for motorcycles, this Japanese company now operates an auto plant in Ohio", 
+                    "solution": "Honda", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The ancient art of paper folding", 
+                    "solution": "origami", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Western name for towering tsunamis, clocked at up to 500 MPH", 
+                    "solution": "tidal waves", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE '40S", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In '45, a U.S. bomber crashed into this N.Y. landmark's 79th floor", 
+                    "solution": "the Empire State Building", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Rudy Vallee recorded it in '31 & Sam played it again in Casablanca", 
+                    "solution": "\"As Time Goes By\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Body builder Charles Atlas offered to build up the physique of this Indian leader", 
+                    "solution": "Mahatma Gandhi", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "German for \"lightning war\"", 
+                    "solution": "blitzkrieg", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "COLONIAL AMERICA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "N.Y.C.'s \"Capital of Black America\", named by Dutch for a city in Holland", 
+                    "solution": "Harlem", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Founded by Wm. Penn, it became 2nd largest city in British Empire", 
+                    "solution": "Philadelphia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Gov. Peter Stuyvesant's Manhattan farm, now the city's skid row", 
+                    "solution": "the Bowery", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "\"Pennsylvania Dutch\" settlers came from there", 
+                    "solution": "Germany", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Slavery was at first banned in this southern colony founded by Oglethorpe", 
+                    "solution": "Georgia", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANATOMY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The sclera; Bunker Hill patriots were ordered not to fire before seeing it", 
+                    "solution": "the whites of their eyes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Peristalsis lets you do this while standing on your head", 
+                    "solution": "swallowing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "RELIGION", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Eastern rite of Christianity or oldest branch of Judaism", 
+                    "solution": "Orthodox", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Denomination Reverend Jesse Jackson is minister of", 
+                    "solution": "Baptist", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Mormons believe they're Amer. Indians; others say they're Japanese or Anglo-Saxons", 
+                    "solution": "the 10 lost tribes of Israel", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Belief in a deity is not part of its 8-fold path to nirvana", 
+                    "solution": "Buddhism", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "DEMOCRATS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Ex-astronaut who's had \"The Right Stuff\" to win 2 Senate terms", 
+                    "solution": "John Glenn", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Behatted 3-term N.Y. congresswoman, still active in feminist movement", 
+                    "solution": "Bella Abzug", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "For the past 8 years, John D. Rockefeller IV has been gov. of this state", 
+                    "solution": "West Virginia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Senator who tried for '84 pres. nomination was once sued by Adolf Hitler", 
+                    "solution": "Alan Cranston", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANY QUESTIONS?", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSICAL NUMBERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "These working numbers don't measure up to Dolly Parton", 
+                    "solution": "\"9 to 5\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Janis Ian learned the truth at this tender age", 
+                    "solution": "\"At Seventeen\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Hall & Oates played music, not basketball, thus way", 
+                    "solution": "\"One on One\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Total of \"The Freshmen\" & \"The Preps\"", 
+                    "solution": "8", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE ARMED SERVICES", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "The last military branch to be established", 
+                    "solution": "United States Air Force", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

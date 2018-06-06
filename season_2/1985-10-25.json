@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "HATS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Moving its tassel to the left means you've graduated", 
+                    "solution": "the mortarboard", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The Western hat was originally named for this easterner who designed it", 
+                    "solution": "a Stetson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Ironically, this bishop's hat was once worn by Jewish high priests", 
+                    "solution": "the miter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Unlike the haberdasher, this person makes women's hats", 
+                    "solution": "milliner", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Lacy headgear worn by the ladies of Spain", 
+                    "solution": "the mantilla", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE HUMAN BODY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A calf's is tasty with onions; a human's is his largest organ, except for the skin", 
+                    "solution": "the liver", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Not the legendary American lumberjack, but a swelling near the big toe", 
+                    "solution": "a bunion", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A curse on an egg-laying fowl, or a common childhood viral disease", 
+                    "solution": "chicken pox", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Soft substance consisting of cells & connective tissue that fills the cavities of bones", 
+                    "solution": "marrow", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The medical examination of a dead body to find out the cause of death; a postmortem", 
+                    "solution": "an autopsy", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Color of the movies' \"Dahlia\", \"Max\", & \"Lagoon\"", 
+                    "solution": "Blue", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In \"Casablanca\", Frenchman drown out singing Germans with this song", 
+                    "solution": "\"The Marseillaise\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "At the end of it, Gable trumpets & \"The Walls of Jericho\" fall", 
+                    "solution": "It Happened One Night", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Author Ken Kesey said it would have been better with Kirk Douglas in Jack Nicholson's part", 
+                    "solution": "One Flew over the Cuckoo\\'s Nest", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Anti-war film in which the hero is cut down while reaching for a butterfly", 
+                    "solution": "All Quiet on the Western Front", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NUMBERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Number of meters in one kilometer", 
+                    "solution": "a thousand", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Number of dots in an umlaut, or number of vowels joined together in a diphthong", 
+                    "solution": "2", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In the Bible, the number of the book of Numbers", 
+                    "solution": "the fourth book", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In Olympic boxing, maximum number of rounds in each bout", 
+                    "solution": "3", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Number of years in a sesquicentennial", 
+                    "solution": "150", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FARAWAY PLACES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "China borders it on the north, & South Korea on the south", 
+                    "solution": "North Korea", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "You'd find Mauritius, the Maldives, & Madagascar in this ocean", 
+                    "solution": "the Indian Ocean", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Mountains crowd to 10 ft. apart around this famous pass between Pakistan & Afghanistan", 
+                    "solution": "the Khyber Pass", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Sp. for \"big feet\", Patagonia is a region in S. South America belonging primarily to this country", 
+                    "solution": "Argentina", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "This term is used for not one but several invisible surface points in Antarctica", 
+                    "solution": "South Pole", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "DANCE SONGS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A version of the Twist was named for this famed N.Y.C. lounge", 
+                    "solution": "the Peppermint Lounge", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "It's the official state song of Missouri", 
+                    "solution": "\"The Missouri Waltz\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Edie Gorme \"blamed\" this dance for her romance", 
+                    "solution": "the Bossa Nova", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Request the Drifters make of their girl in this song:\"You can dance every dance with the guy that gives you the eye /Let him hold you tight...\"", 
+                    "solution": "\"Save The Last Dance For Me\"", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "NORTH CAROLINA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Fayetteville was 1st American city named for this Revolutionary War hero", 
+                    "solution": "Marquis de Lafayette", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "With a population of over 115,000, this Army base could be called North Carolina's 4th-largest city", 
+                    "solution": "Fort Bragg", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "For over 25 years he published a unique newspaper, \"The Carolina Israelite\" in Charlotte", 
+                    "solution": "Harry Golden", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FICTIONAL VILLAINS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Character from \"Uncle Tom's Cabin\" whose name has some to mean any overbearing boss", 
+                    "solution": "Simon Legree", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Popular film & novel in which Kasper Gutman, Joel Cairo, & Brigid O'Shaughnessy appear", 
+                    "solution": "The Maltese Falcon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "\"Strong men tremble\" when they hear the name of this villain of Broadway's \"Oliver!\"", 
+                    "solution": "(Bill) Sikes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The evil Milady de Winter poisoned Mme. Bonacieux in this French swashbuckler", 
+                    "solution": "The Three Musketeers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The decadent Snopes clan were featured in this author's \"The Hamlet\", \"The Town\", & \"The Mansion\"", 
+                    "solution": "Faulkner", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "IT'S LATIN TO ME", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Name for the college or university one has attended, or the school's song", 
+                    "solution": "alma mater", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Meaning \"and others\", it looks like a misprint of Israel's national airline", 
+                    "solution": "et al", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A defendant's plea which, while not admitting guilt, accepts punishment anyway", 
+                    "solution": "nolo contendere", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Whether or not you're having fun, how \"time flies\" in Latin", 
+                    "solution": "tempus fugit", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Meaning \"Whither goest thou?\", the words that sent Peter back to Rome", 
+                    "solution": "Quo vadis?", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORLD POLITICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Though, according to his family, born in Cairo in 1929, he now heads the PLO", 
+                    "solution": "Yasser Arafat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Following '84 U.S. invasion, signs appeared in E. European countries saying, \"We envy\" this island", 
+                    "solution": "Grenada", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "With about 40 million members, this country's Communist Party is world's largest", 
+                    "solution": "China", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Since it gained independence from Malaysia in 1965, Lee Kuon Yew has been its only prime minister", 
+                    "solution": "Singapore", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Longest-reigning Communist leader, the late Enver Hoxha led this country for 41 years", 
+                    "solution": "Albania", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE '50s", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In 1955, a Rudolf Flesch book explained \"Why Johnny Can't\" do this", 
+                    "solution": "read", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He first denied, then admitted, he was coached prior to winning $129,000 on TV's \"Twenty-One\"", 
+                    "solution": "Charles Van Doren", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "\"Rock Around The Clock\" became a big hit after it was used as theme for this film", 
+                    "solution": "The Blackboard Jungle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Known for electing liberals to office, this state also sent Joe McCarthy to the Senate", 
+                    "solution": "Wisconsin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "3000", 
+                    "prompt": "Year in which the Soviets launched Sputnik", 
+                    "solution": "1957", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "LABOR UNIONS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Of 19, 30, or 41%, percentage of U.S. labor force that's unionized", 
+                    "solution": "19%", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Over the past 30 years, every president of this union has had problems with the gov't.", 
+                    "solution": "the Teamsters", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "700", 
+                    "prompt": "The name AFTRA, whose members were formerly barred from being on game shows, stands for this", 
+                    "solution": "the American Federation of Television and Radio Artists", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "SCIENCE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "From name of Greek sun god, it is the 2nd most abundant element in the universe", 
+                    "solution": "helium", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

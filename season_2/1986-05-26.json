@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "20th CENTURY ART", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Grandma Moses ordered her first set of paints from this Chicago mail order company", 
+                    "solution": "Sears-Roebuck", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Primarily a movement in painting, this \"square\" trend also influenced sculpture", 
+                    "solution": "cubism", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Manhattan's MoMA stands on land once occupied by 2 mansions of this noted N.Y. family", 
+                    "solution": "the Rockefellers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Famous for his Olympic & sports action paintings, he's appeared in 2 \"Rocky\" movies", 
+                    "solution": "LeRoy Neiman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "1920 painting by George Grosz shows one of these machines Karel Capek named the next year", 
+                    "solution": "a robot", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSIC ON THE MAP", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The girl from here was \"tall & tan & young & lovely\"", 
+                    "solution": "Ipanema", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "It's where I'm sitting \"just rolling along, just rolling along\"", 
+                    "solution": "on top of the world", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Gerry & the Pacemakers ferry crossed this Liverpool river", 
+                    "solution": "the Mersey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Whoopee ti yi yo, git along little dogies, for you know\" this state \"will be your new home\"", 
+                    "solution": "Wyoming", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "2 of the 5 specific places \"Travelin' Man\" Ricky Nelson had traveled to according to the song", 
+                    "solution": "(2 of) Mexico, Alaska, Berlin, Hong Kong, and Waikiki, Hawaii", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "GOLF", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Archie, Edith, or a sand trap", 
+                    "solution": "a bunker", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1937, this singer & golf enthusiast put on the 1st celebrity pro-am match", 
+                    "solution": "Bing Crosby", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In December 1985, Fuzzy Zoeller won $255,000 competing in this type of hole-by-hole contest", 
+                    "solution": "a skins game", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Playboy asked this Australian golfer to pose in the buff, not in the rough", 
+                    "solution": "Jan Stephenson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Stanford psychology grad who, in 1980, became 1st player to win over $\u00bd million in 1 year", 
+                    "solution": "Tom Watson", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LEFTOVERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Innovation introduced in the Middle Ages to distinguish the small \"i\" from the m, n, & u", 
+                    "solution": "the dot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Most air conditioners' filters won't trap this, the #1 contaminant of indoor air", 
+                    "solution": "cigarette smoke", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Minton, Limoges, & Spode, for example", 
+                    "solution": "chinas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "According to a survey, \"True Story\" is the magazine read most by people sitting here", 
+                    "solution": "the bathroom", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Not a Kawasaki, but this loop knot, makes a lasso circular", 
+                    "solution": "a honda", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TABLE MANNERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "While Amy Vanderbilt says a waiter should remove these from the right, Vogue says from the left", 
+                    "solution": "(used) plates", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In Spain and Portugal, the proper way to eat asparagus is with these", 
+                    "solution": "the fingers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "If napkins weren't provided, 19th c. etiquette permitted a gentleman to use a hanky or this instead", 
+                    "solution": "tablecloth", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "HISTORY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "From 1905-7, Austria & Serbia fought an economic \"war\" over tariffs, such as over this porcine animal", 
+                    "solution": "a pig", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The western jury system is thought to have been brought to England by these peoples in 1066", 
+                    "solution": "the Normans", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Century known as the \"High Renaissance\"", 
+                    "solution": "the 16th", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "World power whose emperor gave up claims to divinity before it adopted a new constitution in 1947", 
+                    "solution": "Japan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "1957 U.S. policy allowing the president to use armed force in the Middle East", 
+                    "solution": "the Eisenhower Doctrine", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "FASHION", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Though WWII's \"Rosie the Riveter\" wore them, this war 1st popularized trousers for womenswear", 
+                    "solution": "World War I", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Body part on which you'd wear an epaulet", 
+                    "solution": "the shoulder", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "1st sold by the Hookless Fastener Co. in 1913, it didn't get this name until 1923", 
+                    "solution": "the zipper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In Japanese, it means \"a thing for wearing\" or \"clothes\"", 
+                    "solution": "a kimono", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Named for a city in Scotland, it's a type of overcoat with detachable cape", 
+                    "solution": "an Inverness", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "COLORADO", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "U.S. 550 between Ouray & Silverton is called \"Million Dollar Highway\" because it's paved with this ore", 
+                    "solution": "gold ore", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This corner of Colorado meets corners of 3 other states at \"4 Corners\"", 
+                    "solution": "the southwest corner", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In Colo., \"people had a careless way ... of firing revolvers ... at each other ...\", so he went east, young man", 
+                    "solution": "Horace Greeley", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "U. of Colorado's \"Alferd Packer Grill\" was named after 1st man in U.S. convicted of this crime", 
+                    "solution": "cannibalism", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "RUSSIAN LITERATURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Literary hobby of Dr. Zhivago, whose writing got better, not \"verse\"", 
+                    "solution": "poetry", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In \"And Quiet Flows The Don\", Natalia Korshunov tries to commit this with a scythe", 
+                    "solution": "suicide", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In 1927, this Russian leader's book \"The State & Revolution\" was banned in Boston as obscene", 
+                    "solution": "Lenin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Most acclaimed novel of Ivan Turgenev, 1st Russian to be widely read and admired in Europe", 
+                    "solution": "\"Fathers and Sons\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Possibly the greatest Russian poet of all time, this author of \"Boris Godunov\" was part black", 
+                    "solution": "(Alexander) Pushkin", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"DAVID\"s", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Julie's Ike", 
+                    "solution": "David Eisenhower", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Consumers can \"fight back\" with him", 
+                    "solution": "David Horowitz", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "1st prime minister of Israel, he could be called the father of his country", 
+                    "solution": "David Ben-Gurion", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Without his lyrics, Dionne Warwick would have only hummed Burt Bacharach's tune", 
+                    "solution": "Hal David", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Name shared by a Union general at Gettysburg & an actor who played TV's \"Serpico\"", 
+                    "solution": "David Birney", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FUTURISTIC FILMS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In it, Woody Allen proves cryogenics works, if you don't mind waking up in a police state", 
+                    "solution": "Sleeper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Film which used the following as a greeting:", 
+                    "solution": "Close Encounters of the Third Kind", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In 1997, Kurt Russell & Season Hubley will try to \"escape\" from this city turned prison", 
+                    "solution": "New York", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "It took a team of 8 writers to adapt a French comic strip into this 41st century ultra-high camp film", 
+                    "solution": "Barbarella", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "1 of 2 races Rod Taylor meets circa 800,000 A.D. in \"The Time Machine\"", 
+                    "solution": "Elois (or Morlocks)", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MATHEMATICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In algebra, numbers can be represented by numerals or these symbols", 
+                    "solution": "letters", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Term for the side of a right triangle that is opposite the 90\u00b0 angle", 
+                    "solution": "hypotenuse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "1,000, expressed by using 10 and an exponent", 
+                    "solution": "10 cubed", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "A basic math statement whose truth is self-evident & therefore needs no further proof", 
+                    "solution": "axiom", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The prime factors of 21", 
+                    "solution": "3 and 7", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE NOBEL PRIZE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "It's the only organization to have been awarded 3 Nobel Peace Prizes", 
+                    "solution": "the Red Cross", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

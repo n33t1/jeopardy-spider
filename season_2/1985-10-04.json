@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "SCIENCE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Most living organisms have millions, but a prisoner only has one", 
+                    "solution": "a cell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A 5th C. B.C. Greek philosopher was 1st to theorize that all matter is made of these", 
+                    "solution": "atoms", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Term for creatures like vultures or hermit crabs that eat carcasses & refuse", 
+                    "solution": "a scavenger", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Days & nights are always 12 hours long there", 
+                    "solution": "the equator", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "If you're studying mensuration, you're studying this", 
+                    "solution": "measurement", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "12-LETTER WORDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "You can get a knish at a Jewish one, or mozzarella at an Italian one", 
+                    "solution": "a delicatessen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "From Latin for \"repentance\", San Quentin for example", 
+                    "solution": "a  penitentiary", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Before 1934, the date for this was March 4; after 1934, January 20", 
+                    "solution": "inauguration", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The univ. choral group whose theme song is the following:\"Yes, the magic of their singing /Of the songs we love so well /'Shall I Wasting' and 'Mavourneen' and the rest...\"", 
+                    "solution": "the Whiffenpoofs", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "From the Latin for \"bend the knees\", not the cry of a ski instructor, but the act of showing reverence", 
+                    "solution": "genuflection", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WWII TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "With only 4 ships, this neighbor of Australia had the smallest navy", 
+                    "solution": "New Zealand", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The U.S. Navy had a ship whose sole purpose was to make this dessert", 
+                    "solution": "ice cream", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In 1942, approaches to the Mississippi River were mined by this type of German vessel", 
+                    "solution": "a U-boat (or a submarine)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This Axis leader had a complete set of dental tools taken everywhere he went", 
+                    "solution": "Hitler", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Over 5,000 of them were pilots in the Soviet air force", 
+                    "solution": "women", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CELEBRITY SAYINGS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "She accepted her Oscar for Best Actress shouting, \"You like me! You like me!\"", 
+                    "solution": "Sally Field", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Completes Mae West line, \"It's not the men in my life that count...\"", 
+                    "solution": "it\\'s the life in my men", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Romantic idol who said, \"This king stuff is pure bull... I'm just a lucky slob from Ohio\"", 
+                    "solution": "Clark Gable", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BEAR FACTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In song, Davy Crockett was said to have \"Kil't him a bar when he was only\" this age", 
+                    "solution": "three", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The original Smokey the Bear became a popular attraction at this city's zoo", 
+                    "solution": "Washington, D.C.", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The constellation Ursa Major, meaning the \"great bear\", is better known by this name", 
+                    "solution": "Big Dipper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Bear who was featured in an exercise book with drawings by Ernest Shepard", 
+                    "solution": "Winnie-the-Pooh", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Few Americans got to see this mascot at the 1980 Olympics", 
+                    "solution": "Misha", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PRESIDENTIAL MIDDLE NAMES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Baines", 
+                    "solution": "Lyndon Johnson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Earl", 
+                    "solution": "Jimmy Carter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "His actual first name was Hiram while his middle name was Ulysses", 
+                    "solution": "Ulysses Grant", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Howard", 
+                    "solution": "Taft", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Abram", 
+                    "solution": "(James Abram) Garfield", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "CLASSIC COUNTRY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Migrants leaving this state's \"Dust Bowl\" helped bring country music to the West", 
+                    "solution": "Oklahoma", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Radio program originally called the \"WSM Barn Dance\"", 
+                    "solution": "the Grand Ole Opry", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "3000", 
+                    "prompt": "1 of 3 original members of the Country Music Hall of Fame", 
+                    "solution": "(1 of) Hank Williams, Sr., Jimmie Rodgers & Fred Rose", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Type of music that's named after Bill Monroe's band", 
+                    "solution": "bluegrass", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The Texas Troubadour", 
+                    "solution": "Ernest Tubb", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FRUITS & VEGETABLES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Root vegetable that was the root of Peter Rabbit's passion", 
+                    "solution": "the carrot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Europeans once believed this purple-skinned cousin to the tomato caused insanity", 
+                    "solution": "eggplant", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Syrup originally made from pomegranates processed on the Caribbean island of Grenada", 
+                    "solution": "grenadine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The \"hospitality\" fruit, it can keep Jell-O from jelling", 
+                    "solution": "the pineapple", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Autumn edible which figured in the Alger Hiss case", 
+                    "solution": "a pumpkin", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE BIBLE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In Exodus 3, it burned but wouldn't burn up", 
+                    "solution": "the burning bush", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Nephew whom Abraham rescued in Gen. 14, he also needed rescuing from Sodom by Gen. 19", 
+                    "solution": "Lot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "King whose reign was so rich that silver was said to have been as common as stones in Jerusalem", 
+                    "solution": "Solomon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "He wanted to put his finger into the nail marks in Jesus' palms", 
+                    "solution": "Thomas (or Didymus)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It's the battlefield where good & evil will fight their final battle", 
+                    "solution": "Armageddon", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE '50s", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Developer William J. Levitt built 3 suburban communities all named this", 
+                    "solution": "Levittown", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "After posing for pictures she was asked what she had on & replied, \"The radio\"", 
+                    "solution": "Marilyn Monroe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "John & Stewart Alsop revived the word \"egghead\" to describe this candidate's supporters", 
+                    "solution": "Adlai Stevenson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "ISLANDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Papillon, the French \"butterfly\", was netted & brought to this prison", 
+                    "solution": "Devil\\'s Island", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A cloud of ash circled the Earth when most of this volcanic island was obliterated in an 1883 explosion", 
+                    "solution": "Krakatoa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Spanish for \"pelican\" but appropriately called \"The Rock\" by its inhabitants", 
+                    "solution": "Alcatraz", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "1st to claim Calif. gold said he found it on this island named for St. Catherine", 
+                    "solution": "Santa Catalina", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Pt. Udall, in this island group, is called the easternmost American point in the western hemisphere", 
+                    "solution": "Virgin Islands", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ODD CUSTOMS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Waving American-style is an insult in this Hellenic country", 
+                    "solution": "Greece", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In Netherlands, a hostess may serve herself 1st, from custom of tasting food to prove it wasn't this", 
+                    "solution": "poisoned", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Frenchmen kiss cheeks, but in Romania male friends often kiss this way", 
+                    "solution": "on the lips", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "BUSINESS AND INDUSTRY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Over 1/2 of Fortune 500 and 42% of all N.Y. Stock Exchange companies are incorporated in this state", 
+                    "solution": "Delaware", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

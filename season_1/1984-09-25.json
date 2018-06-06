@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "MAMMALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Romans called this African beast a \"tiger horse\"", 
+                    "solution": "a zebra", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The only flying mammal", 
+                    "solution": "a bat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A black panther is really the black version of this cat", 
+                    "solution": "a leopard", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Plays dead to escape predators, but one was close friends with an alligator", 
+                    "solution": "an opossum", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Weighing 1\u00bd tons per foot, this mammal generates up to 500 H.P. with its tail", 
+                    "solution": "the blue whale", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORLD CAPITALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Costa Rican capital people might know the way to", 
+                    "solution": "San Jose", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "It's divided into the Kanda, Marunoucki, Asakusa & Ginza districts", 
+                    "solution": "Tokyo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Home to NATO & little green sprouts", 
+                    "solution": "Brussels", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This capital's street signs are in English, Arabic & Hebrew", 
+                    "solution": "Jerusalem", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "If the other twin had founded it, it might have been called \"Reme\"", 
+                    "solution": "Rome", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BEGINS WITH \"L\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Erich Segal's \"story\"", 
+                    "solution": "Love Story", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "An air bubble tells a carpenter if he's on it", 
+                    "solution": "a level", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The L in L.P.G.A.", 
+                    "solution": "Ladies\\'", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A, B, M, P, or Z, for example", 
+                    "solution": "letters", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "It's what bread has & matzo hasn't", 
+                    "solution": "leaven", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Sport which uses epees, foils & sabres", 
+                    "solution": "fencing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Name given to annual competition among U.S. amateur boxers", 
+                    "solution": "the Golden Gloves", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Number of downs allowed in Canadian football to advance the ball 10 yards", 
+                    "solution": "3", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Because of WWII, these 2 NFL teams combined squads in '43 to become the \"Stegles\"", 
+                    "solution": "the Steelers and Eagles", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Ex-Boston Celtics' star who has refused induction into Basketball Hall of Fame", 
+                    "solution": "Bill Russell", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOODS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Southern specialty & America's favorite main dish", 
+                    "solution": "southern fried chicken", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Deli delight, from Yiddish for Ring", 
+                    "solution": "a bagel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Pickle men, not doctors, do this for bacon & ham", 
+                    "solution": "cure", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "East Indians who never ask \"Where's the beef?\"", 
+                    "solution": "Hindus", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "INVENTIONS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He invented the Franklin stove", 
+                    "solution": "Ben Franklin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Detection of gamma rays was 1 of the uses for this 1947 instant picture taker", 
+                    "solution": "a Polaroid-Land camera", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "2,160 people at a time could ride on this at the 1893 Chicago World's Fair", 
+                    "solution": "a Ferris wheel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Edison suggested it be used to record phone calls & make clocks talk", 
+                    "solution": "the phonograph", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The first patent pool was for this invention by Howe, Hunt & Singer", 
+                    "solution": "the sewing machine", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "5-LETTER WORDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Used by a carpenter, a master sergeant, & a dentist", 
+                    "solution": "a drill", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A lady's handbag or something done to lips before a kiss", 
+                    "solution": "purse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A police wagon, a rice field, or author Chayefsky", 
+                    "solution": "\"paddy\"s", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "To Hamlet, \"Frailty, thy name is\" this", 
+                    "solution": "woman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In Czech, it's herec; in German, schauspieler; & in Hollywood, usually unemployed", 
+                    "solution": "an actor", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. STATES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Its Mormon founders called it Deseret", 
+                    "solution": "Utah", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The only state beginning with \"A\" that does not end in \"A\"", 
+                    "solution": "Arkansas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The only state to touch 4 of the Great Lakes", 
+                    "solution": "Michigan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "1 of 4 states that's officially a commonwealth", 
+                    "solution": "(1 of) Massachusetts, Kentucky, Pennsylvania, Virginia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIE TRIVIA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Actress who spoke the immortal line, \"Love is never having to say you're sorry\"", 
+                    "solution": "Ali MacGraw", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Mary Poppins' magical, musical tongue-twister", 
+                    "solution": "supercalifragilisticexpialidocious", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Actor who captained \"the mean machine\" in \"The Longest Yard\"", 
+                    "solution": "Burt Reynolds", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Movie whose sequel was \"Class of '44\"", 
+                    "solution": "The Summer of \\'42", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "This gimmick introduced for the film \"Scent of Mystery\" was something to be sniffed at", 
+                    "solution": "Smell-O-Vision", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WEATHER", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Condition associated with London & pea soup", 
+                    "solution": "fog", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Mt. Waialeale in Hawaii gets the most, while Calama, Chile, usually gets none", 
+                    "solution": "rain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Its winds can reach 400 MPH", 
+                    "solution": "a tornado", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Some hygrometers use a human hair to measure this", 
+                    "solution": "(relative) humidity", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Region near Equator that took the wind out of Sinbad's sails", 
+                    "solution": "the doldrums", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSIC", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "4th note of the musical scale or \"a long, long way to run\"", 
+                    "solution": "fa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Piano style sprung from the blues, it describes Bette's \"Bugle Boy\"", 
+                    "solution": "boogie-woogie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Tyrolean trick of moving the voice from natural to falsetto", 
+                    "solution": "yodeling", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1900", 
+                    "prompt": "What we call this singing sans accompaniment:", 
+                    "solution": "a capella", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Italian for \"first lady\", the leading opera singer in a company", 
+                    "solution": "a prima donna", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LAW", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A second prosecution for the same offense, or this round", 
+                    "solution": "double jeopardy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "To avoid litigation, this type of insurance or divorce avoids affixing blame", 
+                    "solution": "no-fault", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "While a summons asks nicely, this demands your appearance in court", 
+                    "solution": "a subpoena", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "RIVERS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "It carries more water than the longest rivers in Asia, Africa & No. America combined", 
+                    "solution": "the Amazon", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

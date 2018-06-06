@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "ANIMALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "These rodents first got to America by stowing away on ships", 
+                    "solution": "rats", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "There are about 40,000 muscles & tendons in this part of an elephant's body", 
+                    "solution": "the trunk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "When husbands \"pop\" for an ermine coat, they're actually buying this fur", 
+                    "solution": "a weasel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Close relative of the pig, though its name means \"river horse\"", 
+                    "solution": "the hippopotamus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "If this species of hybrid's parents were reversed, you'd get a hinny", 
+                    "solution": "mule", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ACTORS & ROLES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Video in which Michael Jackson plays a werewolf & a zombie", 
+                    "solution": "\"Thriller\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "2 \"Saturday Night\" alumni who tried \"Trading Places\"", 
+                    "solution": "Dan Aykroyd & Eddie Murphy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "He may \"Never Say Never Again\" when asked to be Bond", 
+                    "solution": "Sean Connery", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The blonde preferred in the film \"Gentlemen Prefer Blondes\"", 
+                    "solution": "Marilyn Monroe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Sam Shepard played this barrier breaker in \"The Right Stuff\"", 
+                    "solution": "Colonel Chuck Yeager", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LAKES & RIVERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "River mentioned most often in the Bible", 
+                    "solution": "the Jordan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Scottish word for lake", 
+                    "solution": "loch", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "River in this famous song:", 
+                    "solution": "the Volga River", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "American river only 33 miles shorter than the Mississippi", 
+                    "solution": "the Missouri", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "World's largest lake, nearly 5 times as big as Superior", 
+                    "solution": "the Caspian Sea", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOREIGN CUISINE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The \"coq\" in coq au vin", 
+                    "solution": "chicken", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A British variety is called \"bangers\", a Mexican variety, \"chorizo\"", 
+                    "solution": "sausages", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Jewish crepe filled with cheese", 
+                    "solution": "a blintz", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "French for a toothsome cut of beef served to a twosome", 
+                    "solution": "Ch\u00c3\u00a2teaubriand", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "NUMBER PLEASE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "INVENTIONS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Marconi's wonderful wireless", 
+                    "solution": "the radio", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1869 an American minister created this \"oriental\" transportation", 
+                    "solution": "the rickshaw", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A 1920's hunting trip to Canada inspired Birdseye's food preserving method", 
+                    "solution": "freezing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This fastener gets its name from a brand of galoshes it was used on", 
+                    "solution": "a zipper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "'50'S TV", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Occupation of Richard Diamond, Peter Gunn & Mike Hammer", 
+                    "solution": "private eyes (or private detectives)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "She was \"Our Miss Brooks\"", 
+                    "solution": "Eve Arden", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Amount Michael Anthony gave out each week on behalf of John Beresford Tipton", 
+                    "solution": "$1 million", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "His card read \"Have gun, will travel\"", 
+                    "solution": "Paladin (Richard Boone)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Name under which experimenter Don Herbert taught viewers all about science", 
+                    "solution": "Mr. Wizard", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "4-LETTER WORDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Pulled the trigger or what's in a jigger", 
+                    "solution": "shot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Basketball defense or Serling's twilight area", 
+                    "solution": "zone", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Little girls do it with a rope, Van Halen does it in a song", 
+                    "solution": "jump", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It's the first 4-letter word in \"The Star Spangled Banner\"", 
+                    "solution": "what", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The president takes one before stepping into office", 
+                    "solution": "oath", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE BIBLE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "When \"Joshua Fit The Battle Of Jericho\", these took a tumble", 
+                    "solution": "the walls", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "His price was 30 pieces of silver", 
+                    "solution": "Judas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "According to the Bible, it wasn't necessarily an apple", 
+                    "solution": "the forbidden fruit (or the fruit of the Tree of Knowledge)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Though its name means \"city of peace\", it's seen over 30 wars, the last in 1967", 
+                    "solution": "Jerusalem", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "According to 1st Timothy, it is the \"root of all evil\"", 
+                    "solution": "the love of money", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NOTORIOUS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It was probably a lyre, not a fiddle, if he played it while Rome burned", 
+                    "solution": "Nero", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "His book, translated as \"My Struggle\", outlined plans to conquer Europe", 
+                    "solution": "Adolf Hitler", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Lenin called him ruthless, and his purges proved he was", 
+                    "solution": "Stalin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "After the deed, he leaped to the stage shouting \"Sic semper tyrannis\"", 
+                    "solution": "John Wilkes Booth", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WEIGHTS & MEASURES", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "NATIONAL LANDMARKS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "She came from France to harbor America's freedom", 
+                    "solution": "the Statue of Liberty", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "When he was home, George Washington slept here", 
+                    "solution": "Mount Vernon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The cornerstone of Massachusetts, it bears the date 1620", 
+                    "solution": "Plymouth Rock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Site where John Hancock signed his \"John Hancock\"", 
+                    "solution": "Independence Hall", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "D.C. building shaken by November '83 bomb blast", 
+                    "solution": "the Capitol", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "HOLIDAYS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "The third Monday of January starting in 1986", 
+                    "solution": "Martin Luther King Day", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

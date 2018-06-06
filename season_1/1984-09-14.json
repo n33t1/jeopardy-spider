@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TRIOS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "D'Artagnan's best buddies", 
+                    "solution": "the Three Musketeers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "With them under foot, Uncle Donald's life wasn't duck soup", 
+                    "solution": "Huey, Dewey, and Louie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\"Candy Man\" who began with the Will Mastin Trio", 
+                    "solution": "Sammy Davis, Jr.", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Classic TV puppet show which also featured Beulah Witch & Delores Dragon", 
+                    "solution": "Kukla, Fran & Ollie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Apollo II trio; while Collins circled Moon, these 2 landed", 
+                    "solution": "Neil Armstrong & Buzz Aldrin", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NATIONAL PARKS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Due to earthquakes, this Yellowstone geyser no longer erupts on time", 
+                    "solution": "Old Faithful", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Logs in this forest may be 150 million years old", 
+                    "solution": "the Petrified Forest", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "There are still unexplored areas of these New Mexico caves", 
+                    "solution": "Carlsbad Caverns", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Mount Whitney, highest point in lower 48 states, is in this park named for its trees", 
+                    "solution": "Sequoia National Park", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "This southern subtropical wilderness is home to manatees & TV's \"Gentle Ben\"", 
+                    "solution": "the Everglades", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AMERICAN LITERATURE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Melville's white whale tale", 
+                    "solution": "Moby-Dick", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Lincoln called it \"the book that caused the big war\"", 
+                    "solution": "Uncle Tom\\'s Cabin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Steinbeck novel dubbed \"the Uncle Tom's Cabin of the Depression\"", 
+                    "solution": "The Grapes of Wrath", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He gave Hester a scarlet \"A\"", 
+                    "solution": "Nathaniel Hawthorne", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Great-grand nephew of Francis Scott Key, he was the voice of the Jazz Age", 
+                    "solution": "F. Scott Fitzgerald", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "RELIGION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Country that is home to Parsis & Sikhs", 
+                    "solution": "India", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "More common name for The Watchtower Bible & Tract Society", 
+                    "solution": "Jehovah\\'s Witnesses", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Some 3 million pilgrims visit this small French town annually", 
+                    "solution": "Lourdes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\"Only you can prevent forest fires\"", 
+                    "solution": "Smokey the Bear(\\'s motto)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Nickname of our 16th president & Li'l Abner's son", 
+                    "solution": "Honest Abe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Though this actress' cat is named for Buster Keaton, she's really no relation", 
+                    "solution": "Diane Keaton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Above this I.Q. mark, you're considered a genius", 
+                    "solution": "140", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "State name that's misspelled on the Liberty Bell", 
+                    "solution": "Pennsylvania", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ALL NUMBERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It was \"enough\" for Dick van Patten", 
+                    "solution": "Eight", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A teen's \"sweet\" age", 
+                    "solution": "16", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "STARTS WITH \"J\"", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The first Mrs. Bonaparte", 
+                    "solution": "Josephine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A puzzle people go to pieces over", 
+                    "solution": "a jigsaw puzzle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The police say \"fine\" for crossing the street this way", 
+                    "solution": "jaywalking", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "3000", 
+                    "prompt": "The only \"J\" in the Pledge of Allegiance", 
+                    "solution": "justice", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Event an Olympian throws", 
+                    "solution": "javelin", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRAVEL & TOURISM", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Although this Roman arena could hold 50,000, it's not on the Jackson tour", 
+                    "solution": "the Colosseum", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Date just west of this is 1 day later than the date just east", 
+                    "solution": "the International Date Line", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Official endorsement to show validity of a passport, or a major credit card", 
+                    "solution": "a visa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Currency of Liechtenstein, Luxembourg & Andorra", 
+                    "solution": "the franc", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORT OF KINGS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Horse racing was a sport at these ancient Greek contests", 
+                    "solution": "the Olympics", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Collective name of Kentucky Derby, Preakness, & Belmont Stakes", 
+                    "solution": "the Triple Crown", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Billy the Cobbler, or a famous jockey", 
+                    "solution": "Willie Shoemaker", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Since 1936, because of this, horses \"say cheese\" at the end of races", 
+                    "solution": "a photo finish", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "All U.S. thoroughbreds are officially born on this day of the year", 
+                    "solution": "January 1", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SHAKESPEARE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Hamlet found \"something rotten\" in this country", 
+                    "solution": "Denmark", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Moor who loved Desdemona \"not wisely, but too well\"", 
+                    "solution": "Othello", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Battle of the sexes on which musical \"Kiss Me Kate\" was based", 
+                    "solution": "The Taming of the Shrew", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Chubby character who loved his ale & supplied the name for one", 
+                    "solution": "Falstaff", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "She was 8 years older & 3 months pregnant when Shakespeare married her", 
+                    "solution": "Anne Hathaway", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE PRESS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It carries the motto \"All the news that's fit to print\"", 
+                    "solution": "The New York Times", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "First published in 1889 by the Dow Jones Co.", 
+                    "solution": "The Wall Street Journal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Harvard Lampoon alumnus, by 1937 he owned 25 daily newspapers & a California castle", 
+                    "solution": "William Randolph Hearst", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The official news agency of the Soviet Union", 
+                    "solution": "TASS", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CHEMISTRY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Coal & diamonds both consist of it", 
+                    "solution": "carbon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Common kitchen substance known chemically as sodium chloride", 
+                    "solution": "salt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The chemical symbol for sulfuric acid, it completes this poem:\"Say farewell to the professorHe'll be with us no moreFor what he thought was H2OWas...\"", 
+                    "solution": "H2SO4", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Used in cars' catalytic converters, it's more expensive than gold", 
+                    "solution": "platinum", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "U.S. & Canada produce almost entire world supply of this lightest inert gas", 
+                    "solution": "helium", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE OLYMPICS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Of the 5 continents symbolized by Olympic rings, only one never to hold Games", 
+                    "solution": "Africa", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

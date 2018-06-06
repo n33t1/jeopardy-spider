@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "THE COMICS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "This bow-tied redhead's been going to Riverdale High for over 40 years", 
+                    "solution": "Archie Andrews", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Walt Kelly character who 1st said, \"We ave met the enemy & he is us\"", 
+                    "solution": "Pogo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Bratty bros. whose German name means both \"hangover\" & \"the yowling of cats\"", 
+                    "solution": "the Katzenjammer Kids", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Peanuts' Schroeder celebrates it every December 16", 
+                    "solution": "Beethoven\\'s birthday", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. HISTORY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Planned under Eisenhower, invasion of this Caribbean island failed under Kennedy", 
+                    "solution": "Cuba", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1200", 
+                    "prompt": "Episode in history this song is associated with:\"Once I built a railroad, I made it runMade it race against time...\"", 
+                    "solution": "the Great Depression", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "From 1836-45, this state was an independent country", 
+                    "solution": "Texas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In '34, LA gov. known as \"Kingfish\" proposed guaranteed income of $5,000 per family", 
+                    "solution": "Huey Long", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Many consider his appointment as Chief Justice in 1801 most important appointment in U.S. history", 
+                    "solution": "John Marshall", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRENDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "French crescent rolls now stuffed with everything from Spinach to chocolate", 
+                    "solution": "croissants", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Inspired by Spielburg hit, these dolls come both cuddly & creepy", 
+                    "solution": "Gremlins", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Sought-after Canadian board game that places mind over minutia", 
+                    "solution": "Trivial Pursuit", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "To use one, stick your floppy in your disk drive & boot", 
+                    "solution": "your computer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Swimwear that lets you tan all over without taking it all off", 
+                    "solution": "the unsuit", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "EDUCATION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Traditional color of the one-room schoolhouse", 
+                    "solution": "red", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "First American home of higher education, it educated JFK", 
+                    "solution": "Harvard", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Brown v. Board of Education ruling outlawed this", 
+                    "solution": "segregated schools", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Brooke shields recently had her Triangle Club Revue debut at this Ivy League college", 
+                    "solution": "Princeton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "A progressive preschool program was named for this Italian woman", 
+                    "solution": "Maria Montessori", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE HOME", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Tuber that soaks up excess salt when added to your stew", 
+                    "solution": "the potato", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORLD SERIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It took them 65 yrs. to win for Brooklyn,, only 2 to win for L.A.", 
+                    "solution": "the Dodgers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "5 home runs in '77 Series, 3 in 1 game, earned him nickname \"Mr. October\"", 
+                    "solution": "Reggie Jackson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Played in the most World Series (14), all for the Yankees, & is now their manager", 
+                    "solution": "Yogi Berra", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Team that threw Series in 1919 \"Black Sox\" scandal", 
+                    "solution": "the Chicago white Sox", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Though they'd never before finished higher than 9th, amazingly they won the '69 Series", 
+                    "solution": "the New york Mets", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "LITERATURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "She found things \"curiouser & curiouser\" in Wonderland", 
+                    "solution": "Alice", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "He gave us his cockeyed world in \"My world & Welcome to It\"", 
+                    "solution": "Thurber", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TYPES OF GOVERNMENT", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "State ruled by a king, queen or emperor", 
+                    "solution": "a monarchy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "From the Greek, it means \"the people rule\"", 
+                    "solution": "a democracy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "According to Marx, under this system, government is supposed to wither away", 
+                    "solution": "communism", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The one who's in charge under anarchy", 
+                    "solution": "no one", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In a theocracy, those thought to be his representatives rule", 
+                    "solution": "God", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POTENT POTABLES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It makes a Black Russian \"white\"", 
+                    "solution": "cream", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A sprinkle of salt & slice of lime traditionally accompany it", 
+                    "solution": "tequilla", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Cartoon critters who share their name with holiday rum & eggnog mix", 
+                    "solution": "Tom & Jerry", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The liquid you use less of to make your martini dry", 
+                    "solution": "vermouth", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "A wine's fragrance", 
+                    "solution": "bouquet", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TV TRADEMARKS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Keeps a cool head thanks to his Mohawk hairdo", 
+                    "solution": "Mr. T", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Before he was grounded, Tattoo announced its arrival  every week", 
+                    "solution": "de plane", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Jim Rockford's beach home", 
+                    "solution": "mobile home or trailer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "his easy chair traveled from Queens to the Smithsonian", 
+                    "solution": "Archie Bunker", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The loser of the week was the winner of Dick & Dan's digital appendage", 
+                    "solution": "the Fickle Finger of Fate Award", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CHEMISTRY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "World's cheapest metal, it's an essential element in the blood", 
+                    "solution": "iron", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "After oxygen, this element associated with computer chips is the most common in the earth's crust", 
+                    "solution": "silicon", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "World's longest mountain chain, stretching 4,500 miles across South America", 
+                    "solution": "the Andes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "1 of 3 countries with territory on 2 continents", 
+                    "solution": "(1 of) Turkey, Russia or Egypt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Direction you generally travel in sailing up the Nile", 
+                    "solution": "South", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "\"Mexican\" region that' also contains parts of Guatemala and nearly all of Belize", 
+                    "solution": "the Yucatan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1600", 
+                    "prompt": "\"From the halls of Montezuma to the shores of Tripoli\" refer to these 2 countries", 
+                    "solution": "Mexico & Libya", 
+                    "Jtype": "double"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "MATHEMATICS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "The number of zeros in 1 trillion", 
+                    "solution": "12", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

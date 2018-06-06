@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "THE 1970s", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "One '70s fad was these rings which puportedly changed colors to match one's emotional state", 
+                    "solution": "mood ring", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "When she got her CB radio, this first lady called herself \"First Mama\"", 
+                    "solution": "Betty Ford", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In 1978, Anderson, Abruzzo & Newman became the 1st to complete this feat in a balloon", 
+                    "solution": "crossing the Atlantic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Prior to their battle-of-sexes tennis match, Billie Jean King gave chauvinist Bobby Riggs this appropriate gift", 
+                    "solution": "pig", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Found guilty in 1921 & executed in 1927, they were vindicated in 1977 by the governor of Massachusetts", 
+                    "solution": "Sacco & Vanzetti", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "6-LETTER WORDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A new nun", 
+                    "solution": "novice", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A Dan that races at Indianapolis, or a stretcher that races into the E/R", 
+                    "solution": "Gurney", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A large Indian crocodile, or a large Central Park thing", 
+                    "solution": "mugger", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SOUTH AMERICA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "South America's Pacific coast lies due south of this coast in the U.S.", 
+                    "solution": "Atlantic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Presidents of this narrow country have been able to walk unescorted around its capital", 
+                    "solution": "Chile", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A Spanish navigator got to Uruguay 1st, but it was this country that established the 1st settlement", 
+                    "solution": "Portugal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This \"cattle country\" is also world's 4th largest producer of wool", 
+                    "solution": "Argentina", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The last area liberated from Spain became this country named for the liberator of South America", 
+                    "solution": "Bolivia", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CHEWING GUM", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Of 4, 14, or 34, approximate difference in calories between sticks of regular & sugar-free gum", 
+                    "solution": "4", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Mentha spicata & mentha piperita, they're the 2 most popular flavorings for gum", 
+                    "solution": "spearmint & peppermint", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "This \"Blue Book\" of etiquette author grudgingly accepted gum chewing, but not in formal attire", 
+                    "solution": "Emily Post", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Using gum profits, William Wrigley bought this southern California resort island", 
+                    "solution": "Catalina Island", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Supposedly, licorice-flavored \"Black Jack\" gum was named for this general", 
+                    "solution": "General Pershing", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BOWLING", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "To get around the law banning 9-pin bowling, enterprising early Americans did this", 
+                    "solution": "bowl with 10 pins", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Various approaches to this line include the 4-step & 5-step", 
+                    "solution": "foul line", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Initials of org. which sets rules for men's bowling or network which telecasts the spring PBA tour", 
+                    "solution": "ABC", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "If an evangelist makes a conversion in bowling, he's done this", 
+                    "solution": "made the spare", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Number of finger holes in a duckpin bowling ball", 
+                    "solution": "none", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FEATHERED FRIENDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Almost 30% of the world's endangered bird species are on this island state", 
+                    "solution": "Hawaii", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "During courtship, the male frigate enormously inflates the red pouch located here", 
+                    "solution": "under the chin (throat)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Brightly colored Old-World bird that's ecological counterpart of the hummingbird, or a Pontiac", 
+                    "solution": "sunbird", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Term for all the eggs laid by a female at one time, or a type of ladies' handbag", 
+                    "solution": "clutch", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In relation to its 10 inch body width, this seabird has a record wingspan of up to 13 feet", 
+                    "solution": "albatross", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "TRANSPORTATION", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In the late 19th c., it was the method of hauling borax out of Death Valley", 
+                    "solution": "mule team", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A new keel design helped this yacht & the country it's named for snag the America's Cup in 1983", 
+                    "solution": "Australia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Last name of French brothers credited with inventing the removable automobile tire", 
+                    "solution": "Michelin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "This most famous of Italian scooters was 1st made in 1946", 
+                    "solution": "Vespa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "An early bicycle, its name combined the Latin words for \"fast feet\"", 
+                    "solution": "velocipede", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POP MUSIC", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"The King of Swing\"", 
+                    "solution": "Benny Goodman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Tom Jones could use this musical question to interrogate a feline Tom", 
+                    "solution": "\"What\\'s New Pussycat?", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Officially the Woodstock Music & Art Fair, it was held in August of this year", 
+                    "solution": "1969", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In 1961, he told his jazz quartet to \"Take Five\"", 
+                    "solution": "Dave Brubeck", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In \"California Here I Come\" \"A sun-kist miss\" issues this warning", 
+                    "solution": "don\\'t be late", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "DRUGS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Most widely used vasodilator, many coronary patients keep this \"explosive\" close to their hearts", 
+                    "solution": "nitroglycerin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A Sumerian clay tablet from 2000 B.C. calling for plant materials is the oldest one known", 
+                    "solution": "prescription", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "1 of the 2 main groups of drugs that help kill bacteria", 
+                    "solution": "antibiotic (or sulfas)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "General term for any pain-relieving drug, such as codeine or aspirin", 
+                    "solution": "analgesic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "CONSTELLATIONS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "One of the largest constellations in the zodiac, its a favorite of stock market analysts", 
+                    "solution": "the bull", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Polaris, the polestar, is part of its handle", 
+                    "solution": "Little Dipper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Member of the zodiac who is always dumping on the Southern Fish", 
+                    "solution": "Aquarius", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Sometimes called the Northern Cross the constellation Cygnus represents this animal", 
+                    "solution": "swan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Each August astronomers watch for these in the constellation Perseus", 
+                    "solution": "meteors", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SHAKESPEARE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In other words, this title is \"a lot of fuss concerning zilch\"", 
+                    "solution": "Much Ado About Nothing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Because she has seen a comet, Calpurnia warns him not to go out on the Ides of March", 
+                    "solution": "Julius Caesar", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "Shakespearean play which inspired the following ballet:", 
+                    "solution": "Romeo and Juliet", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "It reads: \"Blest be the man that spares these stones and curst be he that moves my bones\"", 
+                    "solution": "Shakespeare\\'s tombstone (epitaph)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. CITIES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "1 out of every 6 Rhode Islanders lives in this city", 
+                    "solution": "Providence", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This West Coast city has the world's largest pleasure boat marina", 
+                    "solution": "Los Angeles", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "New York village with the only bobsled run in U.S.", 
+                    "solution": "Lake Placid", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "700", 
+                    "prompt": "Eastern state capital that's been described as \"a state of mind almost entirely surrounded by water\"", 
+                    "solution": "Boston", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1836, Dr. Joseph Lovell sold his house in this city to Francis Preston Blair", 
+                    "solution": "Washington, D.C.", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE FLAG", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Feature & its color common to flags of U.S., Venezuela & Pakistan", 
+                    "solution": "white stars", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

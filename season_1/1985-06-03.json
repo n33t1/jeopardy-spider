@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "PLAYWRIGHTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Known for his comedies, his \"Chapter Two\" told of his remarriage after his wife's death", 
+                    "solution": "Neil Simon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Dustin Hoffman reincarnated his \"Salesman\" on Broadway in 1984", 
+                    "solution": "Arthur Miller", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Though Irish, he is considered, after Shakespeare, to be Britain's greatest playwright", 
+                    "solution": "George Bernard Shaw", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Wrote \"The Man in the Glass Booth\" but acted in \"Jaws\" and \"The Deep\"", 
+                    "solution": "Robert Shaw", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Won Tonys for \"Torch Song Trilogy\" & \"La Cage aux Folles\"", 
+                    "solution": "Harvey Fierstein", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. STATES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Where we crown Miss America", 
+                    "solution": "New Jersey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1844 this 1st telegraph line was strung across this state from Baltimore to D.C.", 
+                    "solution": "Maryland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Local religion condoned human sacrifice here until abolished by king in 1819", 
+                    "solution": "Hawaii", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Oribi, a Hopi village in the S.W., is probably oldest continuous settlement in U.S.", 
+                    "solution": "Arizona", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "PRISON SONGS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "FAIRY TALES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "She couldn't \"bear\" certain bowls, bed & chairs", 
+                    "solution": "Goldilocks", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Unknown author of the story of Aladdin", 
+                    "solution": "Anonymous", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Rumpelstiltskin's spinning substance", 
+                    "solution": "straw into gold", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "USED-UP CARS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Ford's '50s flop with a family name", 
+                    "solution": "an Edsel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Fans howled at Mel Blanc's imitation of this, Jack Benny's junker", 
+                    "solution": "a Maxwell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Among the victims of the Depression was this company's Bearcat", 
+                    "solution": "a Stutz", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "When production stopped in 1960, this Chrysler car had reached \"de Endo\"", 
+                    "solution": "a DeSoto", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In '55, this steelmaker gave up making his namesake cars", 
+                    "solution": "Henry J. Kaiser", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POLITICAL QUOTES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "His tearful '62 prediction, \"This is my last press conference\", didn't prove true", 
+                    "solution": "Richard Nixon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "German who inspired the Russians to revolt by urging, \"Workers of the world, unite\"", 
+                    "solution": "Karl Marx", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Ironically, Lincoln said this \"is stronger than the bullet\"", 
+                    "solution": "the ballot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Truman said it's a recession when your neighbor loses his job, but this is a depression", 
+                    "solution": "when you lose your job", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The rattlesnake's warning on Revolutionary War flags", 
+                    "solution": "Don\\'t Tread on Me", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "$ IN THE NEWS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Up through the convention, Mondale spent $18,644,878.39 trying to get this job", 
+                    "solution": "the presidency", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This actor's spaghetti sauce & salad dressing should raise $2.5 mil. for charity this year", 
+                    "solution": "Paul Newman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "This gov't group has been buying 3\u00a2 transistors for $110", 
+                    "solution": "Defense Department (Pentagon accepted)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE '30S", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In theater, Kaufman & Ferber's \"Dinner\" time", 
+                    "solution": "Eight o\\'clock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "'37 dance rage or an appetizing name for New York", 
+                    "solution": "the Big Apple", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "PSYCHOLOGY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A bad one is biting your fingernails, a good one is calling mom once a week", 
+                    "solution": "a habit", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The opposite of a dominant trait", 
+                    "solution": "recessive", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "1 who suffers from periods of depression alternating with periods of excitement", 
+                    "solution": "manic depression", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The common name for somnambulism", 
+                    "solution": "sleepwalking", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The ego resolves conflicts between this & the superego", 
+                    "solution": "the id", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GERMAN", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Au revoir in German", 
+                    "solution": "auf wiedersehen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Hitler began building these 4-laned highways in the '30s", 
+                    "solution": "the Autobahns", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "General time of day for a greeting of \"Guten tag\"", 
+                    "solution": "good afternoon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "German word meaning destroyed, ruined or all finished", 
+                    "solution": "kaput", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "What you'd get in a restaurant asking for \"Herr ober\"", 
+                    "solution": "the waiter", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SCIENCE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It's the study of weather, not meteors", 
+                    "solution": "meteorology", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1011, Casimir Funk discovered the 1st of what some people take \"1-a-Day\"", 
+                    "solution": "vitamins", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Electricity that \"doesn't go anywhere\"", 
+                    "solution": "static electricity", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "C8H10N4O2; Coke, Pepsi & Sanka found things go better without it", 
+                    "solution": "caffeine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Edward G. Robinson played this bacteriologist whose \"magic bullet\" cured syphilis", 
+                    "solution": "Dr. (Paul) Ehrlich", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POETRY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Sandburg's weather phenomenon that \"comes in on little cat feet\"", 
+                    "solution": "\"Fog\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "New England \"swinger of birches\" who read his poetry for JFK's inauguration", 
+                    "solution": "Robert Frost", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1400", 
+                    "prompt": "Scottish poet who wrote the poem on which this song is based:", 
+                    "solution": "Rabbie Burns", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Poetic device illustrated by \"a peck of pickled peppers\"", 
+                    "solution": "alliteration", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "He said his poem \"Kubla Khan\" was inspired by an opium dream", 
+                    "solution": "(Samuel Taylor) Coleridge", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Either of 2 current pro baseball team names that don't end in \"S\"", 
+                    "solution": "(1 of) Chicago White Sox & Boston Red Sox", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

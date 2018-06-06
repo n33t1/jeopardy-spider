@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TELEVISION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A show \"for different folks\"", 
+                    "solution": "Diff\\'rent Strokes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Profession of TV's new \"Paper Dolls\"", 
+                    "solution": "models", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "He's the \"Finder of Lost Loves\"", 
+                    "solution": "Tony Franciosa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Fall show that makes \"widows\" on 1st weeknight evenings", 
+                    "solution": "Monday Night Football", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "\"Hotel's\" fictional \"Hotel\"", 
+                    "solution": "St. Gregory", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "'40s TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "New transmission system for radio which began in 1940", 
+                    "solution": "F.M. (frequency modulation)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Profession of Johnny Longden & Eddie Arcaro", 
+                    "solution": "jockeys", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A 12/15/41 Army order moved it from Pasadena, CA to Durham, NC", 
+                    "solution": "Rose Bowl game", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1948 this city's mayor, William O'Dwyer, submitted a $1 billion budget", 
+                    "solution": "New York City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "FICTION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Charlton Heston's charioteer", 
+                    "solution": "Ben-Hur", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "1st name of Defoe's bawdy heroine, or a gangster's girlfriend", 
+                    "solution": "Moll", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Captain who took his submarine \"Twenty Thousand Leagues Under the Sea\"", 
+                    "solution": "Captain Nemo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Oscar Wilde's \"picture perfect\" protagonist", 
+                    "solution": "Dorian Gray", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Mrs. Hamilton,  Mrs. Kennedy, & Mrs. Butler, but never Mrs. Wilkes", 
+                    "solution": "Scarlett O\\'Hara", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NUMBER PLEASE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Joanne Woodward's \"Eve\" had this many faces", 
+                    "solution": "Three", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Number of gables on Nathaniel Hawthorne's \"House\"", 
+                    "solution": "Seven", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "JFK's PT boat", 
+                    "solution": "109", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "California \"goal\" rushers", 
+                    "solution": "49ers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Journalism's numerical nickname", 
+                    "solution": "fourth estate", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GYMNASTICS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "They distinguish a pommelled horse from a vaulting horse", 
+                    "solution": "handles", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Term for proper way to end routine", 
+                    "solution": "dismount", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "1st appeared in '36 Olympics, created by changing level of one of its parts", 
+                    "solution": "uneven parallel bars", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Only international gymnastic event which doesn't use any apparatus", 
+                    "solution": "floor exercise", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "To the nearest inch, the width of a balance beam", 
+                    "solution": "4 inches", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE \"IN\" CROWD", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It's taxed to the max", 
+                    "solution": "income", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A beetle bomb", 
+                    "solution": "insecticide", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The weather when it's cold & stormy", 
+                    "solution": "inclement", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A perpetual patient", 
+                    "solution": "invalid", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "What a hen does when she sits on her eggs", 
+                    "solution": "incubate", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "SONGS OF WAR", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"John Brown's Body\" was inspiration for this Julia Ward Howe song", 
+                    "solution": "\"The Battle Hymn of the Republic\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Sgt. Barry Sandler's '66 hit became unofficial Viet War anthem", 
+                    "solution": "\"Ballad of the Green Berets\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Though never \"over there\", he got a Cong. Medal of Honor for writing \"Over There\"", 
+                    "solution": "George M. Cohan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Title of this official song of the U.S. Marine Corps:\"From the Halls of Montezuma /To the shores of Tripoli /We fight our country's battles /In the air, on land, and sea...\"", 
+                    "solution": "\"The Marines\\' Hymn\"", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "What British hoped to see flying \"over the white cliffs of Dover\" at end off WWII", 
+                    "solution": "bluebirds", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "INSECTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Average lifespan for mayflies", 
+                    "solution": "1 day", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Sensory organs located almost anywhere, but never on an insect's head", 
+                    "solution": "ears", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Every year, $5 bil. worth of crops benefit from this insect activity", 
+                    "solution": "pollination", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "COLONIAL AMERICA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Oldest of the 13 colonies, site of Jamestown", 
+                    "solution": "Virginia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1691 Plymouth Colony was absorbed by this colony", 
+                    "solution": "Massachusetts Bay Colony", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "To keep peace with Indians, British forbade colonial settlement west of these mts.", 
+                    "solution": "Appalachians", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Unusual physical characteristic of New Netherlands Governor Peter Stuyvesant", 
+                    "solution": "wooden leg", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Zenger case in colonial New York helped strengthen this freedom", 
+                    "solution": "freedom of the press", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LAST WORDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Movie that ends with Rick predicting \"the beginning of a beautiful friendship\"", 
+                    "solution": "Casablanca", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He bid goodnight to \"Mrs. Calabash, wherever you are\"", 
+                    "solution": "Jimmy Durante", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Novel in which Sydney Carton finds a \"far, far better rest\" than \"I have ever known\"", 
+                    "solution": "A Tale of Two Cities", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Arthur's partner who advised each week, \"Put a little fun in your life - try dancing\"", 
+                    "solution": "Kathryn Murray", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Her best line was \"I have always depended on the kindness of strangers\"", 
+                    "solution": "Blanche DuBois", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AGRICULTURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "40% of all water used in U.S. is used for this farming activity", 
+                    "solution": "irrigation", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Farming's itinerant labor force", 
+                    "solution": "migrant workers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "INVENTORS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Charles Elmer Hires began making & distributing this new drink in 1877", 
+                    "solution": "root beer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1873 Andrew Halladie invented this way to get around San Francisco", 
+                    "solution": "cable car", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Pasteur's pasteurization process was 1st developed for this drink", 
+                    "solution": "wine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Albert Einhorn was the \"Albert Einstein\" who created this local anesthetic", 
+                    "solution": "Novocain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "In 1856 H.L. Lipman was 1st to connect these two items for people who make mistakes", 
+                    "solution": "pencil & eraser", 
+                    "Jtype": "double"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "U.S. GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Number of states that touch the Pacific Ocean", 
+                    "solution": "5", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "EUROPE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "This nation's official name is the Hellenic Republic", 
+                    "solution": "Greece", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Citizen's of this small country aren't \"neutral\" about anyone littering there", 
+                    "solution": "Switzerland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "This country's city of Sheffield has been an iron & steel-making center since the 14th century", 
+                    "solution": "England", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This country that has many satellites built a monument to its 1st satellite", 
+                    "solution": "Russia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Real Bohemians aren't artists but residents of this Eastern European nation", 
+                    "solution": "Czechoslovakia", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE LAW", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "1 of the youngest of either sex was Susan Broyles of Colorado, only 23 when appointed", 
+                    "solution": "a judge", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Term for trial lawyers in English superior courts, derived from the bar at which they stand", 
+                    "solution": "barristers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "World's largest is Baker & McKenzie of Chicago with 600 lawyers in 29 countries", 
+                    "solution": "a lawyers firm (a law firm)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Reclining\" term for a legal claim on property used as security for a debt", 
+                    "solution": "a lien", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Not necessarily short, it's a written argument or summary of a case", 
+                    "solution": "a brief", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GOLF", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Organized in 1754, this country's St. Andrews Society set rules which are basis of modern golf", 
+                    "solution": "Scotland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The \"yips\" is a term for extreme nervousness while doing this", 
+                    "solution": "putting", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Golf ball covers are usually made of this", 
+                    "solution": "a vulcanized rubber compound", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "After winning 13 national championships in 7 years, this amateur golf great retired in 1930 at only 28", 
+                    "solution": "Bobby Jones", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In 1457, golf was banned in Scotland for keeping men from practicing this martial skill", 
+                    "solution": "archery", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MEDICAL FOLKLORE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It's said you sleep best on this side of your body", 
+                    "solution": "the right side", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Some try to cure heartburn by sucking on this black mineral", 
+                    "solution": "coal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The Sioux regard these Ursidae as the chief of the healing animals", 
+                    "solution": "bears", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "To cure a look from this, an egg was rubbed all over the naked body", 
+                    "solution": "the evil eye", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Eating half a roasted mouse supposedly cures this, enuresis", 
+                    "solution": "bedwetting", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NEWSPAPERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Some cities' competing dailies print their papers on the same presses to reduce this", 
+                    "solution": "the cost of printing newspapers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The world's 1st printed newspaper appeared in this Oriental country in the 8th century", 
+                    "solution": "China", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "At least \u2153 of all newspapers are published on this continent", 
+                    "solution": "North America", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This paper's editor-in-chief, Otis Chandler, has an avid interest in surfing", 
+                    "solution": "the Los Angeles Times", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "FIRSTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The Romans were the 1st to use this jewelry for wedding ceremonies", 
+                    "solution": "a wedding ring", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1912, over St. Louis, Capt. Albert Berry was 1st to use this successfully to get down from a plane", 
+                    "solution": "a parachute", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Opened to the public in 1863, the 1st one ran under London", 
+                    "solution": "a subway, the Underground", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "1st U.S. stamps with these were issued in 1857, making them a lot easier to get apart", 
+                    "solution": "paper separations (perforations)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Launched by the Ministerial Assoc. & YMCA of Spokane, this June holiday was 1st celebrated in 1910", 
+                    "solution": "Father\\'s Day", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "NUTRITION", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A study of Eskimos revealed only 5% of those eating a native diet had this common dental disease", 
+                    "solution": "cavities", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Bottles of this liquid exposed to several hrs. of sunlight lose up to 70% of riboflavin content", 
+                    "solution": "milk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Of fats, proteins, & carbohydrates, the 1 that makes up the least % of U.S. caloric intake", 
+                    "solution": "proteins", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "1 of 3 vitamins considered toxic if taken in excessive doses", 
+                    "solution": "vitamin A (vitamin D or niacin)", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Tocopherols supply this vitamin", 
+                    "solution": "vitamin E", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSIC ON THE MAP", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "According to Barry Manilow, the Copacabana was \"the hottest spot north of\" there", 
+                    "solution": "Havana", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"I found my April dream\" in this country \"with you\"", 
+                    "solution": "Portugal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "\"The kids in\" this Pennsylvania town \"are sharp as a pistol when they do\" this \"Stomp\"", 
+                    "solution": "\"The Bristol Stomp\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Married \"in a fever\", N. Sinatra & L. Hazlewood were ready to go there \"ever since the fire went out\"", 
+                    "solution": "Jackson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "When \"Big Sam left Seattle in the year of '92\" he was headed there", 
+                    "solution": "\"North To Alaska\"", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "1981", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "13-year-old Patrick Bossert had a best seller on the \"N.Y. Times\" list with a solution for this toy", 
+                    "solution": "Rubik\\'s Cube", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Janet Cooke of \"The Washington Post\" had to give this back", 
+                    "solution": "a Pulitzer Prize", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "On January 29, this lifelong Democrat was appointed by Republican admin. as U.N. ambassador", 
+                    "solution": "Jeane Kirkpatrick", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "On Sept. 29, 1981, the U.S. Congress raised the Federal Debt Ceiling to this amount", 
+                    "solution": "one trillion dollars", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "With \"All-Savers\", introduced by banks in Oct., a single person's interest was tax exempt up to this amount", 
+                    "solution": "$1,000", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. GOVERNMENT", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "After president & vice-president, government officer next in line for presidency", 
+                    "solution": "the Speaker of the House", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "According to the Constitution, in a criminal case, only this side may appeal a verdict", 
+                    "solution": "the defense", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "This body alone can bring charges of impeachment on a federal level", 
+                    "solution": "the House of Representatives", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Cordell Hull served in this office nearly 12 years --longer than anyone else", 
+                    "solution": "Secretary of State", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TECHNOLOGY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Sex of telephone operators in the 1st exchanges", 
+                    "solution": "male", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Of the 1940s, '50s, or '60s, decade in which jet passenger service was inaugurated", 
+                    "solution": "the 1950s", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "U.S. models of these have included the 1904 Caloric, the 1912 Fwick, & the 1911 Irvington Izzer", 
+                    "solution": "cars", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Wheels with these allowed greater speed & maneuverability than solid wheels", 
+                    "solution": "spokes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"LAST\"", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "According to playwright Sir John Vanbrugh, \"He laughs best who\" does this", 
+                    "solution": "\"laughs last\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Of the 5 \"Leatherstocking Tales\" by James Fenimore Cooper, the 1 that fits this category", 
+                    "solution": "The Last of the Mohicans", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In 1972, Alan Arkin was lead in movie version of this Neil Simon comedy", 
+                    "solution": "The Last of the Red Hot Lovers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "From a \"last line of defense\", a final attempt, especially to avert disaster", 
+                    "solution": "a last-ditch", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Unfortunately, this aptly titled 1975 sing was 1st & only hit for Roger Whittaker:There's a ship lies rigged and ready in the harborTomorrow for old England she sailsFar away from your land of endless sunshine", 
+                    "solution": "\"The Last Farewell\"", 
+                    "Jtype": "double"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE OSCARS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "In '48, she became the only performer in the sound era to win Best Actress without uttering a word in the film", 
+                    "solution": "Jane Wyman", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

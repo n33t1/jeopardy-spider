@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TRANSPORTATION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It could be paddle wheel, cargo or tramp", 
+                    "solution": "a steamer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Charlton Heston was \"on track\" with it in \"Ben Hur\"", 
+                    "solution": "a chariot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Vehicle Butch Cassidy rode during this song:", 
+                    "solution": "a bicycle", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TOYS & GAMES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Number of pockets on a pool table", 
+                    "solution": "6", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Color that always has opening move in chess", 
+                    "solution": "white", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Versions of this board game take place in London, Madrid, & Atlantic City", 
+                    "solution": "Monopoly", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Binney & Smith makes them in 64 colors", 
+                    "solution": "(Crayola) crayons", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "She's been a teenage fashion model for over 25 years", 
+                    "solution": "Barbie", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FLOWERS & TREES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Its seed is used in baking, but 1 type produces opium", 
+                    "solution": "the poppy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Long associated with Lebanon, this tree is on its flag", 
+                    "solution": "a cedar", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BY THE NUMBERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The 1st asked in this game is usually \"Animal, vegetable or mineral?\"", 
+                    "solution": "Twenty Questions", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The two point values an ace can have in blackjack", 
+                    "solution": "1 and 11", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Police precinct Barney Miller \"dozen\" work at any more", 
+                    "solution": "the 12th", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A race run by couples tied together at the ankle", 
+                    "solution": "a 3-legged race", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Musical about Continental Congress, it included song \"Sit Down, John\"", 
+                    "solution": "1776", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In 1983 Americans used over 1\u00bc million gallons of this beach product", 
+                    "solution": "suntan lotion", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "When it was rung for Chief Justice John Marshall's funeral, it cracked", 
+                    "solution": "the Liberty Bell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\"Kingdom\" that Khrushchev couldn't visit in 1959 U.S. trip", 
+                    "solution": "the Magic Kingdom/Disneyland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Dr. Seuss' egg-hatching elephant who was \"faithful, 100%\"", 
+                    "solution": "Horton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "It spent the night in a discount-house parking lot before heading to L.A. Coliseum", 
+                    "solution": "the Olympic torch", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Christmas, Easter, or Bermuda, for example", 
+                    "solution": "islands", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Europe's only wild monkeys live on this \"rock\"", 
+                    "solution": "(rock of) Gibraltar", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "1/3 the size of U.S., this royal kingdom has no rivers or lakes but lots of oil", 
+                    "solution": "Saudi Arabia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Largest country entirely in Europe", 
+                    "solution": "France", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Clocks in Lima, Peru, read the same as in this U.S. time zone", 
+                    "solution": "Eastern", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "STATE CAPITALS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It succeeded Fort Whipple, Prescott, & Tucson as capital", 
+                    "solution": "Phoenix", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Lincoln lived & practiced law here for 25 years before becoming president", 
+                    "solution": "Springfield", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "1 of 4 state capitals that end in word \"City\"", 
+                    "solution": "(1 of) Salt Lake City, Oklahoma City, Jefferson City, Carson City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BUSINESS & INDUSTRY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"Body-building\" brand of bread from \"the bakery people of IT&T;\"", 
+                    "solution": "Wonder Bread", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1978, this German co. became first foreign automaker to make cars here", 
+                    "solution": "Volkswagen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "This company owns the world's tallest building", 
+                    "solution": "Sears(-Roebuck)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Piggly Wiggly stores were the first of these", 
+                    "solution": "supermarkets", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANATOMY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Mark Anthony borrowed them, then bent them", 
+                    "solution": "ears", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Over \u00bd of these are in your hands & feet", 
+                    "solution": "your bones", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Number of chambers in a judge's heart", 
+                    "solution": "4", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The body has over 60,000 miles of them", 
+                    "solution": "blood vessels", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "3500", 
+                    "prompt": "Prominent zygomatic bones, considered an attractive facial feature", 
+                    "solution": "cheek bones", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "To Dustin Hoffman this '82 film was a \"drag\"", 
+                    "solution": "Tootsie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Film featuring March & Gaynor, Garland & Mason or Streisand & Kristofferson", 
+                    "solution": "A Star Is Born", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In '84 he's a destroyer, in '82 he was just a barbarian", 
+                    "solution": "Conan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Walter Matthau & Tony Curtis both coached this kids' baseball team", 
+                    "solution": "The Bad News Bears", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Went from bit part in film \"Little Shop of Horrors\" to Oscars for Best Actor & Best Support", 
+                    "solution": "Jack Nicholson", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE CIVIL WAR", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Lincoln's four brothers-in-law all served in this army", 
+                    "solution": "the Confederate army", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Though shots fired at this garrison started the war, no casualties resulted", 
+                    "solution": "Fort Sumter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "He was Lincoln's first choice to lead the Union army", 
+                    "solution": "Robert E. Lee", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "State that seceded from state that seceded", 
+                    "solution": "West Virginia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "General Nicknamed \"Uncle Billy\" who believed in total war", 
+                    "solution": "(William Tecumseh) Sherman", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ALPHABET SOUP", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "He's the heavyweight of the A-Team", 
+                    "solution": "Mr. T", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Caveman comic strip created by Johnny Hart", 
+                    "solution": "\"B.C.\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Letter shared by sensuous woman author & 76'ers Doctor", 
+                    "solution": "J", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "What Bo Derek would have been in ancient Rome", 
+                    "solution": "X", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Binet & Simon's measure of mental age", 
+                    "solution": "the IQ", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "AMERICAN GOVERNMENT", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Since 1970, the only cabinet department not headed by a secretary", 
+                    "solution": "the Attorney General\\'s Department", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

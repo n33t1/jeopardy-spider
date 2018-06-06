@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "DOUBLE TALK", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Not a Hawaiian cow, but a dress worn by Hawaiian women", 
+                    "solution": "a muumuu", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Affirmative reply to an admiral's command", 
+                    "solution": "aye aye", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Adopted baby of Barney & Betty Rubble", 
+                    "solution": "Bamm-Bamm", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Washington's panda with pregnancy problems", 
+                    "solution": "Ling-Ling", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "British rockers whose name came from villain in sci-fi film \"Barbarella\"", 
+                    "solution": "Duran Duran", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SHIPS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\"Unsinkable\" for most of its maiden voyage in 1912", 
+                    "solution": "the Titanic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Merchant ship that made the trip in 1620 from Plymouth to Cape Cod", 
+                    "solution": "the Mayflower", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "He entertained world leaders on his yacht \"Christina\"", 
+                    "solution": "(Aristotle) Onassis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Royal neighbor of the Spruce Goose", 
+                    "solution": "the Queen Mary", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "At some 500' long & with 9 masts, the \"Cheng Ho\" was largest of this kind", 
+                    "solution": "a junk", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"JACKS\" OF ALL TRADES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He celebrated his 39th birthday 41 times", 
+                    "solution": "Jack Benny", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Between him & his wife, they licked the platter clean", 
+                    "solution": "Jack Sprat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "He didn't find gold in the Klondike, so he wrote \"The Call of the Wild\"", 
+                    "solution": "Jack London", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "His nickname was the \"Manassa Mauler\"", 
+                    "solution": "Jack Dempsey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "2nd generation pop singer, he's sung on every \"Love Boat\" voyage", 
+                    "solution": "Jack Jones", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "What Gary Player plays professionailly", 
+                    "solution": "golf", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Boxer whose life was portrayed in \"Somebody Up There Likes Me\"", 
+                    "solution": "Rocky Graziano", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"B\" MOVIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In '61 movie, Audrey Hepburn's alternative to brunch in bed", 
+                    "solution": "Breakfast at Tiffany\\'s", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Burt Lancaster film in which his only friends were feathered", 
+                    "solution": "Birdman of Alcatraz", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Poignant movie in which Peter Sellers turned on the TV & tuned out the world", 
+                    "solution": "Being There", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This title describes Carroll Baker's thumb-sucking character & nightie she wore", 
+                    "solution": "Baby Doll", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Sensitive Mart Crowley treatment of gays marching to a different drummer", 
+                    "solution": "The Boys in the Band", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Formerly Formosa", 
+                    "solution": "Taiwan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Dutch is still an official language in what is now called Suriname", 
+                    "solution": "Dutch Guiana", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "8th most populous country in the world, this \"Bengal Nation\" was once East Pakistan", 
+                    "solution": "Bangladesh", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "First colony since 1776 to break from Britain without consent, it is now Zimbabwe", 
+                    "solution": "Rhodesia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "About 1/3 of Africa's Pygmy population lives in what was once Belgian Congo", 
+                    "solution": "Zaire", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "1789", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Washington proclaimed Nov. 26, 1789 this first national holiday", 
+                    "solution": "Thanksgiving", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Why April 28th was a bad day for Capt. Bligh", 
+                    "solution": "the day of the mutiny on the Bounty", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Now totaling over $1 trillion, it began 11 days after Treasury was established in 1789", 
+                    "solution": "the national debt", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LITERATURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Depending on the book, he could be a \"Jones\", a \"Sawyer\", or an \"Uncle\"", 
+                    "solution": "Tom", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He wrote \"The 3 Musketeers\"; his son wrote \"Camille\"", 
+                    "solution": "(Alexandre) Dumas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Where you can't go again in Thomas Wolfe title", 
+                    "solution": "home", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Irving's bird-like hero chased by the Headless Horseman", 
+                    "solution": "Ichabod Crane", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Shaw's scorched saint", 
+                    "solution": "St. Joan of Arc", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TOURIST TRAPS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Both Ferde Grofe' & the Colorado River dug this national park", 
+                    "solution": "the Grand Canyon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Seaside resort that has a monopoly on East Coast gambling", 
+                    "solution": "Atlantic City, New Jersey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Since '27, stars have made good impressions at this Hollywood site", 
+                    "solution": "Mann\\'s Chinese Theatre", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "A thrilling destination for tight-rope walkers & honeymooners", 
+                    "solution": "Niagara Falls", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Tourists know this Catholic mission as Davy Crockett's last stand", 
+                    "solution": "the Alamo", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TV TRIVIA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Last season, this series mourned the loss of Sgt. Esterhaus", 
+                    "solution": "Hill Street Blues", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He went from the Ponderosa to the prairie", 
+                    "solution": "Michael Landon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In 1970 he had a \"Goodtime Hour\"", 
+                    "solution": "Glen Campbell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Jackie Gleason show that rejected titles \"The Lovers\" & \"The Couple Next Door\"", 
+                    "solution": "The Honeymooners", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In court, he'd always make mincemeat of Hamilton Burger", 
+                    "solution": "Perry Mason", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "HOMONYMS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Hindu hierarchy or a play's actors", 
+                    "solution": "a caste (cast)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Near or a purchase", 
+                    "solution": "by (buy)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A fixed look, or Ginger Rogers' partner", 
+                    "solution": "a stare (Astaire)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Didn't see the fog", 
+                    "solution": "missed (mist)", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Where ships dock or what a jury consists of", 
+                    "solution": "piers (peers)", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LABOR UNIONS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Notorious labor leader missing since '75", 
+                    "solution": "Jimmy Hoffa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "U.S. PRESIDENTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Adventurous 26th president, he was 1st to ride in an automobile & an airplane", 
+                    "solution": "Theodore Roosevelt", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

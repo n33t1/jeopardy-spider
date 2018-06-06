@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "AUSTRALIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "1 of 2 animals on its coat of arms", 
+                    "solution": "(1 of) kangaroo and emu", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Title of this song, which actually means \"to tramp the roads with a backpack\"", 
+                    "solution": "\"Waltzing Matilda\"", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\"Satanic\" mammal found only on island S. of Australia", 
+                    "solution": "Tasmanian devil", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "ODD JOBS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Eliza Doolittle did it for a living", 
+                    "solution": "sold flowers (flower girl accepted)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In the Old West they were in charge of horses, on a movie set in charge of chickens", 
+                    "solution": "wranglers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "He solemnly swears you in, in court", 
+                    "solution": "a bailiff", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Ub Iwerks, Friz Freleng & Tex Avery drew the line at this job", 
+                    "solution": "cartoonists (or animators)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Subtitled \"The Search for Spock\"", 
+                    "solution": "Star Trek III", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Title describing Tom Cruise's precarious commercial enterprise", 
+                    "solution": "Risky Business", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Film where Lily Tomlin is really Steve Martin's better half", 
+                    "solution": "All of Me", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Mozart's middle name becomes a movie", 
+                    "solution": "Amadeus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BASEBALL", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The Atlanta Braves are in this division of the National League", 
+                    "solution": "the Western division", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Eddie Gaedel, number 1/8th, was the only one ever to play in the Major Leagues", 
+                    "solution": "a midget", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Now a paper company sales rep, he pitched only perfect game in World Series history", 
+                    "solution": "Don Larsen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Boston's \"Green Monster\" is in this stadium", 
+                    "solution": "Fenway Park", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In '84, he became 1st manager to win over 100 games with teams in both Major Leagues", 
+                    "solution": "Sparky Anderson", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POLITICS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "1st Tuesday after the 1st Monday in November", 
+                    "solution": "Election Day", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Traditionally speaking, as this state goes, \"so goes the nation\"", 
+                    "solution": "Maine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\"Shrill\" name for train tour electioneering", 
+                    "solution": "a whistle stop", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The rooster was symbol of this party before Thomas Nast drew their new one in 1870", 
+                    "solution": "the Democrats", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "He called himself \"the plain people's pres. against the privileged people's Congress\"", 
+                    "solution": "Harry S. Truman", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"CAT\" EGORY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Malcolm McDowell & Nastassja Kinski's \"purr\"fect roles in 1982", 
+                    "solution": "cat people", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Ancient weapon kept a stone's throw from its target", 
+                    "solution": "a catapult", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "It gets things going in a chemical reaction", 
+                    "solution": "a catalyst", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Elizabeth Taylor character that could have burnt her paws on a hot tin roof", 
+                    "solution": "Maggie the Cat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "During one in a hospital, your brain should think \"cheese\"", 
+                    "solution": "a CAT scan", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "GEMS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Organic & opaque, they represent purity & virginity", 
+                    "solution": "pearls", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Stone of Laz, the Arabian goddess of love", 
+                    "solution": "lapis lazuli", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LITERATURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "According to both Burns & Steinbeck, their best laid schemes \"gang aft a-gley\"", 
+                    "solution": "mice and men", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1671, Milton wrote \"Paradise Regained\", a sequel to this", 
+                    "solution": "Paradise Lost", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "English title of 7-part novel \"A la recherche du temps perdu\" by Proust", 
+                    "solution": "Remembrance of Things Past", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "\"All stories, if continued far enough, end in death...\" he wrote in \"Death in the Afternoon\"", 
+                    "solution": "Ernest Hemingway", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Language in which Browning's \"Sonnets from the Portuguese\" was originally written", 
+                    "solution": "English", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "LAKES & RIVERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Body of water, currently crossed by the 1831 London Bridge", 
+                    "solution": "Lake Havasu", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Turin is the only major city on both banks of this river", 
+                    "solution": "the Po River", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "This lake in the Banff National Park is the most visited place in the Canadian Rockies", 
+                    "solution": "Lake Louise", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "While poets pour over the Rhine & Danube this 2nd largest German river gets no press", 
+                    "solution": "the Elbe", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Containing a source of the Nile near Jinja, this country's surface is 1/6 water", 
+                    "solution": "Uganda", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ARCHITECTURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "From Turkish meaning \"lighthouse\", it's a slender, lofty tower attached to a mosque", 
+                    "solution": "minaret", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Simon Rodia built these fairy-tale structures in a South L.A. ghetto", 
+                    "solution": "the Watts towers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Flying buttresses & ribbed vaults characterize this 13 c. style", 
+                    "solution": "Gothic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Prior to his '59 death, he was planning a mile-high skyscraper", 
+                    "solution": "Frank Lloyd Wright", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "2 of 3 orders of Greek column styles", 
+                    "solution": "(2 of) Ionian, Doric, and Corinthian", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "STARTS WITH \"A\"", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It's where the leg bone's connected to the foot bone", 
+                    "solution": "the ankle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Moveable part of airplane wing providing lateral control", 
+                    "solution": "an aileron", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A result or consequence, or immediately following multiplication", 
+                    "solution": "aftermath", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Unyielding or inflexible", 
+                    "solution": "adamant", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It means extreme fear or anxiety in German or English", 
+                    "solution": "angst", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CHEMISTRY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Metallic element essential for strong bones & teeth", 
+                    "solution": "calcium", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Marie Curie named this element for her native land", 
+                    "solution": "polonium", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Metal with highest melting point, it's commonly used in light bulb filaments", 
+                    "solution": "tungsten", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE ZODIAC", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Appropriate astrological sign shared by Britain's Princesses Anne & Margaret", 
+                    "solution": "Leo", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

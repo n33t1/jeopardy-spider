@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "FIRST LADIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "She 1st met husband while complaining to S.A.G. about unwanted Communist literature", 
+                    "solution": "Nancy Reagan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "After 1st breaking the engagement, Lincoln went on to marry her", 
+                    "solution": "Mary Todd Lincoln", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Virginia Governor Charles Robb's mother-in-law", 
+                    "solution": "Lady Bird Johnson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In '62 Adlai Stevenson eulogized: \"She would rather light candles than curse the darkness\"", 
+                    "solution": "Eleanor Roosevelt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Only wife of 1 president & mother of another", 
+                    "solution": "Abigail Adams", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "HATS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "This western topper actually holds only about 3 quarts", 
+                    "solution": "a ten-gallon hat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Slang for a construction worker", 
+                    "solution": "a hardhat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "'50s fuzzy frontier fad", 
+                    "solution": "a Davy Crockett coonskin hat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Graduate's cap, it sounds like a plasterer's tool", 
+                    "solution": "a mortarboard", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "LAKES & RIVERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A German river or the wine grown on its banks", 
+                    "solution": "the Rhine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The end of a river that empties into a lake or ocean", 
+                    "solution": "the mouth", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Sam Rayburn Reservoir is this state's largest lake", 
+                    "solution": "Texas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Located in Oregon, it's the deepest lake in North America", 
+                    "solution": "Crater Lake", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Either of 2 Marilyn Monroe films with \"watery\" titles", 
+                    "solution": "(1 of) Niagara and the River of No Return", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It's where relief pitchers, not matadors, warm up", 
+                    "solution": "the bullpen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Because of this rule, no horse has ever won the Kentucky Derby twice", 
+                    "solution": "(only) a 3-year old (can run)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "These 2 former Olympic athletes became movie Tarzans", 
+                    "solution": "Buster Crabbe and Johnny Weissmuller", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He shouts the commands in crew racing", 
+                    "solution": "coxswain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOREIGN CUISINE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The Middle East's popular pocket bread", 
+                    "solution": "a pita", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "16th century development of a pig muzzle was a landmark in harvesting this fungus", 
+                    "solution": "truffles", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A small Oriental orange or a division of Chinese cuisine", 
+                    "solution": "Mandarin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "City Wiener Schnitzel is named for", 
+                    "solution": "Vienna", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOLK MUSIC", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "What the farmer's wife did to 3 unlucky mice", 
+                    "solution": "cut off their tails with a carving knife", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "EUROPE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"The Eternal City\"", 
+                    "solution": "Rome", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Hitler said this Polish capital \"must cease to exist; level it\"", 
+                    "solution": "Warsaw", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Moscow park that was scene of murders investigated in recent best-seller & film", 
+                    "solution": "Gorky Park", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Since 300 A.D., this region of N.E. France has been traded 7 times by Germany and France", 
+                    "solution": "Alsace-Lorraine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Bavarian village famous for its passion play", 
+                    "solution": "Oberammergau", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "HOTEL NAMES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Liz's Nicky", 
+                    "solution": "Hilton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The film in which Bing sang about a white Christmas & an Easter parade", 
+                    "solution": "Holiday Inn", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "According to Andy Griffith, \"Everything's good that sits on\" this cracker", 
+                    "solution": "a Ritz", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In 1959, \"Maverick\" won the Emmy for this category, only year it was given", 
+                    "solution": "Best Western", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1300", 
+                    "prompt": "Muppets commenting from the balcony in the following", 
+                    "solution": "Statler and Waldorf", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. HISTORY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The 1st permanent English settlement in America", 
+                    "solution": "Jamestown", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Reconstruction\" was the 13-year period following this", 
+                    "solution": "the Civil War", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Only U.S. civilians ever executed in America for espionage", 
+                    "solution": "Julius and Ethel Rosenberg", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "RELIGION", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In 1978, this pope reigned for only 34 days", 
+                    "solution": "Pope John Paul I", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Colonial Maryland was founded as haven for members of this church", 
+                    "solution": "the (Roman) Catholic Church", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "ZOOLOGY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Finned on fish, scaly on lizards, nonexistent on humans & manx cats", 
+                    "solution": "tails", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "From Latin \"to gnaw\", there are more of this group than all other mammals combined", 
+                    "solution": "rodents", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In mammals, trait determined by presence or absence of Y-chromosome", 
+                    "solution": "sex", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MATHEMATICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Number of degrees in a circle", 
+                    "solution": "360", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Mathematical function people in the Bible were always going forth & doing", 
+                    "solution": "multiplying", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Logarithmic tool outmoded by the calculator", 
+                    "solution": "a slide rule", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Total meters in a hectometer", 
+                    "solution": "100", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The formula for its volume is V equals pi r\u00b2h", 
+                    "solution": "a cylinder", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "SHOW BUSINESS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Barrymore, Rathbone, Roger Moore & Larry Hagman are among 61 actors to play this character", 
+                    "solution": "Sherlock Holmes", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

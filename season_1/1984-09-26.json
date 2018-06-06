@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "1968", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "South-of-the-border setting of the '68 Olympics", 
+                    "solution": "Mexico City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "First visual effects Oscar went to Kubrick's look 33 years into the future", 
+                    "solution": "2001: A Space Odyssey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Camelot \"ended\" when Jackie married him", 
+                    "solution": "Aristotle Onassis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He broke S. Africa's race barrier by transplanting black man's heart into white body", 
+                    "solution": "Christiaan Barnard", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "After 11 months in captivity, crew of this ship was released by N. Koreans", 
+                    "solution": "the Pueblo", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SILLY SONGS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "To treat it \"you're gonna need an ocean of calamine lotion\"", 
+                    "solution": "poison ivy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "\"She was afraid to come out of the water\" because she wore this scanty outfit", 
+                    "solution": "an itsy bitsy teenie weenie yellow polka-dot bikini", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "He offered this prescription:", 
+                    "solution": "the Witch Doctor", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Herman's Hermits' song about widow whose 8 husbands all had the same name", 
+                    "solution": "\"Henry the Eighth\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "According to Ray Stevens, \"He swings through the trees without a trapeze in his B.V.D.'s\"", 
+                    "solution": "Gitarzan", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MONEY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Currency where you'll find Lincoln's name on front & back", 
+                    "solution": "the five-dollar bill", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "4 little words carried on all U.S. currency", 
+                    "solution": "In God We Trust", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Replaced Adams in the presidency & the Indian on the nickel", 
+                    "solution": "Thomas Jefferson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The only U.S. coin with the Presidential Seal", 
+                    "solution": "the fifty-cent piece (the Kennedy half-dollar)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANIMALS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "ISLANDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Owned by tiny Denmark, it's the world's largest island", 
+                    "solution": "Greenland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "New York's largest, it has more people than 41 of our 50 states", 
+                    "solution": "Long Island", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Until 1949 a Dutch colony, now the world's most populous island nation", 
+                    "solution": "Indonesia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Made up of over 7,000 islands, only Far East country with a Roman Catholic majority", 
+                    "solution": "the Philippines", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Rubber is an ingredient in this type of chewing gum", 
+                    "solution": "bubble gum", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Easter creature created by Gene Autry in '55 hit record", 
+                    "solution": "Peter Cottontail", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Though a northern state, N.J. didn't abolish it until 1860", 
+                    "solution": "slavery", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "U.S. coin 97.6% zinc", 
+                    "solution": "the penny", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Ohio City named for an ancestor of the 24th president", 
+                    "solution": "Cleveland", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "\"NICK\" NAMES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "You can call me \"merry\" or you can call me \"hairy\" but you doesn't have to call me \"Santa\"", 
+                    "solution": "Saint Nicholas (or Saint Nick)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "When John Wayne always arrived with the cavalry", 
+                    "solution": "in the nick of time", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Things are never \"hoop\" less for this Manhattan team", 
+                    "solution": "the New York Knicks", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "He was Eddie Murphy's partner for 48 hours", 
+                    "solution": "Nick Nolte", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Gambler who paid the \"Brice\" for marrying a famous Fanny", 
+                    "solution": "Nick Arnstein", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WOMEN AUTHORS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Judith Krantz \"princess\" who reigned in novel & mini-series", 
+                    "solution": "Princess Daisy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Playwright Edward Albee asked \"Who's afraid of\" this respected British novelist", 
+                    "solution": "Virginia Woolf", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Colleen McCullough's Australian saga", 
+                    "solution": "The Thorn Birds", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Author, columnist, & TV wit who said, \"Housework, if you do it right, can kill you\"", 
+                    "solution": "Erma Bombeck", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Long-time companion of Dashiell Hammett, she was played in \"Julia\" by Jane Fonda", 
+                    "solution": "Lillian Hellman", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BASEBALL", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A 1939 college baseball game was the first sports event shown on this medium", 
+                    "solution": "television", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Metropolitan Museum of Art has 200,000 of them", 
+                    "solution": "baseball trading cards", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "1 of 3 Major League Baseball teams with state rather than city names", 
+                    "solution": "(1 of) California Angels, Texas Rangers, Minnesota Twins", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Ironically, ex-con Ron LeFlore led the N.L. in these in 1980", 
+                    "solution": "stolen bases", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "To help their owner pay off gambling debts, the 1920 Red Sox sold him to the Yankees", 
+                    "solution": "Babe Ruth", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "INVENTIONS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"The mother of invention\"", 
+                    "solution": "necessity", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Country credited with invention of pasta, porcelain, & paper", 
+                    "solution": "China", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Tissue originally used as a WWI gas filter, but now literally something to sneeze at", 
+                    "solution": "Kleenex", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "1st developed for the blind, they've become the most widely used business machine", 
+                    "solution": "the typewriter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Printing press inventor associated with the world's most valuable book", 
+                    "solution": "Gutenberg", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SCULPTURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "His only signed work is the \"Pieta\" in the Vatican", 
+                    "solution": "Michelangelo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A gold statue of Prometheus towers over the ice rink of this N.Y.C. landmark", 
+                    "solution": "Rockefeller Center", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "\"Disarming\" statue unearthed by peasant of Greek island of Melos in 1820", 
+                    "solution": "the Venus de Milo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The Berlin museum is home to the famous bust of this Egyptian queen", 
+                    "solution": "Nefertiti", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Though it represents a woman, his 5-story Chicago structure has been called a baboon", 
+                    "solution": "(Pablo) Picasso", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BRITISH HISTORY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Though historians debate it, she's called \"The Virgin Queen\"", 
+                    "solution": "Elizabeth I", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "Of Henry VIII's six wives, the number that lost their heads over him", 
+                    "solution": "2", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE SOLAR SYSTEM", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Only 1 of 9 planets not named for a Greek or Roman mythological figure", 
+                    "solution": "the Earth", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

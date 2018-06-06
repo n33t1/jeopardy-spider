@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "MIRACLES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Macy's employee who performed the \"Miracle on 34th Street\"", 
+                    "solution": "Santa Claus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "While he performed 36 miracles, he didn't want his disciples to spread it around", 
+                    "solution": "Jesus Christ", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Singer of the following:\"You wouldn't believe where I've been /The city and towns I been in /From Boston to Denver /And every town in between /The people they all look the same...\"", 
+                    "solution": "Barry Manilow", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Miracle worker for Arthur & Kate Keller", 
+                    "solution": "Annie Sullivan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Cocteau said this artist friend believed it miraculous \"That one did not melt in one's bath\"", 
+                    "solution": "Pablo Picasso", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"MC\" NAMES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He's paid to laugh at Johnny's jokes", 
+                    "solution": "Ed McMahon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "He \"Wanted...\" to get out of television & made \"The Great Escape\" to films", 
+                    "solution": "Steve McQueen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The Smithsonian is now home to Candice Bergen's \"brother\"", 
+                    "solution": "Charlie McCarthy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "His presidential campaign won him the electoral votes of only Mass. & Washington, D.C.", 
+                    "solution": "George McGovern", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The Roaring '20s foremost evangelist, she founded the Foursquare Gospel Church", 
+                    "solution": "Aimee Semple McPherson", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "VEGETABLES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "These tubers make up 1/4 of all vegetables grown in U.S. & Canada", 
+                    "solution": "potatoes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Peas, lima beans, navy beans & corn are examples of this part of a plant", 
+                    "solution": "seeds", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Sport that allows players to throw bombs", 
+                    "solution": "football", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Bernice Gera was the 1st in baseball", 
+                    "solution": "female umpire", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "They can be mashies & niblicks", 
+                    "solution": "irons (golf clubs)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Number of fingers used to draw a bow", 
+                    "solution": "3", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The words that announce the start of the Indianpolis 500", 
+                    "solution": "Gentlemen, start your engines", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ISLANDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Brooklyn resort that's no longer an island", 
+                    "solution": "Coney Island", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Bridge from Nassau connects with this \"heavenly\" Bahamian island", 
+                    "solution": "Paradise Island", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Worlds 3rd largest, some of its inhabitants are \"wild men\"", 
+                    "solution": "Borneo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Galapagos Islands are home to only variety of this reptile to feed in the sea", 
+                    "solution": "iguanas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\"Catherine\" was the name of 3 of his 6 wives", 
+                    "solution": "Henry VIII", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Mastiffs, Pomeranians, & pugs", 
+                    "solution": "types of dogs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "It's advertised as \"99 & 44/100 percent pure\"", 
+                    "solution": "Ivory Soap", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Escape device used by hijacker D.B. Cooper", 
+                    "solution": "parachute", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Apparatus one needs to read the writing in da Vinci's notebooks", 
+                    "solution": "mirror", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "COMPOSERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Scandinavian homeland of Edvard Grieg", 
+                    "solution": "Norway", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "His \"Blue Danube\" waltzed a space station through \"2001\"", 
+                    "solution": "Strauss", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "He fathered 6 \"Brandenburg Concertos\" & 20 children", 
+                    "solution": "Johann Sebastian Bach", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "He wrote \"Onward Christian Soldiers\" as well as \"The Mikado\" & \"H.M.S. Pinafore\"", 
+                    "solution": "Arthur Sullivan", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Melancholy Russian whose patron of 14 yrs. required they never meet", 
+                    "solution": "Tchaikovsky", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PRISONS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The chief administrator of a prison", 
+                    "solution": "warden", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Term for prison from word meaning \"sorrow for wrongdoing\"", 
+                    "solution": "penitentiary", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SCIENCE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Galaxy we live in", 
+                    "solution": "Milky Way", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Human organ containing the smallest bones", 
+                    "solution": "ear", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Known as \"black light\" because most of them can't be seen with the naked eye", 
+                    "solution": "ultraviolet rays", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "About 8% of all snakes are this poisonous type, which includes adders & rattlesnakes", 
+                    "solution": "vipers", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Mineral that's the richest in uranium ore", 
+                    "solution": "pitchblende", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "W W II", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TIMELY LITERATURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "MCMLXXXIV", 
+                    "solution": "1984", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Number of nights story teller Scheherazade kept it up", 
+                    "solution": "1,001", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Feat in this Jules Verne novel could have been done over 4000 times since it was published", 
+                    "solution": "Around the World in 80 Days", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Shakespeare comedy subtitled \"Or, What You Will\"", 
+                    "solution": "Twelfth Night", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Based on obscure Scottish scandal, it was Lillian Hellman's 1st performed work", 
+                    "solution": "The Children\\'s Hour", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. CITIES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"America's Birthplace\", July 4, 1776", 
+                    "solution": "Philadelphia, Pennsylvania", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "It proclaims itself, \"The Biggest Little City in the World\"", 
+                    "solution": "Reno, Nevada", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "SPACE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Lunar sea on which Apollo 11 landed", 
+                    "solution": "the Sea of Tranquility", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

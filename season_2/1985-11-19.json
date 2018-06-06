@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "WILD WEST", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Name of the cemetery in Tombstone, Arizona & many other towns as well", 
+                    "solution": "Boot Hill", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "After Indian wars, Chief Rain-In-The-Face ended up selling autobiographies at this Brooklyn resort", 
+                    "solution": "Coney Island", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "He personally paid for many of the instruments & made this his soldiers' theme:", 
+                    "solution": "General George Armstrong Custer", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A reporter for the Virginia City, Nev. Territorial Enterprise first used this byline Feb. 2, 1863", 
+                    "solution": "Mark Twain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Nickname of judge Isaac Parker whose court was called \u201cThe Gates of Hell\u201d", 
+                    "solution": "hanging judge", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BODIES OF WATER", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Narrow Biblical sea between Saudi Arabia & Africa that's an intense blue-green in color", 
+                    "solution": "Red Sea", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "China's Huang River carries large amounts of straw-colored earth into this sea", 
+                    "solution": "Yellow Sea", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Name of this sea is said to allude not to its dark water but its storms", 
+                    "solution": "Black Sea", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Icebreakers now keep Port of Archangel, on this appropriately-named sea, open in winter", 
+                    "solution": "White Sea", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Dutch settlers named this longest river of South Africa not for its color but their royal family", 
+                    "solution": "Orange", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FROGS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A baby frog is called either a tadpole or this", 
+                    "solution": "polliwog", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "According to the Bible, thousands of frogs, perhaps millions, plagued this country", 
+                    "solution": "Egypt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Probably best known to TV viewers as Valene Ewing, she had female lead in 1972 \u201cFrogs\u201d", 
+                    "solution": "Joan Van Ark", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Anatomical feature absorbed by its body when a tadpole becomes a frog", 
+                    "solution": "tail", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORD ORIGINS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Though an insect larva, its name comes from French for \u201chairy cat\u201d", 
+                    "solution": "caterpillar", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Word \u201cslavery\u201d comes from these eastern Europeans who were often enslaved by conquerors", 
+                    "solution": "Slavs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Term for noisy dance or party which originally meant a kick in the shins", 
+                    "solution": "shindig", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "From same root as \u201csenile\u201d, to Romans this body's name meant a council of old men", 
+                    "solution": "Senate", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Though John Duns Scotus was considered a great philosopher, his followers were later called this", 
+                    "solution": "dunces", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AUTOBIOGRAPHIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\u201cTake My Wife...Please!\u201d", 
+                    "solution": "Henny Youngman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Though he claims never to have said it, he called his autobiography \u201cNice Guys Finish Last\u201d", 
+                    "solution": "Leo Durocher", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\u201cSorry I Kept You Waiting, Madam\u201d is this haridresser's story", 
+                    "solution": "Vidal Sassoon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\u201cEvery Secret Thing\u201d contains her own account of her kidnapping", 
+                    "solution": "Patty Hearst", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Former special counsel to president Nixon who's since been \u201cBorn Again\u201d", 
+                    "solution": "Charles Colson", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GOLDEN OLDIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Bill Haley hit that opens, \u201cGet down to that kitchen & rattle those pots & pans\u201d", 
+                    "solution": "\"Shake, Rattle And Roll\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In song, battle where Johnny Horton put cannonballs in a gator's head \u201c& powdered his behind\u201d", 
+                    "solution": "\"The Battle Of New Orleans\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "According to the Everly Brothers, not only was Johnny a joker, he was also this", 
+                    "solution": "bird dog", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This girl was \u201cas skinny as a stick of macaroni\u201d", 
+                    "solution": "Bony Moronie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Ernie K-Doe called her, \u201cThe worst person I know\u201d", 
+                    "solution": "his mother-in-law", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "AMERICANA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In 1859, with his agent on his back, Charles Blondin walked a tightrope suspended over this", 
+                    "solution": "Niagara Falls", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1857, William Kelly convinced U.S. Patent Office to give him, not Bessemer, rights to make it", 
+                    "solution": "steel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS NICKNAMES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Broadway Joe", 
+                    "solution": "Joe Namath", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Saying he's \u201csimply the best\u201d Time Magazine agrees he's hockey's \u201cGreat One\u201d", 
+                    "solution": "Wayne Gretzky", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Though a woman, this black tennis star of the \u201950s was known as \u201cBig Al\u201d", 
+                    "solution": "Althea Gibson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Anatomical nickname of pitcher Mordecai Brown", 
+                    "solution": "Three-Fingered Brown", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "9-man teams nearly always lose to softball pitcher Eddie Feigner & his 3-man team nicknamed this", 
+                    "solution": "The King and his Court", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "HIGHWAYS & BYWAYS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\u201cMonopoly\u201d inventor Charles Darrow named properties in the game for streets in this city", 
+                    "solution": "Atlantic City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In crossing midtown Manhattan it's only \u201cavenue\u201d you hit that's named for a president", 
+                    "solution": "Madison", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1200", 
+                    "prompt": "Peace, Hope & Friendship are streets in this state capital named in honor of God", 
+                    "solution": "Providence, Rhode Island", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "There are 10 switch-backs in 1 block of this S.F. street often called \u201ccrookedest in the world\u201d", 
+                    "solution": "Lombard Street", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Skyline Drive rides the crest of the mountains in this Virginia national park", 
+                    "solution": "Shenandoah", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE \u201860s", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In 1964 his widow said \u201cSo now he is a legend when he would have preferred to be a man\u201d", 
+                    "solution": "(John F.) Kennedy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Boosting the space program, this rocket expert said, \u201cYour tax dollars will go farther\u201d", 
+                    "solution": "Wernher von Braun", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In 1960, Sirimavo Bandaranaike of Ceylon became 1st prime minister of any country who was also this", 
+                    "solution": "a woman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Though Sinatra had the hit, it was this singer who wrote the lyrics of \u201cMy Way\u201d", 
+                    "solution": "Paul Anka", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Unlikely site of 1967 meeting between pres. Johnson & Soviet premier Kosygin was this N.J. town", 
+                    "solution": "Glassboro", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LANGUAGES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The original of Islam's sacred book, the Koran, was written in rhyme in this language", 
+                    "solution": "Arabic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Language of the world's oldest republic, tiny San Marino", 
+                    "solution": "Italian", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Twi, Ga, Fang, & Bubi are languages spoken on this continent", 
+                    "solution": "Africa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Unlike most European languages, Bulgarian doesn't use the Roman alphabet, but uses this one", 
+                    "solution": "Cyrillic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1821, he became only person to invent, unaided, an entire alphabet & numbering system", 
+                    "solution": "Sequoyah", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "QUOTES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Roman Quintas Ennius said a man of worth follows the rule \u201cNo sooner said\u201d than this", 
+                    "solution": "done", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Saki advised \u201cIn baiting a mousetrap with cheese, always leave room for\u201d this", 
+                    "solution": "the mouse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Poem that begins, \u201cThis is the forest primeval\u201d", 
+                    "solution": "Evangeline", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Philip Bailey said \u201cRespect is what we owe;\u201d this, \u201cWhat we give\u201d", 
+                    "solution": "love", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "According to Aristophane's famous saying \u201cMan is by nature\u201d this type of animal", 
+                    "solution": "political", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "LITERATURE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "1952 novel that begins off the coast of Cuba, & ends on shore 3 days later", 
+                    "solution": "The Old Man and the Sea", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

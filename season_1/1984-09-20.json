@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "RACY LADIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Driving with a broken wrist, Janet Guthrie was the 1st woman to compete in this race", 
+                    "solution": "the Indianapolis 500", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Though a hot prospect in '80, Beth Heiden was frozen out of gold in this Olympic sport", 
+                    "solution": "speed skating", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Never has to jockey for position as Mrs. Fred Astaire", 
+                    "solution": "Robyn Smith", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "ADDRESSES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The prime minister of England lives here", 
+                    "solution": "10 Downing Street", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Feathered friend who lives at 123\u00bd Sesame Street", 
+                    "solution": "Big Bird", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "He shared digs with John Watson at 221-B Baker Street", 
+                    "solution": "Sherlock Holmes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Kookie\" Byrnes parked cars for Dino's Lodge", 
+                    "solution": "77 Sunset Strip", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "You'd find this at 1313 S. Harbor Boulevard in Anaheim, CA", 
+                    "solution": "Disneyland", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FIRST LADIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "She talked to Arnold's class about drugs on TV's \"Diff'rent Strokes\"", 
+                    "solution": "Nancy Reagan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "One of her early suitors was her husband's arch rival, Stephen A. Douglas", 
+                    "solution": "Mary Todd Lincoln", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Teddy's niece, her married & maiden names were the same", 
+                    "solution": "Eleanor Roosevelt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Her tough Texas husband preferred her nickname to calling her Claudia Alta", 
+                    "solution": "Lady Bird Johnson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "She was expelled from Society of Friends for marrying non-Quaker 4th president", 
+                    "solution": "Dolley Madison", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "FICTION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Shakespeare's \"star-crossed\" lovers", 
+                    "solution": "Romeo and Juliet", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The \"lovable\" family of Peter Pan", 
+                    "solution": "the Darlings", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\"Cat on a Hot Tin Roof's\" portly patriarch", 
+                    "solution": "Big Daddy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Philip Roth character with a \"complaint\"", 
+                    "solution": "Portnoy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Pasternak's Moscow medic", 
+                    "solution": "Dr. Zhivago", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MYSTERIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Dashiell Hammett detective played on the screen by Humphrey Bogart", 
+                    "solution": "Sam Spade", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "1st cousins Dannay & Lee wrote the Ellery Queen stories under this pen name", 
+                    "solution": "Ellery Queen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "This agency's symbol of an unblinking eye gave birth to the phrase \"private eye\"", 
+                    "solution": "the Pinkerton agency", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "She's Agatha Christie's ageless amateur detective", 
+                    "solution": "Miss (Jane) Marple", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Author of \"Burr\" who wrote chilling mysteries under the pen name Edgar Box", 
+                    "solution": "Gore Vidal", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "They were formerly called the Sandwich Islands", 
+                    "solution": "Hawaii", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Number of blank tiles in a Scrabble set", 
+                    "solution": "2", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Longest river in Canada or the SCTV bros.", 
+                    "solution": "the Mackenzie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "It's whom Boris Spassky lost the chess crown to in 1972", 
+                    "solution": "Bobby Fischer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Awarded medal as \"1st woman to be killed in action\" in WWII: she was Gable's wife", 
+                    "solution": "Carole Lombard", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "BLACK AMERICA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The first black in Big League Baseball", 
+                    "solution": "Jackie Robinson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Forced to give up crown as Miss America because of photos in \"Penthouse\"", 
+                    "solution": "Vanessa Williams", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A symbol for black performers in film since the '50's, he won an Oscar as Best Actor in '63", 
+                    "solution": "Sidney Poitier", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "As result of anti-slavery raid on Harper's Ferry, his \"body lies a moldering in the grave\"", 
+                    "solution": "John Brown", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Harriet Tubman, who freed over 300 slaves, was 1 of its foremost \"conductors\"", 
+                    "solution": "the Underground Railroad", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GRAMMAR", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The adverb in \"think fast\"", 
+                    "solution": "fast", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The superlative form of good", 
+                    "solution": "best", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "It can be common, proper, collective or concrete", 
+                    "solution": "a noun", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "3-letter ending of present participles & gerunds", 
+                    "solution": "-ing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It comes at the end of a declarative sentence", 
+                    "solution": "a period", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GREEK MYTHOLOGY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Hilltop home of the gods", 
+                    "solution": "Mt. Olympus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He ultimately got \"fleeced\" by Medea", 
+                    "solution": "Jason", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A challenge to any optician, these giants had only one eye", 
+                    "solution": "cyclops", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "A \"bull\" of a man, he lived in a labyrinth", 
+                    "solution": "the Minotaur", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "First member of the \"me\" generation, this youth fell in love with his own reflection", 
+                    "solution": "Narcissus", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOODS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"Real men\" don't eat this French custard cheese pie", 
+                    "solution": "quiche", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "On the market since 1896, it wasn't until 1912 that they included prizes", 
+                    "solution": "Cracker-Jacks", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BROTHERS & SISTERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "An \"easy rider\" whose sister played an easy lady in \"Klute\"", 
+                    "solution": "Peter Fonda", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In the Bible, Aaron was this brother's mouthpiece in dealing with Pharaoh", 
+                    "solution": "Moses", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Nursing mother who wouldn't make \"house calls\", she's Vanessa's sister", 
+                    "solution": "Lynn Redgrave", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Apollo's loving sister, sometimes served on the half shell", 
+                    "solution": "Venus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SOVIET UNION", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Largest Soviet newspaper, its name means \"Truth\"", 
+                    "solution": "Pravda", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Daughter of this Soviet ruler has been living in America since 1967", 
+                    "solution": "Stalin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Soviet republic that has same name as an American state", 
+                    "solution": "Georgia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Soviet official who advocated using gasoline-filled bottles against Nazi tanks", 
+                    "solution": "Molotov", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "Kenny Ball did this jazzed up version of an old Russian folk song", 
+                    "solution": "\"Midnight In Moscow\"", 
+                    "Jtype": "double"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "SCIENCE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "The mammal that holds the record for the longest lifespan", 
+                    "solution": "man", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

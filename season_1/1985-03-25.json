@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "QUOTE, UNQUOTE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Play in which Queen Gertrude, while watching a play, says, \"The lady doth protest too much\"", 
+                    "solution": "Hamlet", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "At the 1st Battle of Bull Run, Bernard Bee said, \"There is Jackson, standing like...\" this", 
+                    "solution": "a stone wall", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Pop artist who claimed \"in the future everyone will be famous for 15 minutes\"", 
+                    "solution": "Andy Warhol", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"I can't mate in captivity.\" explained this feminist on why she's never married", 
+                    "solution": "Gloria Steinem", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Completes the saying \"The trouble with a kitten is that...\"", 
+                    "solution": "it grows to a cat", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "EGYPT", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Egyptian-born actor Michael Shalhoub, his most famous role was a Russian doctor", 
+                    "solution": "Omar Sharif", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Italian opera set in Egypt featuring this march:", 
+                    "solution": "Aida", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Leader assassinated at parade celebrating 8th anniversary of Yom Kippur War", 
+                    "solution": "Sadat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Albanian founder of the last Egyptian dynasty; his namesake is a famous prizefighter", 
+                    "solution": "Muhammad Ali", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "CRIME & PUNISHMENT", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In California, this auto necessity is made at Folsom Prison", 
+                    "solution": "license plates", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "They were 1st trained to help with police work about 1900 in Ghent, Belgium", 
+                    "solution": "dogs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "It's estimated there are about 40,000 separate police agencies in this country", 
+                    "solution": "the United States", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "A 43-year old mother of 4 recently broke up a $3.5 billion ring dealing in this drug", 
+                    "solution": "cocaine", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "EASY MATH", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The answer to 65\u00a0divided\u00a0by\u00a04/7\u00a0x\u00a00", 
+                    "solution": "zero", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Number of first-class stamps in a $20 roll", 
+                    "solution": "a hundred", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Decimal equivalent of 3/4", 
+                    "solution": ".75", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Sum of the 3 Billy Goats Gruff, the 3 Little Pigs & Goldilocks & the 3 Bears", 
+                    "solution": "10", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The square root of 225", 
+                    "solution": "15", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOOD FACTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The average adult male needs 3000 a day, a female, 2200", 
+                    "solution": "calories", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Though leader in total world food production at 35%, this continent has 59% of the world's population", 
+                    "solution": "Asia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "This process does not \"heal\" food, but preserves it", 
+                    "solution": "curing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Paris cooking school named after ribbons worn by the Order of the Holy Ghost", 
+                    "solution": "Cordon Bleu", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Colorful term used to describe effort to increase food production in developing countries", 
+                    "solution": "the green revolution", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"BROWNS\"", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "ROCKS & MINERALS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A sparking rock or a Michigan city", 
+                    "solution": "Flint", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "PRESIDENTS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "'70s president who, as a model, once appeared in \"Look\" magazine", 
+                    "solution": "Gerald Ford", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This office remained vacant during Truman's 1st administration", 
+                    "solution": "the vice-presidency", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Said he could either run the country or control his daughter Alice, \"But not both\"", 
+                    "solution": "Teddy Roosevelt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Probably our most scholarly president, he was only one to earn a Ph.D.", 
+                    "solution": "Woodrow Wilson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1940, FDR beat him to win 3rd term", 
+                    "solution": "Wendell Willkie", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AMERICAN LITERATURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Sport defined by Hemingway as \"Death in the Afternoon\"", 
+                    "solution": "bullfighting", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1843, the Merriams took over the rights to his dictionary", 
+                    "solution": "Webster", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Her \"Giant\" grew into an epic movie", 
+                    "solution": "Edna Ferber", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "\"Death Comes for\" him Willa Cather's classic", 
+                    "solution": "the Archbishop", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Novelist & poet who went \"Trout Fishing in America\"", 
+                    "solution": "(Richard) Brautigan", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIE TRIVIA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It was known as the dingus, the stuff dreams are made of & the black bird", 
+                    "solution": "the Maltese Falcon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Character from American history played on screen more than any other", 
+                    "solution": "Abe Lincoln", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A sequel's now being planned to this top grossing film, called in France \"S.O.S. Phantomes\"", 
+                    "solution": "Ghostbusters", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "To protect his image, Buster Keaton's MGM contract did not allow him to do this onscreen", 
+                    "solution": "smile", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1500", 
+                    "prompt": "4-generation film family which includes a knighted actor, his father, daughters & grandchildren", 
+                    "solution": "the Redgraves", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "MAMMALS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"Vampire\" variety of these actually do feed on the blood of other animals", 
+                    "solution": "bats", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "General name for the wild rabbits of Canada, the U.S. & Mexico; Peter is one", 
+                    "solution": "a cottontail", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Before hunting, a pack of these meets & howls to keep other packs from its territory", 
+                    "solution": "wolves", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "This swimming African animal \"yawns\" as an aggressive gesture before it attacks", 
+                    "solution": "a hippo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SOCIAL STUDIES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "3-letter term for fashions that come & go quickly, such as hula hoops & coonskin caps", 
+                    "solution": "a fad", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Jus soli\", the right of soil, makes you this in the country of your birth", 
+                    "solution": "a citizen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Not a radioactive clan, but the core group of one's relatives", 
+                    "solution": "the nuclear family", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "U.S. equivalent to the bourgeoisie which developed between the aristocrats & the peasants in France", 
+                    "solution": "business class or middle class (merchant class accepted)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It's suffered by one who goes from his simple society to a very complex one", 
+                    "solution": "culture shock", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "BUSINESS & INDUSTRY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "This cereal co. which owns Parker Bros. & Lionel Trains is the largest toy maker in the world", 
+                    "solution": "General Mills", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

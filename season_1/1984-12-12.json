@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "HOLLYWOOD LEGENDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Brando was 2 when his mom appeared on stage with this dad of Peter & Jane", 
+                    "solution": "Henry Fonda", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "She won 8 Academy Awards with only her clothes appearing on screen", 
+                    "solution": "Edith Head", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The 3 stars of \"Rebel Without a Cause\" who met with untimely deaths", 
+                    "solution": "Natalie Wood, James Dean, and Sal Mineo", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In her 1st film she sang with \"Alfalfa\" Switzer; in her next, she was paired with Lassie", 
+                    "solution": "Elizabeth Taylor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Oliver Hardy's co-star in \"The Fighting Kentuckian\"", 
+                    "solution": "John Wayne", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CARS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Daimler & Benz borrowed this name from a friend's daughter", 
+                    "solution": "Mercedes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "GM car named for Indian chief who tried to take Ft. Detroit", 
+                    "solution": "Pontiac", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "What BMW stands for", 
+                    "solution": "Bavarian Motor Works", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. STATES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The Empire State", 
+                    "solution": "New York", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The ceiling of its capitol features a lone star", 
+                    "solution": "Texas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Only U.S. state with a \"Z\" in its name", 
+                    "solution": "Arizona", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The New England state without an Atlantic Ocean coastline", 
+                    "solution": "Vermont", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "8th state of the Union, it was the 1st state to secede", 
+                    "solution": "South Carolina", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANCIENT WORLDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Where all roads were supposed to have led", 
+                    "solution": "Rome", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Its people called it \"kemet\", color of black, from land after flooding by Nile", 
+                    "solution": "Egypt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Followed the Stone Age; named for copper alloy people used for tools & weapons", 
+                    "solution": "the Bronze Age", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Chinese once regarded calligraphy as a branch of this art", 
+                    "solution": "painting", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Civilization of sailors that developed 1st Western alphabet", 
+                    "solution": "the Phoenicians", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"HARD\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Fermented apple juice", 
+                    "solution": "hard cider", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Descriptive of Mike Hammer, Private Eye, or a 20-minute egg", 
+                    "solution": "hard-boiled", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Reason people used to stick a trumpet in their ear", 
+                    "solution": "hard of hearing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "TV role Brian Keith judged OK to play", 
+                    "solution": "Hardcastle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Album & film featuring \"Tell Me Why\" & \"You Can't Do That\"", 
+                    "solution": "A Hard Day\\'s Night", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "INVENTIONS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\"Fulton's Folly\"", 
+                    "solution": "a steamboat", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Early ones were called the \"hobby horse\", \"penny-farthing\" & \"high-wheeler\"", 
+                    "solution": "a bicycle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "1899 device for attaching papers that can ruin a computer disc when magnetized", 
+                    "solution": "a paper clip", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "After inventing the lever & pulley, this Greek said, \"I will move the Earth\"", 
+                    "solution": "Archimedes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "1st one to attempt sinking a warship was the \"Turtle\" in the Revolutionary War", 
+                    "solution": "a submarine", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "BODIES OF WATER", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The Shannon River, longest in the British Isles, is in this country", 
+                    "solution": "Ireland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A bridge has been proposed to connect Long Island & Rhode Island, across this waterway", 
+                    "solution": "the Long Island Sound", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "DRUGS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Lysergic acid diethylamide", 
+                    "solution": "LSD", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1903, barbital became the 1st of this type of drug", 
+                    "solution": "barbiturates", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"EASY\"", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Way you can have your eggs or Mary Martin", 
+                    "solution": "over easy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Slang for parasitical hanger-on, or what Peter Fonda played in '69", 
+                    "solution": "easy rider", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1200", 
+                    "prompt": "Keith Carradine's Oscar-winning song from the movie \"Nashville\"", 
+                    "solution": "\"I\\'m Easy\"", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Movie title which refers to a \"handful\" of etudes", 
+                    "solution": "Five Easy Pieces", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "'30s domestic comedy radio show featuring Goodman Ace & wife, Jane", 
+                    "solution": "Easy Aces", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NEWSPAPERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Major New York daily that runs no comic strips", 
+                    "solution": "The New York Times", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Wash., D.C.'s 2nd largest paper, The Times, is published by members of this church", 
+                    "solution": "the Moonies (or the Unification Church)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "He now owns the New York Post, Village Voice, Boston Herald, Chicago Sun-Times & San Antonio Express", 
+                    "solution": "Rupert Murdoch", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Roaring '20s president who was a journalist by profession", 
+                    "solution": "Harding", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "West Coast newspaper that owns Long Island's \"Newsday\"", 
+                    "solution": "The Los Angeles Times", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CIVIL WARS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "With India's help Bangladesh broke away from this country", 
+                    "solution": "Pakistan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Cavaliers opposed the close-cropped Roundheads in this country's civil war", 
+                    "solution": "England", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Its starving children symbolized the defeat of this Nigerian region", 
+                    "solution": "Biafra", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Symbolic colors of opposing sides in Northern Ireland", 
+                    "solution": "green and orange", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Name of Franco's party in Spain & main Christian party in Lebanon", 
+                    "solution": "the Phalange", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSICIANS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Among his famous \"pianos\" have been his bed & swimming pool", 
+                    "solution": "Liberace", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In spite of \"koochie koochie\" image, she's an accomplished guitarist", 
+                    "solution": "Charo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "He succeeded Arthur Fiedler directing the Boston Pops", 
+                    "solution": "John Williams", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Pioneer of multi-track recording, he was creator of popular Gibson solid-body guitar", 
+                    "solution": "Les Paul", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "His brilliance on the violin might be explained by his unusual hand formation", 
+                    "solution": "Jascha Heifetz", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "FLAGS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Country whose flag includes pictures of the British & Dutch flags", 
+                    "solution": "South Africa", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

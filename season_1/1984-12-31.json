@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "P'S & Q'S", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Goldilocks' gruel", 
+                    "solution": "porrige", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A TV program such as this one", 
+                    "solution": "quiz (program)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Found on some stoves & some beer drinkers", 
+                    "solution": "a potbelly", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Strategic punt on 1st, 2nd, or 3rd down", 
+                    "solution": "a quick kick", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOOD", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It turns chili into \"chili con carne\"", 
+                    "solution": "meat or beef", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The \"breadwinner\" is also said to bring this home", 
+                    "solution": "the bacon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "1965", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Astronaut Edward White was the 1st American to do this", 
+                    "solution": "to walk in space", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Only 32 senators & 17 governors were members of this political group in '65", 
+                    "solution": "the Republican Party", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Carroll Baker & Carol Lynley played this '30s star in 2 movies with the same title", 
+                    "solution": "Jean Harlow", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSIC", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Name shared by brothers of Liberace & Ira Gershwin", 
+                    "solution": "George", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Northern song that became Confederacy favorite \"away down south\"", 
+                    "solution": "\"Dixie\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Contrary to title, Tchaikovsky composed it in 1880", 
+                    "solution": "\"The 1812 Overture\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1978 this Irish flutist had a hit in England with \"Annie's Song\"", 
+                    "solution": "James Galway", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "This light classical favorite buzzed out of Rimsky-Korsakov's \"Tale Of Tzar Saltan\"", 
+                    "solution": "\"The Flight Of The Bumblebee\"", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GAMES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It's normal chess move is one square in any direction", 
+                    "solution": "the king", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Mythical creature that serves as 1 type of honors tiles in Mah Jongg", 
+                    "solution": "the dragon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Card game played in this Carpenters hit:There was a man, a lonely man...", 
+                    "solution": "\"Solitaire\"", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "7 or 11 in craps, or Robert Redford in recent movie", 
+                    "solution": "a natural", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Number of cards in a bridge trick", 
+                    "solution": "4", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORLD GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Capital of Sri Lanka, it sounds like Peter Falk's been there", 
+                    "solution": "Colombo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Continent Greenland is considered part of", 
+                    "solution": "North America", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "As Cape Horn is to South America, this is to Africa", 
+                    "solution": "the Cape of Good Hope", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Closest foreign country to Fairbanks, Alaska", 
+                    "solution": "Canada", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The Gulf of Aqaba separates these 2 Mid-East peninsulas", 
+                    "solution": "the Arabian Peninsula & the Sinai Peninsula", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "NUCLEAR PHYSICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Jimmy Carter served as naval engineering officer on one of these", 
+                    "solution": "a nuclear submarine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Simple formula used to determine how much energy a chain reaction would release", 
+                    "solution": "E=mc2", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Purpose of the Manhattan Project was to make this", 
+                    "solution": "the atomic bomb", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Reactor type where more fissionable material is created than consumed", 
+                    "solution": "a breeder reactor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Deuterium is the \"heavy\" isotope of this element", 
+                    "solution": "hydrogen", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ART", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "13 ate at this event depicted by Leonard Da Vinci", 
+                    "solution": "the Last Supper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "What the man holds in Grant Wood's \"American Gothic\"", 
+                    "solution": "a pitchfork", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Movie of Toulouse-Lautrec's life named for where he spent part of it", 
+                    "solution": "the Moulin Rouge", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Goya painted her \"Clothed\" & \"Naked\"", 
+                    "solution": "Maja", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Court painted for Henry VIII who painted him & several of his wives", 
+                    "solution": "Hans Holbein", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FIRST LINES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The 2 things created in the 1st line of the King James Bible", 
+                    "solution": "the earth and the heavens", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"You don't know about me without you have read...The Adventures of Tom Sawyer\"", 
+                    "solution": "Huckleberry Finn", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "1st word in this Orson Welles movie is also the title character's last", 
+                    "solution": "Citizen Kane", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "\"It was love at first sight\" between Yossarian & his chaplain in this novel", 
+                    "solution": "Catch-22", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It is \"the cruelest month\" in T.S. Eliot's \"The Waste Land\"", 
+                    "solution": "April", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Rubbery stuff that made \"The Absent-Minded Professor's\" Model T fly", 
+                    "solution": "flubber", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Helen Salter is playing this role, a cousin to one played by Christopher Reeve", 
+                    "solution": "Supergirl", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Controversial Coppola film about a '20s Harlem nightspot", 
+                    "solution": "The Cotton Club", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Two Alfred Hitchcock films which begin with the letters \"Sab-\"", 
+                    "solution": "Sabotage & Saboteur", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It was the \"Next Stop\" for Paul Mazursky", 
+                    "solution": "Greenwich Village", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SLEEP", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The inability to sleep", 
+                    "solution": "insomnia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Father of Morpheus, he was the Greek god of sleep", 
+                    "solution": "Hypnos", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ARCHAEOLOGY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "An archaeological excavation, or most common activity there", 
+                    "solution": "a dig", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In D.C., exhibit of this king's \"Treasures\" drew 835,000, more than city's population", 
+                    "solution": "King Tutankhamun", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Archaeologist Schliemann excavated ruins of ancient Troy in this country", 
+                    "solution": "Turkey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "These Inca ruins near Cusco, Peru weren't discovered until 1911", 
+                    "solution": "Machu Picchu", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Only 2 cities with both a National & American League baseball team", 
+                    "solution": "New York & Chicago", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

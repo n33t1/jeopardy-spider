@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "CANADA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Canada's basic money unit", 
+                    "solution": "the Canadian dollar", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Every July, about 1 million tourists \"stampede\" this Alberta city", 
+                    "solution": "Calgary", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The only walled city in North America, it's been called the Mecca of French Canadians", 
+                    "solution": "Quebec City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "By dropping word \"shining\" from last line of the song \"America\", you get this, Canada's national motto", 
+                    "solution": "\"From Sea to Sea\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Meaning \"eaters of raw meat\", these original Canadians today occupy only about 2% of Canada", 
+                    "solution": "Eskimos", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "OLD TESTAMENT", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It was two pillars of the community of Gaza that killed this biblical strongman", 
+                    "solution": "Samson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "He was 600 years old when he became captain of the Bible's \"Love Boat\"", 
+                    "solution": "Noah", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "His brothers turned green with envy when Jacob gave Joseph this piece of wearing apparel", 
+                    "solution": "the coat of many colors", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Instead of speaking to the rock to get water, Moses did this, & the Lord barred him from Canaan", 
+                    "solution": "he hit it", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIE TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "To darken sky for crucifixion in \"Barabbas\", scene was filmed during this astronomical event", 
+                    "solution": "solar eclipse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Walt Disney retired him from movies in '53, saying he was \"too sweet tempered for modern tastes\"", 
+                    "solution": "Mickey Mouse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Not surprisingly, this author's works have been filmed more than any other", 
+                    "solution": "Shakespeare", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "To fit the song's needs in \"Oklahoma!\", special corn twice as high as this was grown", 
+                    "solution": "an elephant\\'s eye", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "So that Charlie Chaplin could eat his boot during \"The Gold Rush\", it was made of this", 
+                    "solution": "licorice", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORD PLAY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Word which follows union, black & flap & precedes hammer, frost & rabbit", 
+                    "solution": "jack", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "\"Silent\" anagrams to this, which you hang on a tree on a silent night", 
+                    "solution": "tinsel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Acrosticthatonemightsee here", 
+                    "solution": "atoms", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Three rhyming prefixes, all meaning half", 
+                    "solution": "semi-, demi-, & hemi-", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "A letter added to a kidnap victim's salvation produces this window above a door", 
+                    "solution": "transom", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "1933", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "You never saw FDR smoking a cigarette without one of these", 
+                    "solution": "cigarette holder", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In Berlin, in May, this was done to works of Freud, Einstein and Thomas Mann, among others", 
+                    "solution": "burning", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In the U.S., hoarders of this type of coinage were jailed & fined for refusing to surrender them", 
+                    "solution": "gold", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Judge Joseph Davis ruled her Chicago World's Fair fan-dancing act legal", 
+                    "solution": "Sally Rand", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Mae West told this British newcomer to \"Come up & see me sometime\" before \"She Done Him Wrong\"", 
+                    "solution": "Cary Grant", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ODD WORDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Job \"Rosie\" had in WWII", 
+                    "solution": "riveter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The person who puts the chocolate on the cherry or the wax on the candle", 
+                    "solution": "dipper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Before monks discovered photocopiers, they used these people to copy manuscripts", 
+                    "solution": "scribes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Circus performer who bends over backwards for you & into pretzel-like shapes, too", 
+                    "solution": "contortionist", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In \"Ghostbusters\", Weaver told Murray he didn't act like a scientist, but like one of these", 
+                    "solution": "a game show host", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "HYPHENATES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Birth & burial place of England's most famous playwright", 
+                    "solution": "Stratford-upon-Avon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Corporate creators of Fred Flintstone & Yogi Bear", 
+                    "solution": "Hanna-Barbera", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "\"Mad, Mad, Mad, Mad World\" star who says his hyphen comes from the gap between his teeth", 
+                    "solution": "Terry-Thomas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Contemporary French flutist who's recorded record number of classical albums", 
+                    "solution": "Jean-Pierre Rampal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Company that makes Drano, Windex, Ban, Clairol, Bufferin & Excedrin", 
+                    "solution": "Bristol-Myers", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "STATE CAPITALS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "This state's capital is named after prospector Joe Juneau", 
+                    "solution": "Alaska", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Pig's Eye\" was 1st name of Minnesota capital until a church was built there, dedicated to him", 
+                    "solution": "St. Paul", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "State capital that was originally called \"Michigan\"", 
+                    "solution": "Lansing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Only state capital named for a foreign statesman, it's North Dakota's", 
+                    "solution": "Bismarck", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "There were no Revolutionary War battles fought at this New Hampshire capital", 
+                    "solution": "Concord", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "REPUBLICANS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "In '84, Jesse Helms won costliest senate race in U.S. history in this state", 
+                    "solution": "North Carolina", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This Ohio senator became known as \"Mr. Republican\", though it was his father who was president", 
+                    "solution": "Robert Taft", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Only 2 GOP presidents to serve 2 full terms, both West Point grads", 
+                    "solution": "Eisenhower and Grant", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "One of two distinctions held by Jeannette Rankin", 
+                    "solution": "the first woman in Congress", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "While some astronauts have already become senators, this state's Sen. Garn will be 1st to turn astronaut", 
+                    "solution": "Utah", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WARS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "With over 54 million fatalities, the bloodiest war in history", 
+                    "solution": "World War II", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Religious side with which Cardinal Richelieu allied France in 30 Years War", 
+                    "solution": "the Protestants", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Himself wounded in Vietnam, he composed this ballad about the war:", 
+                    "solution": "Barry Sadler (\"The Green Berets\")", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Kid's coasting race named for the crates the racers are often made of", 
+                    "solution": "soap box derby", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "PHYSICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Radiation used to sterilize food, strengthen plastics & turn Doctor Banner into the Hulk", 
+                    "solution": "gamma rays", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Force that sends your clothes to the washing machine's perimeter", 
+                    "solution": "centrifugal force", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Half the atoms in a radioactive substance decay in the time period called this", 
+                    "solution": "half-life", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "What a physicist would call the base on which a teeter-totters or a see-saws", 
+                    "solution": "fulcrum", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In E equals MC2, the E is energy, the M, mass & the C is this squared", 
+                    "solution": "the speed of light", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "KINGDOMS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Possessing the northernmost island in the world makes this kingdom the world's northernmost", 
+                    "solution": "Denmark", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

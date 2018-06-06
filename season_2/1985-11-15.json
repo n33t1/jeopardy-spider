@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "WEAPONS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\u201cWeapon\u201d Dorothy used to kill the Wicked Witch of the West", 
+                    "solution": "water", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "21, or a thug's bludgeon", 
+                    "solution": "blackjack", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Curare is added to this projectile to give it that little extra shot", 
+                    "solution": "blowgun dart", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The weapon which killed this \u201c1st murder victim\u201d was never revealed", 
+                    "solution": "Abel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Long, straight, 2-edged sword with a large cup hilt; some people have this type of wit", 
+                    "solution": "rapier", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NEWSPAPER FILLERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Body part which now can be augmented, sculpted, & wrapped, as well as painted, trimmed, & filed", 
+                    "solution": "nails", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "As of July, 1985, Oregon guru Rajneesh had been given 90 of these cars, but he's hoping for 365", 
+                    "solution": "Rolls-Royces", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "On 3/25/85, Marty Pasetta opened telecast of this awards show with shot of auditorium upside-down", 
+                    "solution": "Oscars", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1985, Disneyland, McDonald's, & Captain Kangaroo all celebrated this anniversary", 
+                    "solution": "30th", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Of the 1.5 million students who took the S.A.T.s in early 1985, only 8 hit this perfect combined score", 
+                    "solution": "1600", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "IN OTHER WORDS...", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Snag el toro using his hard bonelike projections", 
+                    "solution": "take the bull by the horns", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The 24th letter indicates precise location", 
+                    "solution": "X marks the spot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A single wicker container should not hold the entire output of thy hen", 
+                    "solution": "don\\'t put all your eggs in one basket", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Perpetually place one's prime pedal extremity in advance", 
+                    "solution": "(always) put your best foot forward", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Perform an optical scan prior to execution of a jete", 
+                    "solution": "look before you leap", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOOD & DRINK", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "It can be raw, powdered, whole, evaporated, condensed, or skim", 
+                    "solution": "milk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "BRITISH TV", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Each week when Roger Moore looked up at beginning of \u201cThe Saint\u201d this appeared above his head", 
+                    "solution": "halo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1980 BBC production of this Shakespeare play \u201cMonty Python's\u201d John Cleese played Petruchio", 
+                    "solution": "The Taming of the Shrew", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "[Audio DD] Man usually being chased to the following: (Opening to \u201cYakety Sax\u201d played)", 
+                    "solution": "Benny Hill", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Yelling \u201cI am not a number, I am a free man\u201d, this actor was #6 on \u201cThe Prisoner\u201d", 
+                    "solution": "Patrick McGoohan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Scooter's uncle \u201cowned\u201d the theater from which this American group did their \u201cShow\u201d shot in London", 
+                    "solution": "Muppets", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "19TH CENTURY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In 1869, professional players of this sport earned maximum of $1400 a year & didn't strike", 
+                    "solution": "baseball", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Holiday begun 4/22/1875 because J.S. Morton thought Nebraskans should plant trees", 
+                    "solution": "Arbor Day", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Company set up by American Express in 1852 to speed up gold shipments from California", 
+                    "solution": "Wells Fargo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Effective May 16, 1870, the Central & Union Pacific RR's said you could do it in 6 days, 20 hours", 
+                    "solution": "go across the country", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "For a promotional stunt in 1889, this newspaper publisher sent Nellie Bly around the world", 
+                    "solution": "(Joseph) Pulitzer", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "MOUNTAINS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A flat-topped mountain with steep sides, it's from Spanish for \u201ctable\u201d", 
+                    "solution": "mesa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1806, he tried to climb the Colorado peak named for him, took wrong path & wound up on wrong mt.", 
+                    "solution": "(Zebulon) Pike", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Lake Placid & the source of the Hudson are found in this New York group", 
+                    "solution": "Adirondacks", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The highest active volcano in Europe, it's found in Italy", 
+                    "solution": "Etna", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Elijah took on 450 prophets of Baal & 400 from Asherah on the slopes of this mountain above Haifa", 
+                    "solution": "Mount Carmel", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FASHION", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Playboy advised \u201cDon't wear t-shirts with pink sports coats unless you live\u201d here", 
+                    "solution": "Miami", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "For gangsters, a killing; in fashion terms it's a cheap copy of a high-priced original", 
+                    "solution": "knock-off", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In the 15th century, men's poulaines might have extended 24\" beyond this point", 
+                    "solution": "the foot", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CLASSICAL MUSIC", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The symbol for \u201cflat\u201d closely resembles this lower case English letter", 
+                    "solution": "b", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The 1954 Dorothy Dandridge/Harry Belafonte film \u201cCarmen Jones\u201d was based on this composer's opera", 
+                    "solution": "Bizet", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "100", 
+                    "prompt": "In 1818, Heinrich Stolzel took out a patent on this horn improvement allowing changes of pitch", 
+                    "solution": "Stolzel valve", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Other orchestra members standardly get their \u201cA\u201d note for tuning from this instrument", 
+                    "solution": "oboe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "He wrote his \u201cFarewell Symphony\u201d as a hint he & the orchestra wanted to leave for Vienna", 
+                    "solution": "Franz Joseph Haydn", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ALICE IN WONDERLAND", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Alice thought the White Rabbit was normal until he whipped this out", 
+                    "solution": "watch", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "To have room to do the lobster quadrille, you have to clear these spineless creatures off the shore", 
+                    "solution": "jellyfish", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The Mock Turtle said its 4 branches were \u201cambition, distraction, uglification, & derision\u201d", 
+                    "solution": "arithmetic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "It was at this character's house Alice joined the tea party", 
+                    "solution": "March Hare", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MYTHOLOGY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Lofty means of escape Daedalus & son Icarus used to flee King Minos", 
+                    "solution": "wings", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "An ancients \u201cRubik's Cube\u201d, spliced by the father of Midas, sliced by Alexander", 
+                    "solution": "Gordian Knot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Hercules, Orpheus, & Castor & Pollux were among those who joined the search for this", 
+                    "solution": "Golden Fleece", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "3000", 
+                    "prompt": "Hermaphroditus, whose body combined both sexes, had name combining these 2 gods, his parents", 
+                    "solution": "Hermes & Aphrodite", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "God who gave his name to a river in Asia Minor proverbially known for its wanderings", 
+                    "solution": "Meander", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PHYSICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "What we call the flow of electrons through wire, air, or even yourself", 
+                    "solution": "electricity", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In light, 2 colors are said to be complementary if, when added together, they produce this color", 
+                    "solution": "white", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Though it holds our planet together, it's actually a much weaker force than electro-magnetism", 
+                    "solution": "gravity", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Invented in 1947 to improve electron microscope images, this science created a 3-D picture", 
+                    "solution": "holography", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Branch of physics dealing with motion, like the bumping of molecules in a gas", 
+                    "solution": "kinetics", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "LANDMARKS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Popular name for the Jefferson Nat'l Expansion Memorial", 
+                    "solution": "Gateway Arch", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

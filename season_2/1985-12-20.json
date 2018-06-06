@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "SAILING", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "This word comes from Old Dutch \"jaght\" meaning hunting ship", 
+                    "solution": "yacht", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "During cinematic sea storms, the captain always shouts \"Batten down\" these covers", 
+                    "solution": "hatches", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "What you're referring to when you talk about your jennies, marconis, & mizzens", 
+                    "solution": "sails", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GREAT \"SCOTT\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Known for refusing an Oscar, he accepted an Emmy for role in Arthur Miller's \"The Price\"", 
+                    "solution": "George C. Scott", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "An infamous 1857 Supreme Court decision declared he could not claim U.S. citizenship", 
+                    "solution": "Dred Scott", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\"B\" western star who earned an \"A\" financial rating as one of Hollywood's richest men", 
+                    "solution": "Randolph Scott", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Ironically, by 1917, the year he died in a mental institution, ragtime was passe", 
+                    "solution": "Scott Joplin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "He went deep in space as 1 of first U.S. astronauts to become a navy deep sea diver", 
+                    "solution": "Scott Carpenter", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "METALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Soft, malleable metal Superman can't see through", 
+                    "solution": "lead", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "John Heywood's \"Proverbs\" advises you to strike at this time", 
+                    "solution": "while the iron is hot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In common table salt, this element is the metal", 
+                    "solution": "sodium", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Of the current penny, nickel, & dime the one which contains the most copper", 
+                    "solution": "nickel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Silver-white metal found in chalk, gypsum, & Wonder Bread", 
+                    "solution": "calcium", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ILLINOIS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "This Illinois airport is the busiest commercial airfield in the world", 
+                    "solution": "O\\'Hare", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Decatur, Illinois proclaims itself \"soybean capital of\" this", 
+                    "solution": "the world", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Chicago mayor who said, \"They have vilified me...crucified me, yes...even criticized me\"", 
+                    "solution": "Richard Daley", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This Democratic nominee was Illinois governor 1st time he ran for President", 
+                    "solution": "Adlai Stevenson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In latitude, Illinois reaches from that of Portsmouth, Va. to Portsmouth in this northern state", 
+                    "solution": "New Hampshire", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BOTTOMS UP", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Malt liquor is a variety of this brew", 
+                    "solution": "beer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1984, this company produced 39% of all wine made in California", 
+                    "solution": "Gallo Winery", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "When accused of bootlegging from Canada, he said, \"I don't even know what street Canada is on\"", 
+                    "solution": "Al Capone", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "You can get drunk on this non-mint flavored mouthwash that's 54 proof", 
+                    "solution": "Listerine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Favorite vodka of czar's family in Russia & best-selling brand in the U.S. today", 
+                    "solution": "Smirnoff", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PARADES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Every spring red flags fill Red Square during this Moscow worker's parade", 
+                    "solution": "May Day", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In New York & Detroit, Santa pulls up the rear in parades on this holiday", 
+                    "solution": "Thanksgiving", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Theme park parade whose theme is the following:", 
+                    "solution": "The Electric Parade at Disneyland", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Every New Year's Day, about 16,000 Mummers get together & strut down this city's Broad St.", 
+                    "solution": "Philadelphia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Representatives from 140 countries marched in this parade July 28, 1984", 
+                    "solution": "opening ceremonies of the Olympics", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "BLACK AMERICA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Currently TV's highest paid child star", 
+                    "solution": "Gary Coleman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "After building career with Bacharach-David hits, she added & then dropped \"e\" from last name", 
+                    "solution": "Dionne Warwick", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Born & raised at Tuskegee Institute, he was celebrity star at 1984 Olympics closing", 
+                    "solution": "Lionel Richie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In 1983, he became 1st black to host a network morning news show", 
+                    "solution": "Bryant Gumbel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1870, Hiram Revels of Mississippi gained this distinction", 
+                    "solution": "first black elected to U.S. Senate", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FUNNY LADIES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"Trash with flash & sleaze with ease\" is this rowdy redhead's motto", 
+                    "solution": "Bette Midler", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Knockabout comedienne known for a big mouth & the dentures she wears in it", 
+                    "solution": "Martha Raye", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Her popular series title & the network it appeared on share the same initials", 
+                    "solution": "Carol Burnett Show", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Toothless, raspy-voiced raconteur, she finally broke racial barriers in the '60s", 
+                    "solution": "Moms Mabley", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "While Robert De Niro taped his routine, this standup comedienne untaped the \"King of Comedy\"", 
+                    "solution": "Sandra Bernhard", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SEPTEMBER", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "On Sept. 9, 1836, Abe Lincoln received a license to practice this", 
+                    "solution": "law", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "On Sept. 9, 1776, the Continental Congress ruled to dump the name \"United Colonies\" & change it to this", 
+                    "solution": "United States", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "They kicked off their highly unsuccessful campaign September 3, 1984, with a Labor Day march up 5th Ave.", 
+                    "solution": "Mondale & Ferraro", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Famous lines summing up the New York Sun editor's September 1897 reply to Virginia O'Hanlon", 
+                    "solution": "Yes, Virginia, there is a Santa Claus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "On Sept. 12, 1922 the Protestant Episcopal house of bishops voted to remove this word from the marriage rite", 
+                    "solution": "obey", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANATOMY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "2-LETTER WORDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It comes before \"...the Academy\", \"...the Creek\", & \"...the Sandbox\"", 
+                    "solution": "Up", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Diddley, for example", 
+                    "solution": "Bo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Spelled forward, it tells you things aren't off; spelled backwards, it tells you things are off", 
+                    "solution": "on", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "900", 
+                    "prompt": "The 2 two letter words that can refer to you & me", 
+                    "solution": "we & us", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Moon of Jupiter or \u2154 of a debtor's notice", 
+                    "solution": "Io", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CONTAINERS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "You might not be able to hold your brandy, but this pear-shaped glass can", 
+                    "solution": "brandy snifter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "From Latin meaning \"to spit\", it's a spittoon", 
+                    "solution": "cuspidor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "It can contain articles or ammunition", 
+                    "solution": "magazine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Put on Funk & Wagnalls porch overnight, it contains the question envelopes for Carnac", 
+                    "solution": "sealed mayonnaise jar", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "They were 1st called Dewer flasks after their invention in 1872 by Sir James Dewer", 
+                    "solution": "vacuum bottle (thermoses)", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "ELECTIONS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Winner of the Presidential election in which Ronald Reagan got one electoral vote", 
+                    "solution": "Jimmy Carter", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

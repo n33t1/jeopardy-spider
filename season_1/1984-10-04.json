@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "GENERALS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Old Blood & Guts\", he was tank commander in both World Wars", 
+                    "solution": "Patton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "This Civil War general wrote \"Ben-Hur\"", 
+                    "solution": "Lew Wallace", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LEGENDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Gift giver named from the Dutch \"Sinter Klaas\"", 
+                    "solution": "Santa Claus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "John Chapman was the real name of this wandering fruit tree planter", 
+                    "solution": "Johnny Appleseed", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The man whom Miles Standish asked to have a chat with Priscilla", 
+                    "solution": "John Alden", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "On July 4, 1776, he wrote his signature large so King George could read it without glasses", 
+                    "solution": "John Hancock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "English explorer who made smoking fashionable, he smoked before his own execution in 1618", 
+                    "solution": "Sir Walter Raleigh", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BASEBALL", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "To celebrate winning the '83 World Series, the Baltimore Orioles popped 240 bottles of it", 
+                    "solution": "champagne", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Johnny Vandeer Meer is the only man to have ever pitched 2 of them consecutively", 
+                    "solution": "no-hitters", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Brand of bats made in Kentucky; also describes Muhammad Ali", 
+                    "solution": "Louisville Slugger", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In '51 playoff he hit \"the Shot Heard 'Round the World\"", 
+                    "solution": "Bobby Thomson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "For years this Southerner was \"the voice of the Yankees\"", 
+                    "solution": "Mel Allen", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"CAN\" IT", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A dance dance from France France", 
+                    "solution": "the can-can", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Edgar's daughter who isn't a dummy", 
+                    "solution": "Candice Bergen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "They'll eat your heart out", 
+                    "solution": "cannibals", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Terry Southern's little gumdrop", 
+                    "solution": "Candy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Poem part", 
+                    "solution": "canto", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Much of this largest Louisiana city is below sea level", 
+                    "solution": "New Orleans", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The leading dairy products state", 
+                    "solution": "Wisconsin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "This state's coastline is 2nd in length to Alaska's", 
+                    "solution": "Florida", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Nickname of Harry Lillis Crosby", 
+                    "solution": "Bing", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Term 1st coined to describe combination of smoke & fog", 
+                    "solution": "smog", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "It was claimed of this product \"a little dab'll do ya\"", 
+                    "solution": "Brylcreem", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Originally term to describe shed built onto a building, it now means expensive unit on the roof", 
+                    "solution": "a penthouse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Where Longfellow's arrow fell to earth", 
+                    "solution": "I know not where", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "HITCHCOCK", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Film where nutty Norman Bates was a real cut-up", 
+                    "solution": "Psycho", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Called ideal Hitchcock hero, he starred in \"Notorious\", \"Suspicion\" &\"North by Northwest\"", 
+                    "solution": "Cary Grant", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Before playing \"Perry\", he was killer James Stewart saw through the  \"Rear Window\"", 
+                    "solution": "Raymond Burr", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "His first American movie with Fontaine & Olivier, in which title character never appears", 
+                    "solution": "Rebecca", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "This movie wasn't his best, but \"Que Sera, Sera\"", 
+                    "solution": "The Man who Knew Too Much", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "INSECTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Balls of naphthalene are protection against them", 
+                    "solution": "moths", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ENGLISH LITERATURE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "If Orwell's tale were true, year Big Brother would be watching you", 
+                    "solution": "1984", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Treasure Island\"'s peg-legged pirate", 
+                    "solution": "Long John Silver", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Of Bacon & Lamb, the one who wrote \"A Dissertation upon Roast Pig\"", 
+                    "solution": "(Charles) Lamb", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Shakespeare's first comedy, though it's said to be originally titled \"The Historie of Error\"", 
+                    "solution": "The Comedy of Errors", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Its sequels were \"Men against the Sea\" & \"Pitcairn's Island\"", 
+                    "solution": "Mutiny on the Bounty", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MEDICINE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "British sailors were named \"Limey\" for the fruit they ate to ward off this disease", 
+                    "solution": "scurvy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "From Latin \"to please\", medicine given just to humor a patient", 
+                    "solution": "a placebo", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POLITICAL QUOTES", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "In the '80 campaign, he coined the term \"voodoo economics\"", 
+                    "solution": "George Bush", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Acid-toungued V.P. who said \"Some newspapers dispose of their garbage by printing it\"", 
+                    "solution": "Spiro Agnew", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "2-time pres. candidate who said, \"Eggheads unite, you have nothing to lose but your yolks\"", 
+                    "solution": "Adlai Stevenson", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "NAMESAKES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Stuffed toy named for Pres.Roosevelt", 
+                    "solution": "a teddy bear", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Thinned down perfume first made in this W. German city", 
+                    "solution": "Cologne", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "From the Civil War general who believed they raised troops' morale, it's slang for prostitute", 
+                    "solution": "hooker", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "5000", 
+                    "prompt": "Wild West gambling game named for kings on old playing cards", 
+                    "solution": "Faro", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "An unrealistic optimist, from heroine of Eleanor Porter novel", 
+                    "solution": "a Pollyanna", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE CALENDAR", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Number of leap years between 1985 & 2001", 
+                    "solution": "4", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

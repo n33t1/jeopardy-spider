@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "WASHINGTON D.C.", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "What the \"D.C.\" stands for", 
+                    "solution": "the District of Columbia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The District's oldest neighborhood, it was named for a king", 
+                    "solution": "Georgetown", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "287 miles long, it flows past Washington & induces \"fever\" in ambitious politicians", 
+                    "solution": "the Potomac River", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Though this mound rises only 88', it's synonymous with building which stands upon it", 
+                    "solution": "Capitol Hill", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Former Secretary of State for whom Washington, D.C. International Airport is named", 
+                    "solution": "John Foster Dulles", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "A LA \"CART\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "While 2 of its wheels head toward produce, 1 goes to dairy, the other to checkout", 
+                    "solution": "a shopping cart", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A sideways handspring", 
+                    "solution": "a cartwheel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "You can load it in your 8-track", 
+                    "solution": "a (tape) cartridge", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The 1st graduate of the U.S. Naval Academy to become president", 
+                    "solution": "Jimmy Carter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOOD", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Varieties include Chinese & Dijon", 
+                    "solution": "mustard", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Type of food that comes in shapes of bow ties, elbows & wagon wheels", 
+                    "solution": "pasta", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Also known as an alligator pear", 
+                    "solution": "an avocado", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "California vegetable with a crown & a heart", 
+                    "solution": "an artichoke", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The non-chocolate version are called \"blondies\"", 
+                    "solution": "brownies", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIE TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Turned down to be an \"Our Gang\" member, she became top box office star of 1935", 
+                    "solution": "Shirley Temple", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Number of the sequel the following was the theme of", 
+                    "solution": "Rocky III", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "For the first time in '68, the Academy Awards were held in this auditorium, its current home", 
+                    "solution": "the Dorothy Chandler Pavilion", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In his best English Bronx accent he cried \"Yonder lies the castle of my father\"", 
+                    "solution": "Tony Curtis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Tennis serve that touches net before dropping into proper court, it's replayed", 
+                    "solution": "a let ball", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "You win this when you pick the winners of 2 successive horse races", 
+                    "solution": "the Daily Double", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "What the letters in \"SCUBA\" stand for", 
+                    "solution": "self-contained underwater breathing apparatus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "On an official archery target, it's the color of the bull's eye", 
+                    "solution": "yellow (or gold)", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "COLORS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Color of a lucky \"letter day\"", 
+                    "solution": "red", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Johnny Cash is known for wearing only this color on stage", 
+                    "solution": "black", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Baby, sky, & steel", 
+                    "solution": "blue", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Broadway's nickname", 
+                    "solution": "the Great White Way", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The 3 colors that make up the dots on a color TV screen", 
+                    "solution": "blue, green, and red", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "EUROPE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Some 40% of this country's land has been reclaimed from the sea", 
+                    "solution": "the Netherlands", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Both in size & population, it's largest Scandinavian country", 
+                    "solution": "Sweden", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "19th century Sardinia took the lead in unifying this country", 
+                    "solution": "Italy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In '67 this last king of Greece went into exile", 
+                    "solution": "Constantine (II)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Only predominantly Muslim country entirely in Europe", 
+                    "solution": "Albania", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "BIG BANDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A wunnerful, wunnerful bandleader", 
+                    "solution": "Lawrence Welk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1937 he was \"in the mood\" to start a band", 
+                    "solution": "Glenn Miller", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "As famous for his marriages as his music; once wed Ava Gardner & Lana Turner", 
+                    "solution": "Artie Shaw", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Benny Goodman got good \"vibes\" from him", 
+                    "solution": "Lionel Hampton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "\"Royal\" bandleader whose first two names were Edward Kennedy", 
+                    "solution": "Duke Ellington", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BEES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Its name comes from the Middle English word \"bumblen\"", 
+                    "solution": "a bumblebee", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Common name of an apiculturist", 
+                    "solution": "a beekeeper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A large crowd of bees on the move", 
+                    "solution": "a swarm", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1900", 
+                    "prompt": "The 3 classes of a honeybee colony", 
+                    "solution": "a drone, a queen, and a worker", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "POLITICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Baby book author who ran for president in '68", 
+                    "solution": "Dr. Spock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Nickname of late Washington Senator Henry Jackson", 
+                    "solution": "Scoop Jackson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "U.S. ambassadors to this country have included Anne Armstrong & Joseph Kennedy", 
+                    "solution": "Great Britain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Florida Congressman who champions the senior citizen", 
+                    "solution": "Claude Pepper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Only 4 state governors serve terms this long", 
+                    "solution": "two years", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NOTORIOUS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "White supremacy group depicted as heroes in film classic \"Birth of a Nation\"", 
+                    "solution": "the Ku Klux Klan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Name of FBI \"sting\" operation that sent 4 former Congressmen to prison in '83", 
+                    "solution": "Abscam", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "32 inmates & 11 guards were killed in '71 uprising at this NY prison", 
+                    "solution": "Attica", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Despite his \"fortunate\" nickname, this gangster was deported to Italy in '46", 
+                    "solution": "\"Lucky\" Luciano", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "He wrote the Howard Hughes \"autobiography\" that sent him to jail", 
+                    "solution": "Clifford Irving", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BIRDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "This red bird is the state bird of 7 states", 
+                    "solution": "the cardinal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Depending on the species, a bird can have 940 to 25,000 of them", 
+                    "solution": "feathers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "All 16 species of the Hawaiian honeycreeper are on this list", 
+                    "solution": "the endangered species list", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "U.S. PRESIDENTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "President elected to 2nd term with 523 electoral votes, the greatest number in any election", 
+                    "solution": "Franklin D. Roosevelt", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

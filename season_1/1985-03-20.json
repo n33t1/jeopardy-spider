@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "You can muscle your way up in this sport by doing the snatch or clean & jerk", 
+                    "solution": "weightlifting", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Sport featured in the movie \"Heaven Can Wait\"", 
+                    "solution": "football", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In a meet, these are performed in this order: forward, back, reverse, inward & forward with a half twist", 
+                    "solution": "dives", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "With 1 \u00bd billion viewers, this '82 championship had largest TV audience in sports history", 
+                    "solution": "World Cup", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "'57 MVP, this guard led NBA in assists for 8 straight seasons with Boston Celtics", 
+                    "solution": "Bob Cousy", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOREIGN CUISINE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "This just about wraps up a burrito or taco", 
+                    "solution": "a tortilla", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Hungarian for \"pepper\", it spices up goulash", 
+                    "solution": "paprika", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "What it's called when \"I eats me spinach\" as a major ingredient of an Italian dish", 
+                    "solution": "Florentine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Served like rice, this common N. African dish is steamed semolina flour", 
+                    "solution": "couscous", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Type of seafood French call Coquilles St. Jacques because its shell was emblem of St. James church", 
+                    "solution": "a scallop", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "RITUALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "You remove them before entering a house in Japan", 
+                    "solution": "your shoes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Late every December 31st, people across the nation watch this city drop the ball", 
+                    "solution": "New York City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "On the belief the sun needed nourishment, this civilization sacrificed about 20,000 people a year", 
+                    "solution": "the Aztecs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Hebrew ceremony which takes place under a canopy called a huppa", 
+                    "solution": "a wedding (a marriage)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Part of a pilgrim a Pope washes on Maundy Thursday", 
+                    "solution": "feet", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE '50s", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\"Rashomon,\" Best Foreign Film of '51, was from this country", 
+                    "solution": "Japan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Like, to these cats & chicks, Kerouac was the most", 
+                    "solution": "the beatniks (the Beat Generation)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The only human figure on the standard B & W test pattern", 
+                    "solution": "the Indian head", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Popular TV Western featuring this theme: \"I'll tell you a story, a real true life story /A tale of the Western frontier /The West, it was lawless /But one man was flawless /And his is the story you'll hear...\"", 
+                    "solution": "Wyatt Earp", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "DOUBLE MEANINGS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Dashing to the florist, or the Kentucky Derby", 
+                    "solution": "the Run for the Roses", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Soap opera Custer or Patton might have gone to if sick", 
+                    "solution": "General Hospital", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Describes how Dorothy left Kansas, or a Mitchell novel", 
+                    "solution": "Gone with the Wind", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A den painted deep red, or Sherlock Holmes' first story", 
+                    "solution": "A Study in Scarlet", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Honest Abe's diaries, or his building toy sets", 
+                    "solution": "Lincoln Logs", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CHEMISTRY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The British call this element aluminium", 
+                    "solution": "aluminum", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "THE DESERT", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MONEY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Those who are \"penny-wise\" may be this \"foolish\"", 
+                    "solution": "a pound", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "100 Russian kopecks equals this", 
+                    "solution": "a ruble", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "He was on the dime immediately before FDR", 
+                    "solution": "Mercury", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "This note is the highest denomination in circulation in the U.S.", 
+                    "solution": "the $10,000 bill", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Charles Pinckney urged \"Millions for defense, but not a damned penny for\" this", 
+                    "solution": "tribute", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. STATES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Highest elevation in this \"Sunshine State\" is only 345 feet", 
+                    "solution": "Florida", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Last Chance Gulch\" is now the main street of its capital, Helena", 
+                    "solution": "Montana", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Only U.S. railroad owned and operated by Federal gov't. is found entirely within this sizeable state", 
+                    "solution": "Alaska", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "First state to forbid slavery & guarantee universal male suffrage & public education to all", 
+                    "solution": "Vermont", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "During the Civil War, this Midwest state sent proportionally the most men into the Union Army", 
+                    "solution": "Kansas", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POETRY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Title of Katharine Lee Bates poem which begins \"O beautiful, for spacious skies\"", 
+                    "solution": "\"America The Beautiful\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "His poems were the catalyst for \"Cats\"", 
+                    "solution": "T.S. Eliot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Completes \"He started to sing as he tackled the thing that couldn't be done...\"", 
+                    "solution": "\"And he did it.\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "He wrote \"There was a little girl, she had a little curl\" & \"The Wreck of the Hesperus\", too", 
+                    "solution": "(Henry Wadsworth) Longfellow", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Valiant & bold & unaccustomed to fear was this son of the prophet", 
+                    "solution": "Abdullah Bulbul Amir", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NUMBER PLEASE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Taft was the first president to get up and stretch during this inning of a ball game", 
+                    "solution": "the seventh inning", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Straw Boss said \"Bless my soul\" when Tennessee Ernie mined this much coal", 
+                    "solution": "\"Sixteen Tons\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Biblical Psalm that begins \"The Lord is my shepherd\"", 
+                    "solution": "the 23rd Psalm", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "The Henry who defeated Richard III at Bosworth Field & established Tudor dynasty", 
+                    "solution": "Henry VII", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The Astors & the Vanderbilts led this list of 1880's New York elite", 
+                    "solution": "the 400", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSIC", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "A musical symbol, or a short informal letter", 
+                    "solution": "a note", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Music City, U.S.A.\"", 
+                    "solution": "Nashville, Tennessee", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "British national anthem whose melody is used for \"My Country 'Tis Of Thee\"", 
+                    "solution": "\"God Save The Queen\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "What A.S.C.A.P. stands for", 
+                    "solution": "the American Society of Composers, Authors and Publishers", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "A funny thing happened to this songwriter on his way to the Forum", 
+                    "solution": "Stephen Sondheim", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "THE ENGLISH LANGUAGE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Site of Nov. '78 headline tragedy, it's the only S.A. country with English as official language", 
+                    "solution": "Guyana", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

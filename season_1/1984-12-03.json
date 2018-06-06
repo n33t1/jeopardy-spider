@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TV TRIVIA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Arnold Zenker replaced this trusted CBS newsman during a 13-day union strike in 1967", 
+                    "solution": "Walter Cronkite", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "\"Gene, Gene, the Dancing Machine\" was among the \"talent\" on this Chuck Barris series", 
+                    "solution": "The Gong Show", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "\"Bubbles In The Wine\" was the appropriate title of his theme song", 
+                    "solution": "Lawrence Welk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "When Ken Berry took over, \"The Andy Griffith Show\" was renamed this", 
+                    "solution": "Mayberry R.F.D.", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In the spring of 1950 Arthur Godfrey gave TV lessons on playing this instrument", 
+                    "solution": "the ukulele", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "U.S. HISTORY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Some 30 years before his cousin's New Deal, he gave us a \"Square Deal\"", 
+                    "solution": "Theodore Roosevelt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1870s cartoonist Thomas Nast gave Democrats & GOP these symbols", 
+                    "solution": "the donkey and the elephant", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Pres. Wilson founded this world organization which America never joined", 
+                    "solution": "the League of Nations", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Spanish-American War led to this Caribbean country's independence", 
+                    "solution": "Cuba", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "He was the first American in space", 
+                    "solution": "Alan Shepard", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Nickname for a football", 
+                    "solution": "a pigskin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "A filly becomes a mare at this age", 
+                    "solution": "4", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "According to rules, the strike zone in baseball extends from the batter's knees to here", 
+                    "solution": "his armpits", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "This bowl game changes location every year", 
+                    "solution": "the Super Bowl", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The number of laps run in the Indy 500", 
+                    "solution": "200", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "4-LETTER WORDS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "A small shrub or Reagan's V.P.", 
+                    "solution": "a bush", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Horses are hot to do it", 
+                    "solution": "trot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Bacall's last word on how to whistle", 
+                    "solution": "blow", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Foie gras in France or chopped liver at Aunt Esther's", 
+                    "solution": "p\u00e2t\u00e9", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "GLASS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "About 90% of all glass is made from this material", 
+                    "solution": "sand", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "This \"glass yarn\" serves as insulation & the Corvette's body", 
+                    "solution": "fiberglass", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "A small terrestrial telescope", 
+                    "solution": "a spyglass", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The glass curtain at Mexico City's Palace of Fine Arts was made by this company", 
+                    "solution": "Tiffany", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE BIBLE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "The longest of the 2 \"Testaments\"", 
+                    "solution": "the Old", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "He lived to be 969 years old", 
+                    "solution": "Methuselah", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Jesus said that only \"he that is without sin\" could do this", 
+                    "solution": "cast the first stone", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "ENGLAND", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Britain's 4 PM \"coffee break\"", 
+                    "solution": "tea time", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Though he never slew any dragons there, he's England's patron saint", 
+                    "solution": "St. George", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "English barons forced this royal enemy of Robin Hood to sign the Magna Carta", 
+                    "solution": "King John I", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Nickname for London's financial district", 
+                    "solution": "the City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "He's also known as the primate of all England", 
+                    "solution": "the Archbishop of Canterbury", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "OPERA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Verdi fans always want \"moor\" of this Shakespearean hero", 
+                    "solution": "Othello", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He wrote Brunhilde's immolation, opera's longest aria of nearly 15 minutes", 
+                    "solution": "Wagner", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "INDIANS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Buffalo-skin covered homes of Plains Indians", 
+                    "solution": "a teepee", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Continent from which Indians' ancestors came to America", 
+                    "solution": "Asia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The real Hiawatha united Mohawks & 4 other tribes into this confederation", 
+                    "solution": "the Iroquois Confederation", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Though few of them ever did it, the name \"Nez-Perce\" means this", 
+                    "solution": "pierce(d) nose", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "President whose only military service was in Illinois' Blackhawk War in 1830", 
+                    "solution": "Abraham Lincoln", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BIRDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Maryland's state bird & state baseball team", 
+                    "solution": "the orioles", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Collective name for domesticated birds raised for meat & eggs", 
+                    "solution": "poultry", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "The most common bird on world flags", 
+                    "solution": "the eagle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Woodcocks' eyes are so far back on their heads, they have this unusual field of sight", 
+                    "solution": "360 degrees", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "This \"crazy\" North American diving bird has been found at depths of 160 feet", 
+                    "solution": "the (common) loon", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MEDICINE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Basic material used to make casts", 
+                    "solution": "plaster", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "What R.N. stands for", 
+                    "solution": "registered nurse", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Any abnormal tissue mass with no physiologic function", 
+                    "solution": "a tumor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORLD GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "This canal's official opening was on July 12, 1920", 
+                    "solution": "the Panama Canal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Africa's northernmost country, it was once site of ancient Carthaginian empire", 
+                    "solution": "Tunisia", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Country that's larger than U.S. but smaller than Canada", 
+                    "solution": "(People\\'s Republic of) China", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "To evade French defenders, the Germans attacked France through this country in both World Wars", 
+                    "solution": "Belgium", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The Blue & White Niles meet at this city where Gen. \"Chinese\" Gordon met death", 
+                    "solution": "Khartoum", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "EUROPE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "The Soviet army was welcome in this capital in May of '45 but unwelcome in August '68", 
+                    "solution": "Prague", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

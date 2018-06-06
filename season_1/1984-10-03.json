@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TRIOS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Education's \"3 R's\"", 
+                    "solution": "reading, \\'riting & \\'rithmetic", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Red, blue & yellow pigments", 
+                    "solution": "the primary colors", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "The rub-a-dub guys", 
+                    "solution": "three men in a tub (butcher,the baker & the candlestick maker)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "For a troika, you'd put this behind 3 horses", 
+                    "solution": "a sleigh", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "3 rulers ruling", 
+                    "solution": "a triumvirate", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"TOASTS\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Sauteed egg-dipped bread", 
+                    "solution": "French toast", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Campfire confection", 
+                    "solution": "toasted marshmallows", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Original name of \"The Ed Sullivan Show\"", 
+                    "solution": "Toast of the Town", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Rank\" of George Jessel", 
+                    "solution": "Toastmaster General", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Named for an Australian soprano, it's thin, crisp bread", 
+                    "solution": "Melba toast", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "OSCAR SONGS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Only Oscar winner sung by a cricket, it's Disney's theme", 
+                    "solution": "\"When You Wish Upon a Star\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "She sang '80's \"Fame\" & '83's \"What a Feeling\"", 
+                    "solution": "Irene Cara", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "'38 winner that became Bob Hope's theme song", 
+                    "solution": "\"Thanks for the Memory\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "1960 song named for day Melina Mercouri rested:", 
+                    "solution": "\"Never On Sunday\"", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "This 1st winner, from \"Gay Divorcee\", is also a Lincoln luxury car", 
+                    "solution": "\"The Continental\"", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "1953", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Manager Casey Stengel considered retiring until they won 5th-straight World Series", 
+                    "solution": "the Yankees", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Hillary & Tenzing were the 1st to go there, but only stayed 15 minutes", 
+                    "solution": "the summit of Mt. Everest", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Sang \"Diamonds are a Girl's Best Friend\", then married a baseball star", 
+                    "solution": "Marilyn Monroe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Chief Justice appointed by Eisenhower, he served until the Nixon era", 
+                    "solution": "Earl Warren", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Now nation's best-selling magazine, 1st cover featured Lucy & her baby", 
+                    "solution": "TV Guide", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FAST FOOD", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "T. Jefferson popularized this French side-dish, now America's favorite vegetable", 
+                    "solution": "French fried potatoes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Gable taught Colbert how to do it; now even Emily Post says it's correct", 
+                    "solution": "dunking doughnuts", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPAIN", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Mustachioed painter who could be knighted \"Sur Real\"", 
+                    "solution": "Salvador Dal\u00c3\u00ad", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Don Quixote's creator, he was the real \"Man from La Mancha\"", 
+                    "solution": "Don Miguel de Cervantes", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "WHITE HOUSE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It wasn't until 1818 that it was painted this color", 
+                    "solution": "white", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "East lawn Easter tradition", 
+                    "solution": "rolling Easter eggs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "FDR added one indoors as a therapeutic aid", 
+                    "solution": "a swimming pool", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Instead of bowing, Jefferson the libertarian encouraged this form of address", 
+                    "solution": "shaking of hands", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "His inaugural bash became a brawl when his backwoods pals vandalized the White House", 
+                    "solution": "Andrew Jackson", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ECONOMICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Colloquial term for current president's economic policies", 
+                    "solution": "Reaganomics", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "FAMOUS QUOTES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Dickens' character known for saying \"God bless us every one!\"", 
+                    "solution": "Tiny Tim", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "You bet your life he believed \"A man is as young as the woman he feels\"", 
+                    "solution": "Groucho Marx", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Dumas quote translated from \"Tous pour un, un pour tous\"", 
+                    "solution": "\"All for one, one for all\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Someone somewhere in the country says it before David Hartman & Joan Lunden do", 
+                    "solution": "\"Good Morning, America\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "'36 Olympian who said \"I came along when the black American needed an image\"", 
+                    "solution": "Jesse Owens", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS TRIVIA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It begins a boxer's round or starts Pavlov's dog salivating", 
+                    "solution": "a bell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In swimming, a race without a compulsory stroke", 
+                    "solution": "freestyle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Throughout his NBA career, this star known as \"The Stilt\" never fouled out", 
+                    "solution": "Wilt Chamberlain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Won gold medal for rowing in '24 Olympics but better known as baby doctor", 
+                    "solution": "Benjamin Spock", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Mary Queen of Scots is said to have been 1st woman to play this sport", 
+                    "solution": "golf", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "DRAMA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Because 1st was named Thespis, they're known as thespians", 
+                    "solution": "actors", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Wrote for Sgt. Bilko before fathering \"The Odd Couple\"", 
+                    "solution": "Neil Simon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Matinee idol whose familiarity with Ford's Theatre let him pass through security there", 
+                    "solution": "John Wilkes Booth", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "He planted \"The Cherry Orchard\" & hatched \"The Sea Gull\"", 
+                    "solution": "Chekov", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Sophocles' \"complex tragedy\"", 
+                    "solution": "Oedipus Rex", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BIRDS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Cuckoo family-member Geococcyx Californianus ; goes \"Beep beep\" in cartoons", 
+                    "solution": "a roadrunner", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Bird named after bright red robes of a Roman Catholic clergyman", 
+                    "solution": "a cardinal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "While ostriches lay the largest eggs, these birds lay the smallest", 
+                    "solution": "a hummingbird", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Member of India's starling family, famous for ability to mimic voices", 
+                    "solution": "a myna", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "5000", 
+                    "prompt": "With both eyes facing forward, it has greatest range of binocular vision in birds", 
+                    "solution": "the owl", 
+                    "Jtype": "double"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "U.S. PRESIDENTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "In the 1860 election for his 1st term, more Americans voted against him than for him", 
+                    "solution": "Abraham Lincoln", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

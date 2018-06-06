@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TELEVISION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "ABC telecast 180 hours of this summer '84 event", 
+                    "solution": "the Olympics", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Game show that would fall between the dating & anniversary games", 
+                    "solution": "The Newlywed Game", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Dan Tana's turf", 
+                    "solution": "Vegas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The girls on this series graduated from Eastland School to Langley College", 
+                    "solution": "The Facts of Life", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Bilko's private Harry Speakup or Daktari's Judy", 
+                    "solution": "a chimp", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ITALY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "STATE CAPITALS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Located 15 miles from its namesake, it was founded by Brigham Young", 
+                    "solution": "Salt Lake City", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Freddie Cannon's \"Tallahassee Lassie\" would be from this state", 
+                    "solution": "Florida", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Southwest capital named for mythological self-immolating bird", 
+                    "solution": "Phoenix", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "It was also capital of the Confederacy", 
+                    "solution": "Montgomery (or Richmond, Virginia)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Only state capital named for a biblical figure", 
+                    "solution": "St. Paul, Minnesota", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"SHELLS\"", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Tongue twister about lady who peddles pukas on the beach", 
+                    "solution": "\"She Sells Sea Shells by the Seashore\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Where Peter, Peter kept his wife", 
+                    "solution": "in a pumpkin shell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Condition akin to combat fatigue", 
+                    "solution": "shell-shocked", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Drinking it would give you a terrible end but a lovely finish", 
+                    "solution": "shellac", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TWINS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Astrological name for starry twins Castor & Pollux", 
+                    "solution": "Gemini", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Twin brothers who brought precious metal to America's Olympic ski team", 
+                    "solution": "(Phil & Steve) Mahre", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FORMER OCCUPATION", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Former N.Y. lawyer who stated his case on Monday Night Football for 13 years", 
+                    "solution": "Howard Cosell", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Our last president without a bachelor's degree, once a Kansas City haberdasher", 
+                    "solution": "Harry Truman", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Altar boy & seminarian who became infamous Soviet dictator", 
+                    "solution": "Stalin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Former Washington Senators' pitching prospect, now long-time Caribbean dictator", 
+                    "solution": "Fidel Castro", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "While observing \"God & Man at Yale\", this conservative spokesman taught Spanish there", 
+                    "solution": "(William F.) Buckley (Jr.)", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "ANIMALS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "LANGUAGE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Predominant language in Canada's Quebec province", 
+                    "solution": "French", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The New Testament was originally written in Koine, a common dialect of this language", 
+                    "solution": "Greek", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1500", 
+                    "prompt": "Language in which this #1 song of 1958 was sung", 
+                    "solution": "Italian", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Due to regional disputes, India has retained this as an official language", 
+                    "solution": "English", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The only Romance language from an East Bloc country", 
+                    "solution": "Romanian", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FAMOUS QUOTES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Aesop advised not to \"count your chickens\" then", 
+                    "solution": "not to count your chickens before they\\'re hatched", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "Whittier wrote, \"For all sad words of tongue or pen, the saddest are these\"", 
+                    "solution": "it might have been", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "CLASSICAL MUSIC", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Designers of this instrument were Cristofori & Steinway", 
+                    "solution": "piano", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Timely\" name of Chopin's D-flat major waltz of Opus 64", 
+                    "solution": "the \"Minute Waltz\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A string quartet is usually made up of 2 violins, a viola & this", 
+                    "solution": "cello", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "When he first heard this wind instrument, Handel said, \"Thank heavens it hath no smell\"", 
+                    "solution": "bassoon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "On radio he was the \"maestro\" of the NBC Symphony Orchestra", 
+                    "solution": "Arturo Toscanini", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS SHIFTS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Oakland is still fighting to get this team back", 
+                    "solution": "the L.A. Raiders", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "When Aaron signed they were in Boston, but he played in Milwaukee & Atlanta", 
+                    "solution": "the Braves", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Minnesota's, not L.A.'s terrain gave this basketball team its aquatic name", 
+                    "solution": "the Lakers", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "To maintain their baseball rivalry, both left New York in 1957", 
+                    "solution": "the Dodgers & the Giants", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Under cover of darkness, they left Baltimore for Indianapolis", 
+                    "solution": "the Colts", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "POLITICS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "3rd party, its presidential candidates included Eugene Debs & Norman Thomas", 
+                    "solution": "Socialist", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "WORLD GEOGRAPHY", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "It has more people than all the other South American countries combined", 
+                    "solution": "Brazil", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "CASABLANCA", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "According to Rick, \"The problems of three little people\" in this world don't amount to this", 
+                    "solution": "\"a hill of beans\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "He played Victor Laszlo, Ilsa's husband", 
+                    "solution": "Paul Henreid", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "When Sam says he can't remember \"As Time Goes By\", Ingrid Bergman reminds him by doing this", 
+                    "solution": "by humming the song", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Everybody comes to Rick's\" is a line in the film & also this", 
+                    "solution": "the title of the play on which the film was based", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Where Rick hides the letters of transit Ilsa needs", 
+                    "solution": "inside the piano (Sam\\'s piano)", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "20TH CENTURY", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "In 1969, over 1/2 of the world's phones were in this country", 
+                    "solution": "United States", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "In 1953, just months after the U.S., this country exploded its 1st hydrogen bomb", 
+                    "solution": "Russia (the Soviet Union)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In an attempt to return it to its native Italy, this painting was stolen from the Louvre in 1911", 
+                    "solution": "the Mona Lisa", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Year U.S. evacuated Saigon, ending 2 decades of military involvement in Vietnam", 
+                    "solution": "1975", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In 1985, when this infamous fugitive was declared dead, there was a $2,375,000 reward for his capture", 
+                    "solution": "Josef Mengele", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PETROLEUM", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "By 1980, 90% of this U.S. state government's income came from gas and oil", 
+                    "solution": "Alaska", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Unrefined liquid that comes out of the earth, for Faye Dunaway it was in \"Oklahoma\"", 
+                    "solution": "crude", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Hydrocarbon normally found in petroleum, car engines may ping without enough of it", 
+                    "solution": "octane", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The Bolivar Coastal Field in this country has produced more oil than any other single field in world", 
+                    "solution": "Venezuela", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "The Bible mentions that Noah used this solid form of petroleum in building the ark", 
+                    "solution": "pitch", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SPORTS DATES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "On Sept. 12, 1973, the Giants' Tito Fuentes was hit with 3 of these in 1 game", 
+                    "solution": "a pitched ball", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "On Aug. 26, 1972, the 20th modern Olympic Games opened here", 
+                    "solution": "Munich", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "At the U.S. Open on June 17, 1962, this 22-year-old defeated Arnold Palmer", 
+                    "solution": "Jack Nicklaus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "At a Penn. high school in Feb. 1938, this athletic event was called due to fog--in the gym!", 
+                    "solution": "a basketball game", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Starting June 2, 1925, this \"Iron Horse\" filled in for Yankees' ailing 1st baseman for 2,129 games", 
+                    "solution": "Lou Gehrig", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "GOLDEN OLDIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Elvis' \"Hound Dog\"...\"ain't never caught\" this", 
+                    "solution": "\"a rabbit\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "250", 
+                    "prompt": "This song, celebrating golden oldies, was a hit for them in 1973:\"Every sha-la-la-la, every wo-o-wo-o, still shines...\"", 
+                    "solution": "The Carpenters", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Connie Francis' autobiography shares its title with this, her 1st hit", 
+                    "solution": "\"Who\\'s Sorry Now?\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "POTPOURRI", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Color of a true sapphire", 
+                    "solution": "blue", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Less than a year after Helen Slater played this superhero, D.C. Comics killed off the character", 
+                    "solution": "Supergirl", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Chinese TV plans to show 5 of this country's soap operas, including \"Ambicion\" & \"Infame\"", 
+                    "solution": "Mexico", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "FOREIGN PHRASES", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "French for \"false step\", it's a social error like stepping on someone's false teeth", 
+                    "solution": "a faux pas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Using Spanish, rhyming way Lone Ranger might tell his faithful companion to do it quickly", 
+                    "solution": "pronto (Tonto)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In Latin, literally \"under the rose\", it means secretly", 
+                    "solution": "sub rosa", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "From the Greek, it's the highest point or a common business name", 
+                    "solution": "acme", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "From Chinese for knocking the forehead on the ground while kneeling, it's showing servile deference", 
+                    "solution": "to kowtow", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NEW TESTAMENT", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "After his baptism, Jesus was led by the Spirit into the desert to meet him", 
+                    "solution": "the devil", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "According to Luke 3:37, it's what John was doing in the Jordan", 
+                    "solution": "baptising", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "After his arrest by King Herod, Peter escaped prison with direct aid from one of these", 
+                    "solution": "an angel", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The apostles were 1st filled with the Holy Spirit on the holy day now called this", 
+                    "solution": "Pentecost", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "The 1st recorded instance of a now-common practice, someone fell asleep during his sermon", 
+                    "solution": "the Apostle Paul", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "VICE-PRESIDENTS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Consecutive V.P.s Wm. Wheeler, Chester Arthur, & Thomas Hendricks shared this middle initial", 
+                    "solution": "the letter A", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The only vice president from California", 
+                    "solution": "Richard Nixon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Once chairman on the commission to set the Alaskan boundaries, he got a city named for him", 
+                    "solution": "Charles Fairbanks", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Accused of trying to create his own empire in the West, this former V.P. was tried for treason in 1807", 
+                    "solution": "Aaron Burr", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Lincoln's V.P. who like Lyndon Johnson's, had the initials \"H.H.\"", 
+                    "solution": "Hanibal Hamlin", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"GREEN\"", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Said to be why a mouse might want to go to the moon", 
+                    "solution": "(because it\\'s made of) green cheese", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Revolutionary War troops organized by Ethan Allen", 
+                    "solution": "the Green Mountain Boys", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Charleton Heston movie in which useless people were turned into the title", 
+                    "solution": "Soylent Green", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "This 1970 work by Yale law professor Charles Reich deals with the ideals of the new generation", 
+                    "solution": "The Greening of America", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "2 hits that raked in \"the green stuff\" for the Brothers Four", 
+                    "solution": "\"Greenfields\" & \"The Green Leaves Of Summer\"", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "NEVADA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "On the shores of this popular resort lake, betting stops at the California border", 
+                    "solution": "Lake Tahoe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "In 1951, Yucca Flat exploded into the news when this began in the state", 
+                    "solution": "the atom bomb (testing)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Mohave, Washoe & Paiute", 
+                    "solution": "Indian tribes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "In 1848, the U.S. received Nevada under this treaty from Mexico", 
+                    "solution": "the Treaty of Guadalupe Hidalgo", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MEDICAL SCHOOL", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Female hormone produced by the ovaries", 
+                    "solution": "estrogen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "What you need to get if your doctor orders a CBC, it's Dracula's favorite assignment", 
+                    "solution": "a complete blood count", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "EUROPE", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "All of Denmark is surrounded by water except for its 42 mile boundary with this country", 
+                    "solution": "Germany", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

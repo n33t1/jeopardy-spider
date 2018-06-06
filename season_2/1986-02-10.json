@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "GOVERNMENT", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Not surprisingly, this agency's motto is \"Fidelity, Bravery, Integrity\"", 
+                    "solution": "FBI", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Vermont is known for these gatherings considered the purest form of democracy", 
+                    "solution": "the town meeting", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In 1982, James Watt proposed changing this dept's seal from a buffalo facing left to one facing right", 
+                    "solution": "the Department of the Interior", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A toll-free hotline for whistle-blowers is maintained by this agency in charge of federal b'ldgs", 
+                    "solution": "the General Services Administration", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "In 1973, the federal government printed 4.8 billion coupons for this", 
+                    "solution": "gas rationing", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AMERICAN INDIANS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Though often credited with winning it, this Sioux medicine man sat out of the Battle of Little Big Horn", 
+                    "solution": "Sitting Bull", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Imposing Duwamish Indian chief for whom Washington State's largest city was named", 
+                    "solution": "Seattle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "MINI-COUNTRIES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "If its royal family has no male heir, Monaco will become part of this country", 
+                    "solution": "France", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Discoverers of these South Sea islands named them for wise Biblical king whose wealth they sought", 
+                    "solution": "the Solomon Islands", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "As co-sovereign of this Pyrenees land, the Bishop of Urgel, Spain is paid about $6.87 semi-annually", 
+                    "solution": "Andorra", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A problem for this African country is that much of its mail is mistakenly sent to Switzerland", 
+                    "solution": "Swaziland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "80% of San Marino's gross national product comes from tourism & the sale of these", 
+                    "solution": "postage stamps", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "UNREAL ESTATE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "This fictional setting of \"The Edge of Night\" shared its name with Jefferson's home", 
+                    "solution": "Monticello", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "When \"all you see are silhouettes & all you hear are castanets & no one cares how late it gets\", you're there", 
+                    "solution": "\"Hernando\\'s Hideaway\"", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Not in world atlases but in this comic strip could \"Lower Slobovia\" be found", 
+                    "solution": "Li\\'l Abner", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Number of fabulously wealthy \"cities of Cibola\" the Spanish explorer Coronado was looking for", 
+                    "solution": "7", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "A battleship was built to honor this Russian who built fake villages to impress his empress", 
+                    "solution": "(Grigori) Potemkin", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NAMES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "\"Rex\" & \"Roy\" both mean this, Your Majesty", 
+                    "solution": "king", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "1st name of this football coach, who stressed winning, means \"winner\"", 
+                    "solution": "Vince (Lombardi)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "While not the most common Russian name, Ivan Kuznetsov is literal Russian equivalent of this English name", 
+                    "solution": "John Smith", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Common Arabic name which means \"servant of Allah\"", 
+                    "solution": "Abdullah", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Girl's name common in Germany & America, it's a contraction of Mary Magdalene", 
+                    "solution": "Marlene", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE LONGEST", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "After all these years, Joe Di Maggio still has the longest one in baseball", 
+                    "solution": "hitting streak", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Longest distance flown by this type of airplane is 1\u00bc miles", 
+                    "solution": "paper airplane", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "George Bell of Virginia, who takes size 26, won 20th Century-Fox's contest for the longest pair of these", 
+                    "solution": "shoes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Longest continuous run of any show is London performance of \"The Mousetrap\" by this author", 
+                    "solution": "Agatha Christie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Longest ocean liner, the \"Norway\", was originally named for this country when built in 1961", 
+                    "solution": "France", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "COUNTRY MUSIC", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The Grand Ole Opry is now located in the middle of this amusement park", 
+                    "solution": "Opryland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Hawkshaw Hawkins performed in a silk jacket with this embroidered on the back", 
+                    "solution": "a hawk", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "price": null, 
+                    "prompt": null, 
+                    "solution": null, 
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE SHORTEST", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Shortest on record lasted 38 minutes in 1896 & involved the United Kingdom and Zanzibar", 
+                    "solution": "the shortest war", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Shortest valid one of these in record reads \"Vse zene\" Czech for \"All to wife\"", 
+                    "solution": "the shortest will", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "America's shortest-lived major TV network, it brought us Capt. Video until its demise in 1955", 
+                    "solution": "the DuMont Network", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Shortest scheduled flight takes just 2 minutes in this country's Orkney Islands", 
+                    "solution": "the United Kingdom (Scotland)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "At 5'4\" & weighing 100 lbs., he was our shortest president", 
+                    "solution": "James Madison", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FAMOUS FOLKS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Pat Boone descends from this famed frontiersman", 
+                    "solution": "Daniel Boone", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Actress whose autobiography is named for her most famous role, \"Baby Doll\"", 
+                    "solution": "Carroll Baker", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Bing Crosby said, \"I think he's always nurtured a secret desire to be a hood\"", 
+                    "solution": "Frank Sinatra", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "On personal intervention of Khruschchev, his \"1 Day in the Life of Ivan Denisovich\" was published", 
+                    "solution": "(Aleksandr) Solzhenitsyn", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Formerly South Vietnam's prime minister & vice president, he now lives in Cal. and owes Caesars Palace $20,000", 
+                    "solution": "Nguyen Cao Ky", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "WORD ORIGINS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "These were 1st made during WWII at Quonset Point, Rhode Island", 
+                    "solution": "Quonset huts", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A turnpike is called that because originally a pike or turnstile was turned after you did this", 
+                    "solution": "paid toll", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "From Old French \"manoeuvrer\" meaning \"to work by hand\", which was how this item was put into soil", 
+                    "solution": "manure", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Weapon said to have been the size of a pomegranate & filled with \"seeds\" of gunpowder", 
+                    "solution": "a hand grenade", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Though he wasn't part of the Lincoln conspiracy, his name's been blackened in many a town", 
+                    "solution": "(Dr. Samuel) Mudd", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANCIENT HISTORY", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "He recited verses about Troy aflame, not fiddling as alleged, while watching Rome burn", 
+                    "solution": "Nero", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "A runner ran 25 miles & died after announcing Greeks had defeated them in the Battle of Marathon", 
+                    "solution": "the Persians", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Roman statesman Cato closed every speech, regardless of subject, by saying this must be destroyed", 
+                    "solution": "Carthage", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Norwegian who in 1970, crossed the Atlantic in reed boat to prove Egyptians may have reached New World", 
+                    "solution": "Thor Heyerdahl", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "King Philip of Macedonia hired him as private tutor for his son, Alexander", 
+                    "solution": "Aristotle", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SHAKESPEARE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Antony said this assassin of Caesar made \"the most unkindest cut of all\"", 
+                    "solution": "Brutus", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "King Henry IV complained \"Uneasy lies the head\" that does this", 
+                    "solution": "wears the crown", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Falstaff was said to have \"eaten\" a widow \"out of\" this", 
+                    "solution": "house & home", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "At Hamlet's death he says, \"Good night, sweet prince\"", 
+                    "solution": "Horatio", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Expression \"O brave new world\" comes from this last play Shakespeare wrote alone", 
+                    "solution": "The Tempest", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "FICTIONAL CHARACTERS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "Mother of Bonnie Blue, she ran a sawmill after the Civil War", 
+                    "solution": "Scarlett O\\'Hara", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

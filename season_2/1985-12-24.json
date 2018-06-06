@@ -1,0 +1,444 @@
+{
+    "keys": [
+        1, 
+        2, 
+        3
+    ], 
+    "1": [
+        {
+            "genre": "TRIPLE TALK", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Comes between \"In the valley of the Jolly\" & \"Green Giant\"", 
+                    "solution": "ho, ho, ho", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "You do it to your boat, gently down the stream", 
+                    "solution": "row, row, row", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In \"The King and I\", Yul Brynner's famous line that fits the category", 
+                    "solution": "et cetera, et cetera, et cetera", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "According to The Teddy Bears' 1958 hit \"To know, know, know him is\" this", 
+                    "solution": "To love, love, love him", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "While the trolley went \"clang, clang, clang\" my heartstrings went this", 
+                    "solution": "zing, zing, zing", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "LAWS & RULES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He systematized the rules for whist, then backgammon, then chess...", 
+                    "solution": "Hoyle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Under the laws of physics, when raised to 100\u00b0 C. at sea level, water will do this", 
+                    "solution": "boil", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "His detective Holmes scrupulously followed the rules of deductive reasoning", 
+                    "solution": "Arthur Conan Doyle", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "According to the rules of fencing, this sword's target area is only the torso", 
+                    "solution": "foil", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Under Jewish law, he is the person who performs the circumcision ritual", 
+                    "solution": "mohel", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE THEATRE", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He had Tallulah Bankhead in mind when he wrote the part of Blanche DuBois", 
+                    "solution": "Tennessee Williams", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "1961's \"Come Blow Your Horn\" was this playwright's 1st Broadway hit", 
+                    "solution": "Neil Simon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Biblical character whom Archibald MacLeish called J.B.", 
+                    "solution": "Job", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Where children play, or an Edward Albee play", 
+                    "solution": "The Sandbox", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "What an audience should \"willingly suspend\"", 
+                    "solution": "disbelief", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE BEATLES", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Their 1st movie", 
+                    "solution": "A Hard Day\\'s Night", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "\"It was 20 years ago today\" that this person \"taught the band to play\"", 
+                    "solution": "Sgt. Pepper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Popular name for their double album titled \"The Beatles\"", 
+                    "solution": "The White Album", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "1969 album recorded after \"Let It Be\" but released before it", 
+                    "solution": "Abbey Road", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Beatle whose 1968 movie soundtrack, \"Wonderwall Music\" was 1st album released by Apple Records", 
+                    "solution": "George Harrison", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "CARTOONS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "He was the original voice of Mickey Mouse", 
+                    "solution": "Walt Disney", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "200", 
+                    "prompt": "Tweetie Pie \"t'awt\" he \"taw\" this \"puddy tat\"", 
+                    "solution": "Sylvester", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "In \"Mouse Musketeers\" this cat & mouse speak with French accents", 
+                    "solution": "Tom & Jerry", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "\"Dad\" to Alvin, Simon, & Theodore", 
+                    "solution": "Dave Seville", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Kids would draw on plastic sheet over TV screen to help this '50s animated hero", 
+                    "solution": "Winky Dink", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "EXPLORERS", 
+            "questions": [
+                {
+                    "price": "100", 
+                    "prompt": "Eric the Red lied, calling his discovery this to attract settlers", 
+                    "solution": "Greenland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "He took this famous picture of Buzz Aldrin standing on the Moon:", 
+                    "solution": "Neil Armstrong", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "300", 
+                    "prompt": "Let go by English Muscovy Co., Dutch East India Co. hired him to captain the \"Half Moon\"", 
+                    "solution": "Henry Hudson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Later renamed this, Bartolomeu Dias called it \"Cape of Storms\"", 
+                    "solution": "Cape of Good Hope", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "500", 
+                    "prompt": "Lincoln Ellsworth explored this region by airplane, dirigible, & submarine", 
+                    "solution": "arctic", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "NUCLEAR PHYSICS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "The deuterium to fuel fusion reactors is found in this water covering \u00be of earth's surface", 
+                    "solution": "seawater", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "The ancient Greek Democritus gave us this word meaning \"something that can't be cut\"", 
+                    "solution": "atom", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Antiprotons, antineutrons, & positrons combine to form this negative substance", 
+                    "solution": "antimatter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "To show the paths of charged particles, they're sent through this fog-filled enclosure", 
+                    "solution": "cloud chamber", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Mousetraps loaded with ping-pong balls show this effect in Disney's \"Our Friend the Atom\"", 
+                    "solution": "chain reaction", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ON A \"WIM\"", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Site of the All-England Lawn Tennis Club", 
+                    "solution": "Wimbledon", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "He says, \"I would gladly pay you Tuesday for a hamburger today\"", 
+                    "solution": "Wimpy (J. Wellington Wimpy)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Formerly a fashion item, it's still worn today by nuns as a head covering", 
+                    "solution": "wimple", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "Ian Carmichael portrayed this aristocratic detective created by Dorothy L. Sayers", 
+                    "solution": "Wimsey", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Where Robert Browning went to visit his fiancee at home, sometimes on a whim", 
+                    "solution": "Wimpole Street (Barretts of)", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MOVIE TRIVIA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Disc jockey heard on the radio in \"American Graffiti\"", 
+                    "solution": "Wolfman Jack", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Film famous for the line \"You ain't heard nothin' yet, folks\"", 
+                    "solution": "The Jazz Singer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Blonde & beautiful Elsa, who weighed 400 lbs., was this", 
+                    "solution": "lioness", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "The two masked heroes Clayton Moore played on the screen", 
+                    "solution": "The Lone Ranger & Zorro", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "President portrayed by Brian Keith in \"The Wind and the Lion\"", 
+                    "solution": "Teddy Roosevelt", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE BIBLE", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "\"Ask & it shall be given you; seek\", & this will happen", 
+                    "solution": "ye shall find", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "What the Christ child was wrapped in before being laid in the manger", 
+                    "solution": "swaddling clothes", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "While Moses was away, the Hebrews played at worshipping this idol", 
+                    "solution": "golden calf", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "The book of Genesis refers to the promised land by this ancient name", 
+                    "solution": "Canaan", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "When giving alms, you shouldn't let your left hand know this", 
+                    "solution": "what the right hand is doing", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "NEBRASKA", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "It was state capital before Lincoln", 
+                    "solution": "Omaha", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "Nebraska is the only state in which legislators are chosen on this apolitical basis", 
+                    "solution": "non-partisan election", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "A Pulitzer Prize was won for reports on how poorly this charitable home handled its huge endowment", 
+                    "solution": "Boys Town", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "In 1867, Congress overrode this President's veto to make Nebraska out 37th state", 
+                    "solution": "Johnson", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "1000", 
+                    "prompt": "Golden-voiced editor of the \"Omaha World-Herald\" who ran for President 3 times", 
+                    "solution": "William Jennings Bryan", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "FRUITS", 
+            "questions": [
+                {
+                    "price": "200", 
+                    "prompt": "Its sweet varieties are the common, the blood, & the navel", 
+                    "solution": "oranges", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "400", 
+                    "prompt": "According to legend, this tree's leaves clothed Adam & Eve after they ate their fateful fruit", 
+                    "solution": "fig", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "600", 
+                    "prompt": "Continent which grows over 75% of the world's grapes", 
+                    "solution": "Europe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "800", 
+                    "prompt": "After Louis XIV cut his lips on this unpeeled Caribbean fruit, he forbade French cultivation", 
+                    "solution": "pineapple", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "price": "2000", 
+                    "prompt": "Two fruits that combine to breed tangelos", 
+                    "solution": "tangerine and grapefruit", 
+                    "Jtype": "double"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "SPORTS", 
+            "questions": [
+                {
+                    "price": null, 
+                    "prompt": "1 of 2 sports which, in order to avoid injuries, ban left-handed playing", 
+                    "solution": "(1 of) jai alai or polo", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}
