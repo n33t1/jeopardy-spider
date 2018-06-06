@@ -1,0 +1,13 @@
+*.db
+*.db-journal
+
+*.pdf
+*.bak
+*.py[co]
+
+.DS_Store
+
+j-archive
+
+season_1
+season_2
