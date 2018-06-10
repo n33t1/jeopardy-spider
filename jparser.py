@@ -115,8 +115,18 @@ class Round(Jeopardy):
 
                         value = value.get_text().split("$")[1].replace(",", "")
 
-                        question = c.find("td", class_="clue_text").get_text()
+                        question = c.find("td", class_="clue_text")
+                        if question.find('a'):
+                              i += 1
+                              if i % 7 == 0: 
+                                    i = 1
+                              category = categories[i-1]
+                              temp = Clue(None, None, None, "placeholder")
+                              genres[category].append(temp.toJSON())
+                              continue
+
                         answer = BeautifulSoup(c.find("div", onmouseover=True).get("onmouseover"), "lxml")
+                        question = question.get_text()
                         s = answer.find("p").get_text()
                         col, row = self.getClueRowCol(s)
                         i = col
@@ -132,3 +142,9 @@ class Round(Jeopardy):
                         temp = Clue(None, None, None, "placeholder")
                         genres[category].append(temp.toJSON())
             return genres
+
+with open("season_1/1985-06-03.html") as f:
+      data = f.read()
+      soup = BeautifulSoup(data, 'html.parser')
+      r = Round(soup, "test.json")
+      r.parseGame()
