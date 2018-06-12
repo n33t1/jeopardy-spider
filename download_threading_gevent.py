@@ -34,7 +34,7 @@ class threadDownload(threading.Thread):
 
       def run(self):               
             length = len(self.que)
-            coroutineNum = 5 # TODO: gevent wont be triggered if coroutineNum > length. need to be fixed. 
+            coroutineNum = length # TODO: gevent wont be triggered if coroutineNum > length. need to be fixed. 
             for i in range(coroutineNum):
                   jobs = []
                   left = i * (length // coroutineNum)

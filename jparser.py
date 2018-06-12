@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import re
 import json
 from collections import defaultdict
+import answerParser
 
 class Jeopardy:
       def __init__(self, soup):
@@ -15,17 +16,18 @@ class Jeopardy:
             return json.dumps(self.__dict__)
 
 class Clue:
-      def __init__(self, price, prompt, solution, Jtype):
+      def __init__(self, price, prompt, solution, parsed_soultion, Jtype):
             self.Jtype = Jtype
             self.price = price
             self.prompt = prompt
             self.solution = solution
+            self.parsed_soultion = parsed_soultion
 
       def toJSON(self):
             if self.Jtype == "placeholder":
                   temp = {'Jtype': self.Jtype}
 
-            temp = {'price': self.price, 'prompt': self.prompt, 'solution': self.solution, 'Jtype': self.Jtype}
+            temp = {'price': self.price, 'prompt': self.prompt, 'solution': self.solution, 'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype}
             return temp
             # return json.dumps(self.__dict__)
 
@@ -87,11 +89,12 @@ class Round(Jeopardy):
             question = r.find("td", class_="clue_text").get_text()
             answer = BeautifulSoup(r.find("div", onmouseover=True).get("onmouseover"), "lxml")
             answer = answer.find("em").get_text()
+            answerParsed = answerParser.main(answer)
 
             if re.search(r"^(1 of)", answer):
                   answer = answer.split("&")[0]
                   
-            temp = Clue(None, question, answer, "single")
+            temp = Clue(None, question, answer, answerParsed, "single")
             genres[category].append(temp.toJSON())
 
             return genres
@@ -121,7 +124,7 @@ class Round(Jeopardy):
                               if i % 7 == 0: 
                                     i = 1
                               category = categories[i-1]
-                              temp = Clue(None, None, None, "placeholder")
+                              temp = Clue(None, None, None, None, "placeholder")
                               genres[category].append(temp.toJSON())
                               continue
 
@@ -131,20 +134,21 @@ class Round(Jeopardy):
                         col, row = self.getClueRowCol(s)
                         i = col
                         answer = answer.find("em", class_="correct_response").get_text()
+                        answerParsed = answerParser.main(answer)
                         category = categories[col-1]
-                        temp = Clue(value, question, answer, _type)
+                        temp = Clue(value, question, answer, answerParsed, _type)
                         genres[category].append(temp.toJSON())
                   else:
                         i += 1
                         if i % 7 == 0: 
                               i = 1
                         category = categories[i-1]
-                        temp = Clue(None, None, None, "placeholder")
+                        temp = Clue(None, None, None, None, "placeholder")
                         genres[category].append(temp.toJSON())
             return genres
 
-with open("season_1/1985-06-03.html") as f:
-      data = f.read()
-      soup = BeautifulSoup(data, 'html.parser')
-      r = Round(soup, "test.json")
-      r.parseGame()
+# with open("season_1/1985-06-03.html") as f:
+#       data = f.read()
+#       soup = BeautifulSoup(data, 'html.parser')
+#       r = Round(soup, "test.json")
+#       r.parseGame()

@@ -10,9 +10,9 @@ pip install -r requirements.txt
 
 This crawler provides 2 kind of output file formats: json and html. You can define the format you want with `-o html` or `-o json`.
 
-If you want to download all seasons up to date, run `python download.py`. If you want to download a specific season in html files, say season 34, run `python download.py -s 34 -o html`.
+If you want to download all seasons up to date, run `python download_multiprocessing.py` or `python download_threading_gevent.py`. `download_threading_gevent.py` uses multithreading and gevent while `download_multiprocessing.py` uses multiprocessing. Generally speaking, the former is faster than the latter. If you want to download a specific season in html files, say season 34, run `python download_threading_gevent.py -s 34 -o html`.
 
-Examplary json output file is included [here](https://github.com/n33t1/jeopardy-parser/blob/master/2002-09-09.json). For each clue, we have the following attributes:
+Sample json output file is included [here](https://github.com/n33t1/jeopardy-parser/blob/master/2002-09-09.json). For each clue, we have the following attributes:
 
 * Jtype:
   * "single": single jeopardy. Prices for the corresponding clue should be either 200, 400, 600, 800 or 1000.
@@ -21,6 +21,7 @@ Examplary json output file is included [here](https://github.com/n33t1/jeopardy-
 * price
 * prompt
 * solution
+* parsed_solution
 
 Each game contains the following fields:
 * keys: rounds in this game. If a game has keys equal to [1, 2], then it means that game onlys has Jeopardy! Round and Double Jeopardy! Round. 
