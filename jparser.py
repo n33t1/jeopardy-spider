@@ -98,7 +98,7 @@ class Round(Jeopardy):
             if re.search(r"^(1 of)", answer):
                   answer = answer.split("&")[0]
                   
-            temp = Clue(None, question, answer, answerParsed, "single")
+            temp = Clue("single", None, question, answer, answerParsed)
             genres[category].append(temp.toJSON())
 
             return genres
