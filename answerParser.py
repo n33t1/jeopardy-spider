@@ -56,15 +56,27 @@ def main(s):
       # Rocky (the Flying Squirrel)
       # MTBA (subway, metro) => MTAB, subway or metro
 
+      if "/" in s:
+            options = re.findall("(\w*)\/", s)
+            last_option = re.findall("\/(\w+) ", s)
+            options = options + last_option
+            # print options
+            remaining_strings = re.search("\/(\w+) (.*)$", s)
+            ans = []
+            if remaining_strings:
+                  remaining_strings = remaining_strings.group(2)
+                  ans = [re.sub('[^a-zA-Z0-9]', '', x + remaining_strings) for x in options]
+            return ans
+
       if " of)" in s:
             # contents in ()
             s = re.sub(r'\([^()]*\)', '', s)
 
-            a = re.findall(r'[^,\s]+', s)
-            
-            a = filter(lambda x: x != 'or' and x != 'and' and x !='&', a)
+            a = re.split(r'\s*&\s*|\s*,\s*', s)
+            a = filter(lambda x: x != 'or' and x != 'and' and x != '', a)
+
             # remove symbols and spaces
-            a = [re.sub('[^a-zA-Z0-9]', '', temp) for temp in a]
+            a = [re.sub('a |an |the |&|[^a-zA-Z0-9]', '', temp) for temp in a]
 
             return a
 
@@ -111,6 +123,10 @@ def main(s):
       
 # s = "\"25 or 6 to 4\""
 # s = "sold flowers (flower girl accepted)"
-s = "(2 of) Ionian, Doric, and Corinthian"
+# s = "(2 of) Ionian, Doric, and Corinthian"
 # s = "cartoonists (or animators)"
-print main(s)
+# s = "(2 of) the Montreal Expos, the Seattle Mariners, the California Angels, the Texas Rangers, the Toronto Blue Jays, & the Houston Astros"
+# s = "under the chin (throat)"
+# s = "Jack/Knave of Hearts"
+# s = "Peru, Paraguay"
+# print main(s)

@@ -16,20 +16,23 @@ class Jeopardy:
             return json.dumps(self.__dict__)
 
 class Clue:
-      def __init__(self, price, prompt, solution, parsed_soultion, Jtype):
+      def __init__(self, Jtype, price=None, prompt=None, solution=None, parsed_soultion=None, dailyDoublePrice=None):
             self.Jtype = Jtype
             self.price = price
             self.prompt = prompt
             self.solution = solution
+            self.dailyDoublePrice = dailyDoublePrice
             self.parsed_soultion = parsed_soultion
 
       def toJSON(self):
             if self.Jtype == "placeholder":
                   temp = {'Jtype': self.Jtype}
+            elif self.Jtype == "double":
+                  temp = {'price': self.price, 'dailyDoublePrice': self.dailyDoublePrice, 'prompt': self.prompt, 'solution': self.solution, 'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype}
+            else:
+                  temp = {'price': self.price, 'prompt': self.prompt, 'solution': self.solution, 'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype}
 
-            temp = {'price': self.price, 'prompt': self.prompt, 'solution': self.solution, 'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype}
             return temp
-            # return json.dumps(self.__dict__)
 
 class Round(Jeopardy):
       def __init__(self, soup, destination_file_path):
@@ -37,6 +40,7 @@ class Round(Jeopardy):
             self.hash_num_round = {1: "jeopardy_round", 2: "double_jeopardy_round", 3: "final_jeopardy_round"}
             self.filename = destination_file_path
             self.res = {'keys':[]}
+            self.value_hash = {}
       
       def toJSON(self):
             try:
@@ -98,12 +102,30 @@ class Round(Jeopardy):
             genres[category].append(temp.toJSON())
 
             return genres
+      
+      def createValueHash(self, _clues):
+            for c in _clues:
+                  if c.find("table"):
+                        answer = BeautifulSoup(c.find("div", onmouseover=True).get("onmouseover"), "lxml")
+                        s = answer.find("p").get_text()
+                        col, row = self.getClueRowCol(s)
+
+                        if row in self.value_hash:
+                              continue
+
+                        if c.find("td", class_=re.compile("clue_value")):
+                              value = c.find("td", class_=re.compile("clue_value"))
+                              value = value.get_text().split("$")[1].replace(",", "")
+                              isSingle = True
+                              self.value_hash[row] = value 
 
       def parseRound(self, r):
             categories = [c.get_text() for c in r.find_all("td", class_="category_name")]
             genres = defaultdict(list)
 
             _clues = r.find_all("td", class_="clue")
+            self.createValueHash(_clues)
+
             i = 0
 
             for c in _clues:
@@ -124,7 +146,7 @@ class Round(Jeopardy):
                               if i % 7 == 0: 
                                     i = 1
                               category = categories[i-1]
-                              temp = Clue(None, None, None, None, "placeholder")
+                              temp = Clue("placeholder")
                               genres[category].append(temp.toJSON())
                               continue
 
@@ -132,22 +154,30 @@ class Round(Jeopardy):
                         question = question.get_text()
                         s = answer.find("p").get_text()
                         col, row = self.getClueRowCol(s)
+
                         i = col
                         answer = answer.find("em", class_="correct_response").get_text()
                         answerParsed = answerParser.main(answer)
                         category = categories[col-1]
-                        temp = Clue(value, question, answer, answerParsed, _type)
+
+                        if _type is "double":
+                              dailyDoublePrice = value 
+                              value = self.value_hash[row]
+                              temp = Clue(_type, value, question, answer, answerParsed, dailyDoublePrice)
+                        else: 
+                              temp = Clue(_type, value, question, answer, answerParsed)
+
                         genres[category].append(temp.toJSON())
                   else:
                         i += 1
                         if i % 7 == 0: 
                               i = 1
                         category = categories[i-1]
-                        temp = Clue(None, None, None, None, "placeholder")
+                        temp = Clue("placeholder")
                         genres[category].append(temp.toJSON())
             return genres
 
-# with open("season_1/1985-06-03.html") as f:
+# with open("season_1_html/1984-12-07.html") as f:
 #       data = f.read()
 #       soup = BeautifulSoup(data, 'html.parser')
 #       r = Round(soup, "test.json")
