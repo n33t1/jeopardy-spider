@@ -66,22 +66,47 @@ def main(s):
             if remaining_strings:
                   remaining_strings = remaining_strings.group(2)
                   ans = [re.sub('[^a-zA-Z0-9]', '', x + remaining_strings) for x in options]
-            return ans
+            
+            res = ans
+            for a in ans:
+                  a_s = re.sub(r's$', '', a)
+                  a_es = re.sub(r'es$', '', a)
+                  if a_s not in res:
+                        res.append(a_s)
+                  if a_es not in res:
+                        res.append(a_es)
+
+            return res
 
       if " of)" in s:
             # contents in ()
             s = re.sub(r'\([^()]*\)', '', s)
 
-            a = re.split(r'\s*&\s*|\s*,\s*', s)
+            a = re.split(r'\s*&\s*|\s*,\s*|and\s+', s)
+
             a = filter(lambda x: x != 'or' and x != 'and' and x != '', a)
 
             # remove symbols and spaces
-            a = [re.sub('a |an |the |&|[^a-zA-Z0-9]', '', temp) for temp in a]
+            ans = [re.sub('a |an |the |&|[^a-zA-Z0-9]', '', temp) for temp in a]
 
-            return a
+            res = ans
+            for a in ans:
+                  a_s = re.sub(r's$', '', a)
+                  a_es = re.sub(r'es$', '', a)
+                  if a_s not in res:
+                        res.append(a_s)
+                  if a_es not in res:
+                        res.append(a_es)
+
+            return res
 
       if len(re.findall(r'\(([^()]+)\)\s*$', s)) != 0:
             a = re.findall(r'\(([^()]+)\)\s*$', s)[0]
+            keyword = re.findall(r'(\w+) \(', s)
+            pre = None
+            if keyword:
+                  pre = re.split(keyword[0], s)[0]
+
             # if there are multiple alternative answers, parse it off
             if ' accepted' in a:
                   a = re.sub(' accepted', '', a)
@@ -93,9 +118,13 @@ def main(s):
                   a = [a]
             else:
                   a = re.split("\s*,\s*", a)
-
             # remove all symbols 
-            a = [re.sub('[^a-zA-Z0-9]', '', temp) for temp in a]
+            if pre:
+                  wo_a = [re.sub('[^a-zA-Z0-9]', '', temp) for temp in a]
+                  a = [re.sub('[^a-zA-Z0-9]', '', pre + temp) for temp in a]
+                  a += wo_a
+            else:
+                  a = [re.sub('[^a-zA-Z0-9]', '', temp) for temp in a]
       elif " or " in s:
             # split on " or "
             a = re.split("\s*or\s*", s)
@@ -103,7 +132,12 @@ def main(s):
             # remove symbols and spaces
             a = [re.sub('[^a-zA-Z0-9]', '', temp) for temp in a]
             return a
+      elif ', ' in s:
+            a = re.split("\s*,\s*", s)
 
+            # remove symbols and spaces
+            a = [re.sub('[^a-zA-Z0-9]', '', temp) for temp in a]
+            return a
 
       # parse off strings in ()
       s = re.sub(r'\([^()]*\)', '', s)
@@ -119,14 +153,27 @@ def main(s):
       else:
             ans = [s]
 
-      return ans
+      res = ans
+
+      for a in ans:
+            a_s = re.sub(r's$', '', a)
+            a_es = re.sub(r'es$', '', a)
+            if a_s not in res:
+                  res.append(a_s)
+            if a_es not in res:
+                  res.append(a_es)
+
+      return res
       
 # s = "\"25 or 6 to 4\""
 # s = "sold flowers (flower girl accepted)"
-# s = "(2 of) Ionian, Doric, and Corinthian"
+# s = "(2 of) Ionian, Doric, and Corninthian"
 # s = "cartoonists (or animators)"
 # s = "(2 of) the Montreal Expos, the Seattle Mariners, the California Angels, the Texas Rangers, the Toronto Blue Jays, & the Houston Astros"
 # s = "under the chin (throat)"
-# s = "Jack/Knave of Hearts"
+# s = "Jack/Knave/Queen of Hearts"
 # s = "Peru, Paraguay"
+# s = "Peru and Paraguay"
+# s = "sauages"
+# s = "Reno, Nevada"
 # print main(s)

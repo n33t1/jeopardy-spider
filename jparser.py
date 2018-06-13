@@ -179,8 +179,8 @@ class Round(Jeopardy):
             self.value_hash = {}
             return genres
 
-with open("season_1_html/1984-09-10.html") as f:
-      data = f.read()
-      soup = BeautifulSoup(data, 'html.parser')
-      r = Round(soup, "test.json")
-      r.parseGame()
+# with open("season_1_html/1985-01-03.html") as f:
+#       data = f.read()
+#       soup = BeautifulSoup(data, 'html.parser')
+#       r = Round(soup, "test.json")
+#       r.parseGame()
