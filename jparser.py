@@ -113,10 +113,11 @@ class Round(Jeopardy):
                         if row in self.value_hash:
                               continue
 
-                        if c.find("td", class_=re.compile("clue_value")):
+                        if c.find("td", class_=re.compile("clue_value_daily_double")):
+                              continue
+                        else:
                               value = c.find("td", class_=re.compile("clue_value"))
                               value = value.get_text().split("$")[1].replace(",", "")
-                              isSingle = True
                               self.value_hash[row] = value 
 
       def parseRound(self, r):
@@ -175,10 +176,11 @@ class Round(Jeopardy):
                         category = categories[i-1]
                         temp = Clue("placeholder")
                         genres[category].append(temp.toJSON())
+            self.value_hash = {}
             return genres
 
-# with open("season_1_html/1984-12-07.html") as f:
-#       data = f.read()
-#       soup = BeautifulSoup(data, 'html.parser')
-#       r = Round(soup, "test.json")
-#       r.parseGame()
+with open("season_1_html/1984-09-10.html") as f:
+      data = f.read()
+      soup = BeautifulSoup(data, 'html.parser')
+      r = Round(soup, "test.json")
+      r.parseGame()
