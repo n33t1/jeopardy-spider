@@ -11,28 +11,51 @@ class Jeopardy:
       def __init__(self, soup):
             self.soup = soup
             self.airdate = self.soup.title.get_text().split()[-1]
+            self.contestants = Contestants(soup)
       
       def toJSON(self):
             return json.dumps(self.__dict__)
 
 class Clue:
-      def __init__(self, Jtype, price=None, prompt=None, solution=None, parsed_soultion=None, dailyDoublePrice=None):
+      def __init__(self, Jtype, price=None, prompt=None, solution=None, parsed_soultion=None, right=None, wrong=None, id=None, dailyDoublePrice=None):
             self.Jtype = Jtype
             self.price = price
             self.prompt = prompt
             self.solution = solution
             self.dailyDoublePrice = dailyDoublePrice
             self.parsed_soultion = parsed_soultion
+            self.id = id or 'null'
+            self.right = right or 'null'
+            self.wrong = wrong or 'null'
 
       def toJSON(self):
             if self.Jtype == "placeholder":
                   temp = {'Jtype': self.Jtype}
             elif self.Jtype == "double":
-                  temp = {'price': self.price, 'dailyDoublePrice': self.dailyDoublePrice, 'prompt': self.prompt, 'solution': self.solution, 'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype}
+                  temp = {'price': self.price, 'dailyDoublePrice': self.dailyDoublePrice, 'prompt': self.prompt, 'solution': self.solution, \
+                              'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype, 'right': self.right, 'wrong': self.wrong, 'id': self.id}
             else:
-                  temp = {'price': self.price, 'prompt': self.prompt, 'solution': self.solution, 'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype}
+                  temp = {'price': self.price, 'prompt': self.prompt, 'solution': self.solution, \
+                               'parsed_soultion': self.parsed_soultion, 'Jtype': self.Jtype, 'right': self.right, 'wrong': self.wrong, 'id': self.id}
 
             return temp
+
+class Contestants:
+      def __init__(self, soup):
+            self.soup = soup
+            self.ids = []
+            self.info = self.findContestants()
+      
+      def findContestants(self):
+            res = []
+            contestants = self.soup.find_all("p", class_="contestants")
+            for c in contestants:
+                  player_name =  c.find("a").get_text()
+                  player_id = player_name.split(" ")[0]
+                  self.ids.append(player_id)
+                  player_info = c.get_text()
+                  res.append({"player_id": player_id, "player_name": player_name, "player_info": player_info})
+            return res
 
 class Round(Jeopardy):
       def __init__(self, soup, destination_file_path):
@@ -92,13 +115,21 @@ class Round(Jeopardy):
             category = r.find("td", class_="category_name").get_text()
             question = r.find("td", class_="clue_text").get_text()
             answer = BeautifulSoup(r.find("div", onmouseover=True).get("onmouseover"), "lxml")
+            right, wrong = None, None
+            if answer.find_all("td", class_="right"):
+                  right = [s.get_text() for s in answer.find_all("td", class_="right")]
+            if answer.find_all("td", class_="wrong"):
+                  wrong = [s.get_text() for s in answer.find_all("td", class_="wrong")]
+                  if 'Triple Stumper' in wrong:
+                        wrong = self.contestants.ids
+                              
             answer = answer.find("em").get_text()
             answerParsed = answerParser.main(answer)
 
             if re.search(r"^(1 of)", answer):
                   answer = answer.split("&")[0]
                   
-            temp = Clue("single", None, question, answer, answerParsed)
+            temp = Clue("single", None, question, answer, answerParsed, right, wrong)
             genres[category].append(temp.toJSON())
 
             return genres
@@ -152,6 +183,13 @@ class Round(Jeopardy):
                               continue
 
                         answer = BeautifulSoup(c.find("div", onmouseover=True).get("onmouseover"), "lxml")
+                        right, wrong = None, None
+                        if answer.find_all("td", class_="right"):
+                              right = [s.get_text() for s in answer.find_all("td", class_="right")]
+                        if answer.find_all("td", class_="wrong"):
+                              wrong = [s.get_text() for s in answer.find_all("td", class_="wrong")]
+                              if 'Triple Stumper' in wrong:
+                                    wrong = self.contestants.ids
                         question = question.get_text()
                         s = answer.find("p").get_text()
                         col, row = self.getClueRowCol(s)
@@ -160,13 +198,14 @@ class Round(Jeopardy):
                         answer = answer.find("em", class_="correct_response").get_text()
                         answerParsed = answerParser.main(answer)
                         category = categories[col-1]
+                        _id = str(col) + str(row)
 
                         if _type is "double":
                               dailyDoublePrice = value 
                               value = self.value_hash[row]
-                              temp = Clue(_type, value, question, answer, answerParsed, dailyDoublePrice)
+                              temp = Clue(_type, value, question, answer, answerParsed, right, wrong, _id, dailyDoublePrice)
                         else: 
-                              temp = Clue(_type, value, question, answer, answerParsed)
+                              temp = Clue(_type, value, question, answer, answerParsed, right, wrong, _id)
 
                         genres[category].append(temp.toJSON())
                   else:
@@ -179,8 +218,8 @@ class Round(Jeopardy):
             self.value_hash = {}
             return genres
 
-# with open("season_1_html/1985-01-03.html") as f:
-#       data = f.read()
-#       soup = BeautifulSoup(data, 'html.parser')
-#       r = Round(soup, "test.json")
-#       r.parseGame()
+with open("season_1_html/1985-01-03.html") as f:
+      data = f.read()
+      soup = BeautifulSoup(data, 'html.parser')
+      r = Round(soup, "test.json")
+      r.parseGame()
