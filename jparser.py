@@ -62,7 +62,7 @@ class Round(Jeopardy):
             Jeopardy.__init__(self, soup)
             self.hash_num_round = {1: "jeopardy_round", 2: "double_jeopardy_round", 3: "final_jeopardy_round"}
             self.filename = destination_file_path
-            self.res = {'keys':[]}
+            self.res = {'keys':[], 'contestants_info': self.contestants.info, 'contestants_keys': self.contestants.ids}
             self.value_hash = {}
       
       def toJSON(self):
@@ -218,8 +218,8 @@ class Round(Jeopardy):
             self.value_hash = {}
             return genres
 
-with open("season_1_html/1985-01-03.html") as f:
-      data = f.read()
-      soup = BeautifulSoup(data, 'html.parser')
-      r = Round(soup, "test.json")
-      r.parseGame()
+# with open("season_1_html/1985-01-03.html") as f:
+#       data = f.read()
+#       soup = BeautifulSoup(data, 'html.parser')
+#       r = Round(soup, "test.json")
+#       r.parseGame()
