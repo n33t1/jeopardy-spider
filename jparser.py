@@ -54,7 +54,7 @@ class Contestants:
                   player_id = player_name.split(" ")[0]
                   self.ids.append(player_id)
                   player_info = c.get_text()
-                  res.append({"player_id": player_id, "player_name": player_name, "player_info": player_info})
+                  res.append({"player_id": player_id, "player_info": player_info})
             return res
 
 class Round(Jeopardy):
@@ -62,7 +62,8 @@ class Round(Jeopardy):
             Jeopardy.__init__(self, soup)
             self.hash_num_round = {1: "jeopardy_round", 2: "double_jeopardy_round", 3: "final_jeopardy_round"}
             self.filename = destination_file_path
-            self.res = {'keys':[], 'contestants_info': self.contestants.info, 'contestants_keys': self.contestants.ids}
+            temp = {'keys':[], 'contestants_info': self.contestants.info, 'contestants_keys': self.contestants.ids}
+            self.res = {'info': temp}
             self.value_hash = {}
       
       def toJSON(self):
@@ -82,7 +83,7 @@ class Round(Jeopardy):
                         for key, val in genres.iteritems():
                               temp = {'genre': key, 'questions': val}
                               items.append(temp)
-                        self.res['keys'].append(i)
+                        self.res['info']['keys'].append(i)
                         self.res[i] = items
             
             # parse final jeopardy
@@ -94,7 +95,7 @@ class Round(Jeopardy):
                   for key, val in genres.iteritems():
                         temp = {'genre': key, 'questions': val}
                         items.append(temp)
-                  self.res['keys'].append(3)
+                  self.res['info']['keys'].append(3)
                   self.res[3] = items
             self.toJSON()
 
