@@ -7,7 +7,7 @@ import json
 from collections import defaultdict
 import answerParser
 
-class Jeopardy:
+class JeopardyParser:
       def __init__(self, soup):
             self.soup = soup
             self.airdate = self.soup.title.get_text().split()[-1]
@@ -57,9 +57,9 @@ class Contestants:
                   res.append({"player_id": player_id, "player_info": player_info})
             return res
 
-class Round(Jeopardy):
+class Round(JeopardyParser):
       def __init__(self, soup, destination_file_path):
-            Jeopardy.__init__(self, soup)
+            JeopardyParser.__init__(self, soup)
             self.hash_num_round = {1: "jeopardy_round", 2: "double_jeopardy_round", 3: "final_jeopardy_round"}
             self.filename = destination_file_path
             temp = {'keys':[], 'contestants_info': self.contestants.info, 'contestants_keys': self.contestants.ids}
