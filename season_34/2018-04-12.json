@@ -1,0 +1,990 @@
+{
+    "info": {
+        "keys": [
+            1, 
+            2, 
+            3
+        ], 
+        "contestants_keys": [
+            "Carsen", 
+            "Rebecca", 
+            "Harry"
+        ], 
+        "contestants_info": [
+            {
+                "player_id": "Carsen", 
+                "player_info": "Carsen Smith, a senior at Vanderbilt University from Jacksonville, Florida"
+            }, 
+            {
+                "player_id": "Rebecca", 
+                "player_info": "Rebecca Rosenthal, a sophomore at Swarthmore College from Ridgewood, New Jersey"
+            }, 
+            {
+                "player_id": "Harry", 
+                "player_info": "Harry Kioko, a senior at the University of Chicago from Princeton, New Jersey"
+            }
+        ]
+    }, 
+    "1": [
+        {
+            "genre": "VIDEO GAMES", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "godofwar"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Kratos kills Ares & gets this title, also the name of the video game series", 
+                    "id": "21", 
+                    "price": "200", 
+                    "solution": "God of War", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "orcs", 
+                        "orc"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "In \"Middle-Earth: Shadow of War\" these evil minions learn from defeat & come back later with a grudge", 
+                    "id": "22", 
+                    "price": "400", 
+                    "solution": "orcs", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "wrestler", 
+                        "aaluchador", 
+                        "aluchador"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Inspired by Mexican lore, \"Guacamelee!\" finds agave farmer Juan gifted with the mask of one of these athletes", 
+                    "id": "23", 
+                    "price": "600", 
+                    "solution": "a wrestler (or a luchador)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "horizonzerodawn"
+                    ], 
+                    "right": "null", 
+                    "prompt": "Post-apocalyptic mecha-dinosaurs are just part of the fun in the PlayStation game called this \"Zero Dawn\"", 
+                    "id": "24", 
+                    "price": "800", 
+                    "solution": "Horizon Zero Dawn", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "granturismo"
+                    ], 
+                    "right": "null", 
+                    "prompt": "This European-sounding game that fans call \"G.T.\" bills itself as \"the real driving simulator\"", 
+                    "id": "25", 
+                    "price": "1000", 
+                    "solution": "Gran Turismo", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PASS/FAIL", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "crash"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "Noisy term for a sudden failure in stock market prices, like the 22% one-day plunge on Oct. 19, 1987", 
+                    "id": "51", 
+                    "price": "200", 
+                    "solution": "a crash", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "baton"
+                    ], 
+                    "right": [
+                        "Harry"
+                    ], 
+                    "prompt": "Success in relay races requires a clean pass of this item", 
+                    "id": "52", 
+                    "price": "400", 
+                    "solution": "the baton", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "trumancapote"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "This \"In Cold Blood\" author said, \"Failure is the condiment that gives success its flavor\"", 
+                    "id": "53", 
+                    "price": "600", 
+                    "solution": "Truman Capote", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "afghanistan"
+                    ], 
+                    "right": "null", 
+                    "prompt": "Only 50 feet wide at some points, the Khyber Pass links Pakistan with this country", 
+                    "id": "55", 
+                    "price": "1000", 
+                    "solution": "Afghanistan", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "ANAGRAMMED NOVELS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "lordoftheflies", 
+                        "lordoftheflie", 
+                        "lordofthefli"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "No grown-ups on the island: \"Hello Deff Riots\"", 
+                    "id": "11", 
+                    "price": "200", 
+                    "solution": "Lord of the Flies", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "gonewiththewind"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "The Civil War is not fun: \"Thin White Gowned\"", 
+                    "id": "12", 
+                    "price": "400", 
+                    "solution": "Gone With the Wind", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "breakingdawn"
+                    ], 
+                    "right": "null", 
+                    "prompt": "More bloodsucking: \"Baked Warning\"", 
+                    "id": "13", 
+                    "price": "600", 
+                    "solution": "Breaking Dawn", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "grapesofwrath"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "1930s migrants on the move: \"Frog Weathers Path\"", 
+                    "id": "14", 
+                    "price": "800", 
+                    "solution": "The Grapes of Wrath", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen"
+                    ], 
+                    "parsed_soultion": [
+                        "finneganswake"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Irish funeral party: \"Weakening Fans\"", 
+                    "id": "15", 
+                    "price": "1000", 
+                    "solution": "Finnegans Wake", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "I WILL NOT SERVE...", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "illinois", 
+                        "illinoi"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "In 2013 former Bears coach Mike Ditka said he regretted not running for U.S. Senate from this state", 
+                    "id": "31", 
+                    "price": "200", 
+                    "solution": "Illinois", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "vicepresident"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "In 1848 Daniel Webster, offered this No. 2 job, said, \"I do not proposed to be buried until I am dead\"", 
+                    "id": "32", 
+                    "price": "400", 
+                    "solution": "vice president", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "johnquincyadams", 
+                        "johnquincyadam"
+                    ], 
+                    "right": "null", 
+                    "prompt": "14 years after this man turned down a Supreme Court appointment, he became our 6th president", 
+                    "id": "33", 
+                    "price": "600", 
+                    "solution": "John Quincy Adams", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen"
+                    ], 
+                    "parsed_soultion": [
+                        "houseoflords", 
+                        "houseoflord"
+                    ], 
+                    "right": [
+                        "Harry"
+                    ], 
+                    "prompt": "Monty Python's John Cleese refused a spot in this Parliamentary body, as it would mean spending winter in England", 
+                    "id": "34", 
+                    "price": "800", 
+                    "solution": "the House of Lords", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "sherman"
+                    ], 
+                    "dailyDoublePrice": "1000", 
+                    "prompt": "This Union general refused to run for president, stating, \"will not serve\" if elected; he wouldn't have carried Georgia", 
+                    "right": [
+                        "Harry"
+                    ], 
+                    "id": "35", 
+                    "price": "1000", 
+                    "solution": "(William Tecumseh) Sherman", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "COLLEGE SLASHES", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "golf"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "In 2009 M.I.T. cut 8 varsity sports; slashing this one must've saved on greens fees", 
+                    "id": "41", 
+                    "price": "200", 
+                    "solution": "golf", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "classics", 
+                        "classic"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "In 2010 SUNY Albany cut 5 humanities majors; dropping this one made Homer & Ovid weep", 
+                    "id": "42", 
+                    "price": "400", 
+                    "solution": "classics", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "textbooks", 
+                        "textbook"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "In 2015-16 the U. of Maryland University College got rid of these--course materials are now online & free", 
+                    "id": "43", 
+                    "price": "600", 
+                    "solution": "textbooks", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "universityofmissouri"
+                    ], 
+                    "right": "null", 
+                    "prompt": "In 2017 the president of this state university system announced 400-plus job cuts, from the Columbia campus to Rolla", 
+                    "id": "44", 
+                    "price": "800", 
+                    "solution": "the University of Missouri", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "newjersey"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Drew University in Madison, near Elizabeth in this East Coast state, is slashing tuition 20% for 2018-19", 
+                    "id": "45", 
+                    "price": "1000", 
+                    "solution": "New Jersey", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"ADD\"/\"DROP\"", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "addinginsult"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Proverbially, doing this \"to injury\" is just making things worse", 
+                    "id": "61", 
+                    "price": "200", 
+                    "solution": "adding insult", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "droppingnames", 
+                        "droppingname", 
+                        "droppingnam"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "Whenever I talk about going fly-fishing with Leo DiCaprio & Lebron James, people accuse me of doing this", 
+                    "id": "62", 
+                    "price": "400", 
+                    "solution": "dropping names", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "addtocart"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "amazon.com is just full of yellow bars that tempt you into purchases with this 3-word phrase", 
+                    "id": "63", 
+                    "price": "600", 
+                    "solution": "add to cart", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "draganddrop"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "This phrase means you can use your mouse to slide the item across the computer screen", 
+                    "id": "64", 
+                    "price": "800", 
+                    "solution": "drag and drop", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "addiction"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "In this subspecialty of psychiatry, you help substance abusers", 
+                    "id": "65", 
+                    "price": "1000", 
+                    "solution": "addiction", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "WHERE IN THE BODY?", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "brain"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "The temporal lobe", 
+                    "id": "21", 
+                    "price": "400", 
+                    "solution": "the brain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen"
+                    ], 
+                    "parsed_soultion": [
+                        "foot"
+                    ], 
+                    "right": [
+                        "Harry"
+                    ], 
+                    "prompt": "The transverse arch", 
+                    "id": "22", 
+                    "price": "800", 
+                    "solution": "the foot", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "smallintestine"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "The duodenum", 
+                    "id": "23", 
+                    "price": "1200", 
+                    "solution": "the small intestine", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "hands", 
+                        "hand"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "Phalanges & metacarpal bones", 
+                    "id": "24", 
+                    "price": "1600", 
+                    "solution": "the hands", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "pancreas", 
+                        "pancrea"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Acinar cells & the islets of Langerhans", 
+                    "id": "25", 
+                    "price": "2000", 
+                    "solution": "the pancreas", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "TALES FROM THE ARABIAN NIGHTS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "genie"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "In one of the Arabian Nights' most famous stories, a clever fisherman traps one of these in a bottle", 
+                    "id": "31", 
+                    "price": "400", 
+                    "solution": "a genie", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "1001"
+                    ], 
+                    "right": [
+                        "Harry"
+                    ], 
+                    "prompt": "To avoid execution in the morning, the king's new wife Scheherazade tells this many stories, each ending with a cliffhanger", 
+                    "id": "32", 
+                    "price": "800", 
+                    "solution": "1,001", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "baghdad"
+                    ], 
+                    "dailyDoublePrice": "3000", 
+                    "prompt": "Several of the stories are set in this city, capital of the Muslim world in 8th century & still a capital today", 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "id": "33", 
+                    "price": "1200", 
+                    "solution": "Baghdad", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "opensesame"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "These 2 words reveal the entrance to a hidden cave full of riches in \"Ali Baba & the Forty Thieves\"", 
+                    "id": "34", 
+                    "price": "1600", 
+                    "solution": "open sesame", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "sinbad"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "When he's an old man, this sailor tells a young porter 7 tales about his 7 marvelous adventures", 
+                    "id": "35", 
+                    "price": "2000", 
+                    "solution": "Sinbad", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "DOWN FOR THE COUNTY", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "minneapolis", 
+                        "minneapoli"
+                    ], 
+                    "right": "null", 
+                    "prompt": "It's not the state capital but it is the seat of Hennepin County, Minnesota", 
+                    "id": "61", 
+                    "price": "400", 
+                    "solution": "Minneapolis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "montana"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "Big Horn County, Wyoming borders another Big Horn County in this state", 
+                    "id": "62", 
+                    "price": "800", 
+                    "solution": "Montana", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "iowa"
+                    ], 
+                    "right": "null", 
+                    "prompt": "This state's 99 counties include Decatur & Dubuque", 
+                    "id": "63", 
+                    "price": "1200", 
+                    "solution": "Iowa?", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "texas", 
+                        "texa"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Brewster is west of the Pecos (County) in this state; Crockett is east", 
+                    "id": "64", 
+                    "price": "1600", 
+                    "solution": "Texas", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "wayne"
+                    ], 
+                    "right": "null", 
+                    "prompt": "It's Detroit's county & is on the name of a state university there", 
+                    "id": "65", 
+                    "price": "2000", 
+                    "solution": "Wayne", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "PAPER TERMS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "constructionpaper"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "\"Build\" the art of your dreams with this type of heavy colored paper", 
+                    "id": "11", 
+                    "price": "400", 
+                    "solution": "construction paper", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "manila"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "This strong & light yellow-brown paper shares its name with a Philippine city", 
+                    "id": "12", 
+                    "price": "800", 
+                    "solution": "manila", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "quire"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "25 sheets of paper all of the same size & quality are one of these, a homophone for a group of church singers", 
+                    "id": "13", 
+                    "price": "1200", 
+                    "solution": "a quire", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen"
+                    ], 
+                    "parsed_soultion": [
+                        "tissue"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "It's a soft & gauzy type of paper, or a cell structure in the body of an animal or plant", 
+                    "id": "14", 
+                    "price": "1600", 
+                    "solution": "tissue", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "washi"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "It's the 5-letter name of the thin Japanese paper used for origami; crafters love the tape made from it", 
+                    "id": "15", 
+                    "price": "2000", 
+                    "solution": "washi", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "4-SYLLABLE WORDS", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "indigestion"
+                    ], 
+                    "right": "null", 
+                    "prompt": "Ohh, those ketchup pancakes aren't sitting well with me--I have this, also called dyspepsia", 
+                    "id": "41", 
+                    "price": "400", 
+                    "solution": "indigestion", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen"
+                    ], 
+                    "parsed_soultion": [
+                        "experiments", 
+                        "experiment"
+                    ], 
+                    "right": [
+                        "Harry"
+                    ], 
+                    "prompt": "Famous ones include the Stanford prison one & the Millikan oil-drop one", 
+                    "id": "42", 
+                    "price": "800", 
+                    "solution": "experiments", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Carsen", 
+                        "Rebecca", 
+                        "Harry"
+                    ], 
+                    "parsed_soultion": [
+                        "munificent"
+                    ], 
+                    "right": "null", 
+                    "prompt": "Change the second, third & fourth letters in \"maleficent\" to get this word for \"generous\"", 
+                    "id": "43", 
+                    "price": "1200", 
+                    "solution": "munificent", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "seorita"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "Common title for an unmarried woman in Jalisco", 
+                    "id": "44", 
+                    "price": "1600", 
+                    "solution": "se\u00c3\u00b1orita", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "hierarchy"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "Psychologist Abraham Maslow created one of these ranked systems \"of needs\"", 
+                    "id": "45", 
+                    "price": "2000", 
+                    "solution": "a hierarchy", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BROADWAY MUSICALS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "spongebobsquarepants", 
+                        "spongebobsquarepant"
+                    ], 
+                    "right": [
+                        "Carsen"
+                    ], 
+                    "prompt": "In 2017 this TV show erupted on Broadway with a volcano threatening to wipe out Bikini Bottom", 
+                    "id": "51", 
+                    "price": "400", 
+                    "solution": "Spongebob SquarePants", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "business", 
+                        "busines", 
+                        "busine", 
+                        "busin"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "In 2011 Daniel Radcliffe worked his magic in \"How to Succeed in\" this \"Without Really Trying\"", 
+                    "id": "52", 
+                    "price": "800", 
+                    "solution": "business", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "fiddlerontheroof"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "This musical set in the Jewish village of Anatevka was inspired by stories of Tevye & his daughters", 
+                    "id": "53", 
+                    "price": "1200", 
+                    "solution": "Fiddler on the Roof", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "seurat"
+                    ], 
+                    "dailyDoublePrice": "5000", 
+                    "prompt": "We'd like to \"point\" out that George in \"Sunday in the Park with George\" is this famous French artist", 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "id": "54", 
+                    "price": "1600", 
+                    "solution": "(Georges) Seurat", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "LANDMARKS", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Harry", 
+                        "Carsen"
+                    ], 
+                    "parsed_soultion": [
+                        "louvre"
+                    ], 
+                    "right": [
+                        "Rebecca"
+                    ], 
+                    "prompt": "In 1546 architect Pierre Lescot began rebuilding King Francis I's palace, which is now this museum", 
+                    "id": "null", 
+                    "price": null, 
+                    "solution": "the Louvre", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

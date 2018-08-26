@@ -4,7 +4,7 @@
 import sys, os
 sys.path.append(os.path.abspath(__file__ + "/../"))
 
-from utils import JeopardyParser as jparser
+from utils import Round
 
 import urllib2
 from bs4 import BeautifulSoup
@@ -175,7 +175,7 @@ class Downloader:
 				print "Couldn't write to file %s" % filename
 
 	def parse_to_json(self, html_string, destination_file_path):
-		test = jparser.Round(html_string, destination_file_path)
+		test = Round(html_string, destination_file_path)
 		test.parseGame()
 				
 	def create_archive_dir(self, season):

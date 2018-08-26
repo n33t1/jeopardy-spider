@@ -1,0 +1,932 @@
+{
+    "info": {
+        "keys": [
+            1, 
+            2, 
+            3
+        ], 
+        "contestants_keys": [
+            "Nicole", 
+            "Kara", 
+            "Monica"
+        ], 
+        "contestants_info": [
+            {
+                "player_id": "Nicole", 
+                "player_info": "Nicole Jarvis, a graduate student from Seattle, Washington"
+            }, 
+            {
+                "player_id": "Kara", 
+                "player_info": "Kara Chandler, a stay-at-home mom from Berwyn, Illinois"
+            }, 
+            {
+                "player_id": "Monica", 
+                "player_info": "Monica Ashar, an attorney from Washington, D.C. (whose 1-day cash winnings total $12,801)"
+            }
+        ]
+    }, 
+    "1": [
+        {
+            "genre": "MISSISSIPPI", 
+            "questions": [
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "rootbeer"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "In 1898 in Biloxi, Edward Barq began bottling & selling this beverage", 
+                    "id": "52", 
+                    "price": "400", 
+                    "solution": "root beer", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "faulkner"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "He modeled his fictional Yoknapatawpha County on the area around his hometown of Oxford", 
+                    "id": "54", 
+                    "price": "800", 
+                    "solution": "(William) Faulkner", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Kara"
+                    ], 
+                    "parsed_soultion": [
+                        "vicksburg"
+                    ], 
+                    "dailyDoublePrice": "2000", 
+                    "prompt": "Sadly, of the 17,000 Union soldiers buried in the national cemetery at this battle site, 75% are listed as unknowns", 
+                    "right": "null", 
+                    "id": "55", 
+                    "price": "1000", 
+                    "solution": "Vicksburg", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "ALPHABET SOUP WHEN YOU'RE SICK", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "electronicmedicalrecord"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "EMR is short for this type of medical record accessed digitally", 
+                    "id": "41", 
+                    "price": "200", 
+                    "solution": "an electronic medical record", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "hypertension"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "HTN is a short form of this long word for a condition that makes your heart work harder", 
+                    "id": "42", 
+                    "price": "400", 
+                    "solution": "hypertension", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "benefits", 
+                        "benefit"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "This is not a bill--it's an EOB, \"explanation of\" these", 
+                    "id": "43", 
+                    "price": "600", 
+                    "solution": "benefits", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "organprocurement"
+                    ], 
+                    "right": "null", 
+                    "prompt": "An OPO is a \"procurement organization\" seeking these for needy patients", 
+                    "id": "44", 
+                    "price": "800", 
+                    "solution": "an organ procurement", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "tellingyoutotakeittwiceaday"
+                    ], 
+                    "right": "null", 
+                    "prompt": "If you see b.i.d. on a prescription, it's giving you this instruction", 
+                    "id": "45", 
+                    "price": "1000", 
+                    "solution": "telling you to take it twice a day", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE HANDMADE TALE", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "etsy"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "This artsy-craftsy e-commerce company says it was founded in 2005 \"in the spirit of handmade\"", 
+                    "id": "11", 
+                    "price": "200", 
+                    "solution": "Etsy", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "ceramics", 
+                        "ceramic"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "The Academy of Handmade Artists & Supporters Awards include Best Artist in this pottery-making art", 
+                    "id": "12", 
+                    "price": "400", 
+                    "solution": "ceramics", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "vodka"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "Tito's Handmade this is distilled in Austin, not Omsk, from corn, not potatoes", 
+                    "id": "13", 
+                    "price": "600", 
+                    "solution": "vodka", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "passports", 
+                        "passport"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "Portland Leather Goods makes $34 handmade covers for these, available from the State Department  for $135", 
+                    "id": "14", 
+                    "price": "800", 
+                    "solution": "passports", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "decoupage"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "From French for \"cutting out\", it's the use of paper cutouts to simulate painting or other designs", 
+                    "id": "15", 
+                    "price": "1000", 
+                    "solution": "decoupage", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "MUSICALS' OPENING NUMBERS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "cabaret"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "\"Willkommen\"", 
+                    "id": "31", 
+                    "price": "200", 
+                    "solution": "Cabaret", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "fiddlerontheroof"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "\"Tradition\"", 
+                    "id": "32", 
+                    "price": "400", 
+                    "solution": "Fiddler on the Roof", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "hairspray"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "\"Good Morning Baltimore\"", 
+                    "id": "33", 
+                    "price": "600", 
+                    "solution": "Hairspray", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "chorusline"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "\"I Hope I Get It\"", 
+                    "id": "34", 
+                    "price": "800", 
+                    "solution": "A Chorus Line", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "myfairlady"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "\"Why Can't The English?\"", 
+                    "id": "35", 
+                    "price": "1000", 
+                    "solution": "My Fair Lady", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "\"HOLD\" GLORY", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "household"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "All the people living in a single home, including foster children, wards & lodgers", 
+                    "id": "61", 
+                    "price": "200", 
+                    "solution": "a household", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "holdout"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "An athlete who refuses to play until he gets a better contract", 
+                    "id": "62", 
+                    "price": "400", 
+                    "solution": "a holdout", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Kara"
+                    ], 
+                    "parsed_soultion": [
+                        "foothold"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "8-letter word for captured area in hostile territory that is used as a base for further advances", 
+                    "id": "63", 
+                    "price": "600", 
+                    "solution": "foothold", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "holdover"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "Continuing as Defense secretary under Obama, Robert Gates was this from the George W. Bush administration", 
+                    "id": "64", 
+                    "price": "800", 
+                    "solution": "a holdover", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "beholdtheman"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "\"Ecce homo\", in part", 
+                    "id": "65", 
+                    "price": "1000", 
+                    "solution": "behold the man", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "BOOKS & AUTHORS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "catcherintherye"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "Time magazine's 1951 review of this novel said Holden Caulfield's code is \"survival of the flippest\"", 
+                    "id": "21", 
+                    "price": "200", 
+                    "solution": "Catcher in the Rye", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "bridgesofmadisoncounty"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "Robert James Waller, who passed away in 2017, was best known for this bittersweet tale set in Iowa", 
+                    "id": "22", 
+                    "price": "400", 
+                    "solution": "The Bridges of Madison County", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "anaisnin"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "The preface to Henry Miller's \"Tropic of Cancer\" was written by this lover & fellow author", 
+                    "id": "23", 
+                    "price": "600", 
+                    "solution": "Anais Nin", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "shack"
+                    ], 
+                    "right": "null", 
+                    "prompt": "This blockbuster novel by William P. Young about a spiritual journey was made into a 2017 film", 
+                    "id": "24", 
+                    "price": "800", 
+                    "solution": "The Shack", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "sinclairlewis", 
+                        "sinclairlewi"
+                    ], 
+                    "right": "null", 
+                    "prompt": "His 1935 novel \"It Can't Happen Here\" is a cautionary tale about the rise of fascism in the United States", 
+                    "id": "25", 
+                    "price": "1000", 
+                    "solution": "Sinclair Lewis", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "\"R\" MOVIES", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "revenant"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "2015:Co-starring Tom Hardy & an angry bear", 
+                    "id": "31", 
+                    "price": "400", 
+                    "solution": "The Revenant", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "rocky"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "1976:Co-starring Talia Shire", 
+                    "id": "32", 
+                    "price": "800", 
+                    "solution": "Rocky", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "raidersofthelostark"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "1981:Co-starring Karen Allen", 
+                    "id": "34", 
+                    "price": "1600", 
+                    "solution": "Raiders of the Lost Ark", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "road"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "2009: Starring Viggo Mortensen as \"Man\" & Kodi Smit-McPhee as \"Boy\"", 
+                    "id": "35", 
+                    "price": "2000", 
+                    "solution": "The Road", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "I TAKE THE FIFTH", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "tiebreaker"
+                    ], 
+                    "right": "null", 
+                    "prompt": "I take the fifth set 7-6 (7-3) in this, played instead of a 13th game", 
+                    "id": "61", 
+                    "price": "400", 
+                    "solution": "a tiebreaker", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "stpaddysday"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "I take the fifth of Jameson whiskey to a party for this holiday; it's a limited edition bottle just for it", 
+                    "id": "62", 
+                    "price": "800", 
+                    "solution": "St. Paddy\\'s Day", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "thoushaltnotkill"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "I take this fifth commandment I learned in catechism very seriously & would be a conscientious objector", 
+                    "id": "63", 
+                    "price": "1200", 
+                    "solution": "thou shalt not kill", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "statins", 
+                        "statin"
+                    ], 
+                    "right": "null", 
+                    "prompt": "I take Lipitor, the fifth drug approved in this class of cholesterol reducers", 
+                    "id": "64", 
+                    "price": "1600", 
+                    "solution": "statins", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "benitojurez"
+                    ], 
+                    "right": "null", 
+                    "prompt": "I take the fifth of May off work to celebrate the victory under this Mexican president in 1862", 
+                    "id": "65", 
+                    "price": "2000", 
+                    "solution": "Benito Ju\u00c3\u00a1rez", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "AN EXCELLENT QUESTION", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "alicesadventuresinwonderland"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "The title of Chapter XI of this classic is the very excellent question \"Who Stole the Tarts?\"", 
+                    "id": "51", 
+                    "price": "400", 
+                    "solution": "Alice\\'s Adventures in Wonderland", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Nicole", 
+                        "Kara", 
+                        "Monica"
+                    ], 
+                    "parsed_soultion": [
+                        "sigmundfreud"
+                    ], 
+                    "right": "null", 
+                    "prompt": "The great question he could not answer despite \"30 years of research into the feminine soul is, 'What does a woman want?'\"", 
+                    "id": "52", 
+                    "price": "800", 
+                    "solution": "Sigmund Freud", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "howdoyoulikethemapples", 
+                        "howdoyoulikethemapple", 
+                        "howdoyoulikethemappl"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "Matt Damon used this rhetorical question in \"Good Will Hunting\" to brag about getting a girl's phone number", 
+                    "id": "53", 
+                    "price": "1200", 
+                    "solution": "How do you like them apples?", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "isiti"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "In Matthew 26 Jesus says that one of the 12 shall betray him & each asked, \"Lord,\" this 3-word question", 
+                    "id": "54", 
+                    "price": "1600", 
+                    "solution": "Is it I?", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "shallicomparetheetoasummersday"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "\"Shall I\" hear from you this 8-word question that begins Shakespeare's sonnet 18?", 
+                    "id": "55", 
+                    "price": "2000", 
+                    "solution": "Shall I compare thee to a summer\\'s day?", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THANK YOU, SENATOR", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "johnmccain"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "We thank this senator for his brave military service, especially as a P.O.W. from 1967 to 1973", 
+                    "id": "41", 
+                    "price": "400", 
+                    "solution": "John McCain", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "roth"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "After receiving a Bronze Star for WWII heroism, he put his name on the IRA that expanded allowable tax-free savings", 
+                    "id": "43", 
+                    "price": "1200", 
+                    "solution": "Roth", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "seward"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "We can thank him for being a fierce antislavery sen. from New York starting in 1849 & also, y'know, for getting us Alaska", 
+                    "id": "44", 
+                    "price": "1600", 
+                    "solution": "(William) Seward", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "stanford"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "This 19th century California senator helped form the Central Pacific Railroad & founded a university", 
+                    "id": "45", 
+                    "price": "2000", 
+                    "solution": "(Leland) Stanford", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "IDIOMS, ANNOTATED", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "pig"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "\"Let the buyer beware\" is the message behind why you shouldn't buy this animal in a poke, a type of bag", 
+                    "id": "21", 
+                    "price": "400", 
+                    "solution": "a pig", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "fieldday"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "When the military trained outdoors, the soldiers were \"having\" this kind of \"day\", now a time of opportunistic joy", 
+                    "id": "22", 
+                    "price": "800", 
+                    "solution": "field day", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "fish", 
+                        "cutbait"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "Put your pole in water or chop up some sardines for the hook--this idiom boils down to: \"Do something\"", 
+                    "id": "23", 
+                    "price": "1200", 
+                    "solution": "fish or cut bait", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "board"
+                    ], 
+                    "right": [
+                        "Monica"
+                    ], 
+                    "prompt": "Betting win, place & show at the horse track is betting \"across\" this, now a term for something that applies to all", 
+                    "id": "24", 
+                    "price": "1600", 
+                    "solution": "the board", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Kara"
+                    ], 
+                    "parsed_soultion": [
+                        "shopkeepers", 
+                        "shopkeeper"
+                    ], 
+                    "dailyDoublePrice": "2000", 
+                    "prompt": "Saying they raised \"customers\", Adam Smith called the English \"a nation of\" this profession", 
+                    "right": "null", 
+                    "id": "25", 
+                    "price": "2000", 
+                    "solution": "shopkeepers", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "OUT ON THE TOWN IN THE 1600s", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "carriage"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "I ordered us a Berlin, a type of this; I hope it's one of the new ones with shock absorbers", 
+                    "id": "11", 
+                    "price": "400", 
+                    "solution": "a carriage", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "tulips", 
+                        "tulip"
+                    ], 
+                    "dailyDoublePrice": "1000", 
+                    "prompt": "I got a deal on a bouquet of these flowers, since the market for them just crashed in 1637", 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "id": "12", 
+                    "price": "800", 
+                    "solution": "tulips", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "madrigal"
+                    ], 
+                    "right": [
+                        "Kara"
+                    ], 
+                    "prompt": "We'll put the \"mad\" in this type of music when one of Thomas Tomkins' vocal pieces begins", 
+                    "id": "14", 
+                    "price": "1600", 
+                    "solution": "a madrigal", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "plaguewater"
+                    ], 
+                    "right": [
+                        "Nicole"
+                    ], 
+                    "prompt": "The waiter brought a complimentary bottle of the rosemary-spiced cordial named this \"water\", what it's meant to prevent", 
+                    "id": "15", 
+                    "price": "2000", 
+                    "solution": "plague water", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "WORLD CAPITALS", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Monica", 
+                        "Nicole", 
+                        "Kara"
+                    ], 
+                    "parsed_soultion": [
+                        "lapaz", 
+                        "bolivia"
+                    ], 
+                    "right": "null", 
+                    "prompt": "The world's highest international airport, at an elevation of over 13,000', serves this South American capital city", 
+                    "id": "null", 
+                    "price": null, 
+                    "solution": "La Paz, Bolivia", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}

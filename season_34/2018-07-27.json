@@ -1,0 +1,878 @@
+{
+    "info": {
+        "keys": [
+            1, 
+            2, 
+            3
+        ], 
+        "contestants_keys": [
+            "Jerry", 
+            "Karla", 
+            "Rick"
+        ], 
+        "contestants_info": [
+            {
+                "player_id": "Jerry", 
+                "player_info": "Jerry Tsai, a data scientist from Los Angeles, California"
+            }, 
+            {
+                "player_id": "Karla", 
+                "player_info": "Karla Nickels, a retired business and property manager from Newcastle, Oklahoma"
+            }, 
+            {
+                "player_id": "Rick", 
+                "player_info": "Rick Terpstra, an aspiring English teacher from Havertown, Pennsylvania (whose 1-day cash winnings total $23,201)"
+            }
+        ]
+    }, 
+    "1": [
+        {
+            "genre": "QUICK BOOKS", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Jerry"
+                    ], 
+                    "parsed_soultion": [
+                        "callofthewild"
+                    ], 
+                    "right": [
+                        "Karla"
+                    ], 
+                    "prompt": "1903: A dog runs with the wolves", 
+                    "id": "21", 
+                    "price": "200", 
+                    "solution": "Call of the Wild", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "wutheringheights", 
+                        "wutheringheight"
+                    ], 
+                    "right": [
+                        "Karla"
+                    ], 
+                    "prompt": "1847: Heathcliff is a bad cat", 
+                    "id": "22", 
+                    "price": "400", 
+                    "solution": "Wuthering Heights", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "prideandprejudice"
+                    ], 
+                    "dailyDoublePrice": "1600", 
+                    "prompt": "1813: Ms. Bennet confronts 2 specific things", 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "id": "23", 
+                    "price": "600", 
+                    "solution": "Pride and Prejudice", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "grapesofwrath"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "1939: On the Joad again", 
+                    "id": "24", 
+                    "price": "800", 
+                    "solution": "The Grapes of Wrath", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "windinthewillows", 
+                        "windinthewillow"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "1908: Oh, the Rat & the Toad should be friends", 
+                    "id": "25", 
+                    "price": "1000", 
+                    "solution": "The Wind in the Willows", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "QUOTABLE WOMEN", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "marilynmonroe"
+                    ], 
+                    "right": [
+                        "Karla"
+                    ], 
+                    "prompt": "Concerning her 1949 nude calendar photos, this actress said, \"It's not true I had nothing on; I had the radio on\"", 
+                    "id": "31", 
+                    "price": "200", 
+                    "solution": "Marilyn Monroe", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "grandmamoses", 
+                        "grandmamose", 
+                        "grandmamos", 
+                        "grandmamo"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "This primitive artist who began painting in her 70s said, \"Painting's not important. The important thing is keeping busy\"", 
+                    "id": "32", 
+                    "price": "400", 
+                    "solution": "Grandma Moses", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "eleanorroosevelt"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "On August 10, 1945 this former First Lady wrote, \"The times now call for mankind as a whole to rise to great heights\"", 
+                    "id": "33", 
+                    "price": "600", 
+                    "solution": "Eleanor Roosevelt", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "joanofarc"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "This mademoiselle said, \"As for you, archers, soldiers, gentlemen...who are besieging Orleans, depart in God's name\"", 
+                    "id": "34", 
+                    "price": "800", 
+                    "solution": "Joan of Arc", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Jerry", 
+                        "Karla", 
+                        "Rick"
+                    ], 
+                    "parsed_soultion": [
+                        "dianearbus", 
+                        "dianearbu"
+                    ], 
+                    "right": "null", 
+                    "prompt": "She once remarked, \"Freaks was a thing that I photographed a lot\"", 
+                    "id": "35", 
+                    "price": "1000", 
+                    "solution": "Diane Arbus", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE WORST PICTURE RAZZIE", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "fantastic4"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "2 numeric movies produced a tie in 2016: \"Fifty Shades of Grey\" & this not-so-great superhero quartet", 
+                    "id": "41", 
+                    "price": "200", 
+                    "solution": "The Fantastic 4", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "mommiedearest"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "In 1982 this biopic starring Faye Dunaway brought home the prize, wire hangers & all", 
+                    "id": "42", 
+                    "price": "400", 
+                    "solution": "Mommie Dearest", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "stone"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "\"Basic Instinct 2\" (to the Razzies, \"basically, it stinks, too\") took Worst Pic & Worst Actress went to this star", 
+                    "id": "43", 
+                    "price": "600", 
+                    "solution": "(Sharon) Stone", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "wildwildwest"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "In 2000 Razzie found this Will Smith & Kevin Kline period piece to be very very not good", 
+                    "id": "44", 
+                    "price": "800", 
+                    "solution": "Wild Wild West", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "brucewillis", 
+                        "brucewilli"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "Come out to the coast, we'll have a few laughs...he starred in Worst Pics 3 years apart--\"Hudson Hawk\" & \"Color of Night\"", 
+                    "id": "45", 
+                    "price": "1000", 
+                    "solution": "Bruce Willis", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "KEEP ON TRUCKIN'", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "semi", 
+                        "atractor", 
+                        "tractor"
+                    ], 
+                    "right": [
+                        "Karla"
+                    ], 
+                    "prompt": "This word is combined with \"trailer\" in a standard truck type used for hauling loads", 
+                    "id": "61", 
+                    "price": "200", 
+                    "solution": "a semi (or tractor)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Jerry"
+                    ], 
+                    "parsed_soultion": [
+                        "wrecker", 
+                        "atowtruck", 
+                        "towtruck"
+                    ], 
+                    "right": [
+                        "Karla"
+                    ], 
+                    "prompt": "In trucker jargon, a \"dragon wagon\" is one of these vehicles you don't want to have to call when out on the road", 
+                    "id": "62", 
+                    "price": "400", 
+                    "solution": "a wrecker (or tow truck)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "eighteen"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "Many large trucks have this many gears, matching the number of \"wheels\" in a popular nickname for the vehicles", 
+                    "id": "63", 
+                    "price": "600", 
+                    "solution": "eighteen", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "TRAVEL HAWAII", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "pearlharbor"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "A recovered anchor from the USS Arizona is on display at this memorial's visitor center", 
+                    "id": "11", 
+                    "price": "200", 
+                    "solution": "Pearl Harbor", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "kona"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "You can travel Mountain Thunder Plantation on the \"Big Island\", in the area that gives this coffee its name", 
+                    "id": "12", 
+                    "price": "400", 
+                    "solution": "Kona", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "inouye"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "In 2013 the beautiful Kilauea Point Lighthouse on the north end of Kauai was renamed to honor this late senator", 
+                    "id": "14", 
+                    "price": "800", 
+                    "solution": "(Daniel) Inouye", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "iolanipalace"
+                    ], 
+                    "right": [
+                        "Karla"
+                    ], 
+                    "prompt": "This royal palace completed by King David Kalakaua in 1882 had electricity installed before the White House", 
+                    "id": "15", 
+                    "price": "1000", 
+                    "solution": "Iolani Palace", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "SOUNDS LIKE IT TO ME", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "thud"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "If your high-flying idea turns out to be a dud, it lands with this sound that rhymes with \"dud\"", 
+                    "id": "51", 
+                    "price": "200", 
+                    "solution": "thud", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "pitterpatter"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "Hearing this hyphenated sound \"of tiny feet\" means you have kids in the house, or mice", 
+                    "id": "52", 
+                    "price": "400", 
+                    "solution": "pitter-patter", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "chug"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "After a few hours in the hot sun, I'm ready to drink a cold beverage this way, also an engine sound", 
+                    "id": "53", 
+                    "price": "600", 
+                    "solution": "chug", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": [
+                        "Jerry", 
+                        "Karla", 
+                        "Rick"
+                    ], 
+                    "parsed_soultion": [
+                        "whinny"
+                    ], 
+                    "right": "null", 
+                    "prompt": "Hey! It's a 6-letter bray from Mr. Ed", 
+                    "id": "55", 
+                    "price": "1000", 
+                    "solution": "whinny", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "2": [
+        {
+            "genre": "AROUND THE BODY", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "ovaries", 
+                        "ovarie", 
+                        "ovari"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "It's the more common name for the female gonads", 
+                    "id": "21", 
+                    "price": "400", 
+                    "solution": "ovaries", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "wrist"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "Arranged in 2 rows, 8 small carpal bones make up this part of the body", 
+                    "id": "22", 
+                    "price": "800", 
+                    "solution": "the wrist", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "exocrineandendocrine"
+                    ], 
+                    "dailyDoublePrice": "3000", 
+                    "prompt": "Named for the way they release secretions, they're the body's 2 main types of glands", 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "id": "23", 
+                    "price": "1200", 
+                    "solution": "exocrine and endocrine", 
+                    "Jtype": "double"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "carotidarteries", 
+                        "carotidarterie", 
+                        "carotidarteri"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "The left one of these arteries originates over the heart & supplies blood to the head & neck", 
+                    "id": "25", 
+                    "price": "2000", 
+                    "solution": "the carotid arteries", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "DEFUNCT SPORTS FRANCHISES", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "buffalo"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "Between 1879 & 1915, this N.Y. city had 3 different pro baseball teams somewhat redundantly called the Bisons", 
+                    "id": "31", 
+                    "price": "400", 
+                    "solution": "Buffalo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "capitols", 
+                        "capitol"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "In the 1950s Washington, D.C. had a NBA team called this, like the current NHL team but spelled -ols", 
+                    "id": "32", 
+                    "price": "800", 
+                    "solution": "the Capitols", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Jerry"
+                    ], 
+                    "parsed_soultion": [
+                        "stlouis", 
+                        "stloui"
+                    ], 
+                    "right": [
+                        "Karla"
+                    ], 
+                    "prompt": "From 1974 to 1976, this city had a pro basketball team called the \"Spirits of\" it", 
+                    "id": "33", 
+                    "price": "1200", 
+                    "solution": "St. Louis", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "statenisland"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "The Stapletons briefly brought NFL action to this NYC island borough", 
+                    "id": "34", 
+                    "price": "1600", 
+                    "solution": "Staten Island", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "baltimore"
+                    ], 
+                    "dailyDoublePrice": "2000", 
+                    "prompt": "In 1914 & 1915 the Terrapins repped this town in baseball's upstart Federal League", 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "id": "35", 
+                    "price": "2000", 
+                    "solution": "Baltimore", 
+                    "Jtype": "double"
+                }
+            ]
+        }, 
+        {
+            "genre": "FOUND IN TRANSLATION", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Jerry", 
+                        "Karla", 
+                        "Rick"
+                    ], 
+                    "parsed_soultion": [
+                        "ration"
+                    ], 
+                    "right": "null", 
+                    "prompt": "To restrict distribution of something scarce", 
+                    "id": "51", 
+                    "price": "400", 
+                    "solution": "ration", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Jerry"
+                    ], 
+                    "parsed_soultion": [
+                        "roast"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "A facetious, often bawdy tribute banquet", 
+                    "id": "52", 
+                    "price": "800", 
+                    "solution": "a roast", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Jerry", 
+                        "Karla", 
+                        "Rick"
+                    ], 
+                    "parsed_soultion": [
+                        "strata"
+                    ], 
+                    "right": "null", 
+                    "prompt": "Irregular plural word for multiple layers of something", 
+                    "id": "53", 
+                    "price": "1200", 
+                    "solution": "strata", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "list", 
+                        "slant"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "To lean or tilt to one side", 
+                    "id": "54", 
+                    "price": "1600", 
+                    "solution": "list (or slant)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "onstar"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "Push the blue button in your GM car to get this helpful trademarked service", 
+                    "id": "55", 
+                    "price": "2000", 
+                    "solution": "OnStar", 
+                    "Jtype": "single"
+                }
+            ]
+        }, 
+        {
+            "genre": "THE U.S. CONGRESS WITH NANCY PELOSI", 
+            "questions": [
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "NORSE GODS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "friday"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "We can thank Freya, the goddess of love, for this day that takes its name from her", 
+                    "id": "41", 
+                    "price": "400", 
+                    "solution": "Friday", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "deliveringmessages", 
+                        "deliveringmessenger", 
+                        "messenger", 
+                        "deliveringmessage", 
+                        "deliveringmessag"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "Hermod, whose name means \"war spirit\", performed this service for his fellow gods, like Mercury for the Roman pantheon", 
+                    "id": "42", 
+                    "price": "800", 
+                    "solution": "delivering messages (or messenger)", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "poems", 
+                        "poem"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "Known for his eloquence & knowledge, Bragi was the patron god of skalds, who composed & wrote these", 
+                    "id": "43", 
+                    "price": "1200", 
+                    "solution": "poems", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": [
+                        "Jerry"
+                    ], 
+                    "parsed_soultion": [
+                        "sunrise"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "Delling, whose name means \"luminous one\", was the personification of this daily moment", 
+                    "id": "44", 
+                    "price": "1600", 
+                    "solution": "sunrise", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "Jtype": "placeholder"
+                }
+            ]
+        }, 
+        {
+            "genre": "CLASSICAL MUSIC TERMS", 
+            "questions": [
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "pizzicato"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "Italian for \"plucked\"", 
+                    "id": "11", 
+                    "price": "400", 
+                    "solution": "pizzicato", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "alto"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "4 letters--Italian for \"high\"", 
+                    "id": "12", 
+                    "price": "800", 
+                    "solution": "alto", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "allemande"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "French for \"German\"", 
+                    "id": "13", 
+                    "price": "1200", 
+                    "solution": "allemande", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "bassoprofundo"
+                    ], 
+                    "right": [
+                        "Rick"
+                    ], 
+                    "prompt": "Italian for \"deep bass\"", 
+                    "id": "14", 
+                    "price": "1600", 
+                    "solution": "basso profundo", 
+                    "Jtype": "single"
+                }, 
+                {
+                    "wrong": "null", 
+                    "parsed_soultion": [
+                        "dacapo"
+                    ], 
+                    "right": [
+                        "Jerry"
+                    ], 
+                    "prompt": "Italian for \"from the head\"", 
+                    "id": "15", 
+                    "price": "2000", 
+                    "solution": "da capo", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ], 
+    "3": [
+        {
+            "genre": "AMERICAN HISTORY", 
+            "questions": [
+                {
+                    "wrong": [
+                        "Karla", 
+                        "Rick", 
+                        "Jerry"
+                    ], 
+                    "parsed_soultion": [
+                        "battleoflexington"
+                    ], 
+                    "right": "null", 
+                    "prompt": "The last survivor of this battle that started a war died in 1854 & more men marched at his funeral than fought with him", 
+                    "id": "null", 
+                    "price": null, 
+                    "solution": "the Battle of Lexington", 
+                    "Jtype": "single"
+                }
+            ]
+        }
+    ]
+}
