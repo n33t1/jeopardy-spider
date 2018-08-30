@@ -1,4 +1,20 @@
 # from jparser import JeopardyParser
+# TODO: currently we need to run firebase/config.py in order to import
+# because it's a singleton
+# better solutions?
+from firebase import GAMES_REF, UTILS_REF, SeasonAPI
+# from scheduler import Scheduler
+
+# scheduler = Scheduler(GAMES_REF, UTILS_REF)
+
+# api = SeasonAPI(14)
+# test = {"a": {"Asd": "Adsa"}, "b": "S"}
+# api.upload_game("2018-08-28", test)
+
+	
+# sched.start()
+
+
 from downloader import Downloader
 
 import parser
@@ -9,7 +25,7 @@ if __name__ == "__main__":
 	parser.add_argument('-o', '--output',
 						help='output file type, currently support html or json',
 						default='json',
-						choices=set(('html', 'json')))
+						choices=set(('html', 'json', 'firebase')))
 
 	# still need to check range for season
 	parser.add_argument('-s', '--season',
@@ -17,4 +33,6 @@ if __name__ == "__main__":
 						type=int)
 
 	args = parser.parse_args()
-	Downloader(args.season, args.output)
+
+	api = SeasonAPI(args.season)
+	Downloader(args.season, args.output, api)

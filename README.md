@@ -28,3 +28,5 @@ Each game contains the following fields:
 * 1: stands for Jeopardy! Round
 * 2: stands for Double Jeopardy! Round. Might be missing for some games. 
 * 3: stands for Final Jeopardy! Round. Might be missing for some games. 
+
+`python src/run.py -s 14 -o firebase`
