@@ -64,7 +64,7 @@ class Round(JeopardyParser):
 
 		JeopardyParser.__init__(self, soup)
 		self.hash_num_round = {1: "jeopardy_round", 2: "double_jeopardy_round", 3: "final_jeopardy_round"}
-		temp = {'keys':[], 'contestants_info': self.contestants.info, 'contestants_keys': self.contestants.ids}
+		temp = {'keys':[], 'game_count': {}, 'contestants_info': self.contestants.info, 'contestants_keys': self.contestants.ids}
 		self.res = {'info': temp}
 		self.value_hash = {}
 	
@@ -89,12 +89,13 @@ class Round(JeopardyParser):
 			r = self.soup.find(id=self.hash_num_round[i])
 			if r:
 				items = []
-				genres = self.parseRound(r)
+				genres, cnt = self.parseRound(r)
 
 				for key, val in genres.iteritems():
 						temp = {'genre': key, 'questions': val}
 						items.append(temp)
 				self.res['info']['keys'].append(i)
+				self.res['info']['game_count'][i] = cnt
 				self.res[i] = items
 		
 		# parse final jeopardy
@@ -107,6 +108,7 @@ class Round(JeopardyParser):
 				temp = {'genre': key, 'questions': val}
 				items.append(temp)
 			self.res['info']['keys'].append(3)
+			self.res['info']['game_count'][3] = 1
 			self.res[3] = items
 
 	def getClueRowCol(self, s):
@@ -167,6 +169,7 @@ class Round(JeopardyParser):
 
 		_clues = r.find_all("td", class_="clue")
 		self.createValueHash(_clues)
+		cnt = 0
 
 		i = 0
 
@@ -218,6 +221,7 @@ class Round(JeopardyParser):
 					temp = Clue(_type, value, question, answer, answerParsed, right, wrong, _id)
 
 				genres[category].append(temp.toJSON())
+				cnt += 1
 			else:
 				i += 1
 				if i % 7 == 0: 
@@ -225,11 +229,6 @@ class Round(JeopardyParser):
 				category = categories[i-1]
 				temp = Clue("placeholder")
 				genres[category].append(temp.toJSON())
+		
 		self.value_hash = {}
-		return genres
-
-# with open("season_1_html/1985-01-03.html") as f:
-#       data = f.read()
-#       soup = BeautifulSoup(data, 'html.parser')
-#       r = Round(soup, "test.json")
-#       r.parseGame()
+		return genres, cnt
