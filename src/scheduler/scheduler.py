@@ -98,9 +98,9 @@ class Scheduler:
 
   def run(self):
     self.scheduler = BlockingScheduler()
-    self.scheduler.add_job(self.check_and_update_game, 'interval', seconds=10)
-    self.scheduler.add_job(self.heartbeat, 'interval', seconds=10)
-    self.scheduler.add_job(self.check_maybe_update_season, 'interval', seconds=10)
+    self.scheduler.add_job(self.check_and_update_game, 'cron', day_of_week='*', hour=2)
+    self.scheduler.add_job(self.heartbeat, 'interval', 'cron', day_of_week='*', hour=2)
+    self.scheduler.add_job(self.check_maybe_update_season, 'cron', day_of_week='*', hour=2)
     # TODO: update and test cron scheduler
     # self.scheduler.add_job(self.myJob, 'cron', day_of_week='*', hour=17)
     self.scheduler.start()
@@ -174,9 +174,13 @@ class Scheduler:
       current_date = datetime.datetime.today().strftime('%Y-%m-%d')
       print "updated utils/LAST_UPDATED_TIME to", current_date
       self._post_to_UTILS('LAST_UPDATED_TIME', current_date)
-      season = self._get_last_season()
-      api = SeasonAPI(season)
-      api.upload_game(current_date, {"a": {"Asd": "Adsa"}, "b": "S"})
+      self._upload_to_firebase(last_season)
     else:
       # TODO
       print "timestamp, checked, utils/GAME_MD5 did not change"
+
+  def _upload_to_firebase(self, season):
+    season = int(season)
+    api = SeasonAPI(season)
+    d = Downloader(args.season, args.output, api)
+    d.download_and_parse_game(season)
