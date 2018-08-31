@@ -10,5 +10,6 @@
 keys
 
 /.vscode
+.env
 
 season_*/
