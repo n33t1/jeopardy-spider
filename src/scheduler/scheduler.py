@@ -19,19 +19,19 @@ new was added. But if we receive 200 as response, then we should
   1. update last_time to current timestamp 
   2. if a new season is added:
     1. add season to firebase rn-jeopardy-clues/games/season
-	2. go to 3
+  2. go to 3
   3. if a new game is added:
-	download, parser and update to firebase. Add to rn-jeopardy-clues/season-<s> and update yyyy-mm-dd to rn-jeopardy-clues/season-<s>/keys
-	return True
+  download, parser and update to firebase. Add to rn-jeopardy-clues/season-<s> and update yyyy-mm-dd to rn-jeopardy-clues/season-<s>/keys
+  return True
   4. Write to log
 
 Sadly, since J! Archive server does not return If-Modified-Since (response attached as following), we need plan B.
-	Date: Sun, 26 Aug 2018 19:48:25 GMT
-	Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 mod_bwlimited/1.4
-	X-Powered-By: PHP/5.5.37
-	Connection: close
-	Transfer-Encoding: chunked
-	Content-Type: text/html; charset=utf-8
+  Date: Sun, 26 Aug 2018 19:48:25 GMT
+  Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 mod_bwlimited/1.4
+  X-Powered-By: PHP/5.5.37
+  Connection: close
+  Transfer-Encoding: chunked
+  Content-Type: text/html; charset=utf-8
 
 Plan B:
   Similar to the steps in Plan A, but now we are comparing previous md5 and current md5, instead of reponses 
@@ -88,78 +88,78 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 import logging
 
 class Scheduler:
-	def __init__(self, GAMES_REF, UTILS_REF):
-		self.UTILS_REF = UTILS_REF
-		self.GAMES_REF = GAMES_REF
+  def __init__(self, GAMES_REF, UTILS_REF):
+    self.UTILS_REF = UTILS_REF
+    self.GAMES_REF = GAMES_REF
 
-		self.run()
+    self.run()
 
-	def run(self):
-		self.scheduler = BlockingScheduler()
-		self.scheduler.add_job(self.check_and_update_game, 'interval', seconds=5)
-		self.scheduler.add_job(self.check_maybe_update_season, 'interval', seconds=5)
-		# TODO: update and test cron scheduler
-		# self.scheduler.add_job(self.myJob, 'cron', day_of_week='*', hour=17)
-		self.scheduler.start()
+  def run(self):
+    self.scheduler = BlockingScheduler()
+    self.scheduler.add_job(self.check_and_update_game, 'interval', seconds=5)
+    self.scheduler.add_job(self.check_maybe_update_season, 'interval', seconds=5)
+    # TODO: update and test cron scheduler
+    # self.scheduler.add_job(self.myJob, 'cron', day_of_week='*', hour=17)
+    self.scheduler.start()
 
-	def _calc_date_diff(self, last_updated_date):
-		today = datetime.date.today()
-		prev = datetime.datetime.strptime(last_updated_date, "%d-%m-%Y").date()
-		diff = today - prev
-		return diff.days
+  def _calc_date_diff(self, last_updated_date):
+    today = datetime.date.today()
+    prev = datetime.datetime.strptime(last_updated_date, "%d-%m-%Y").date()
+    diff = today - prev
+    return diff.days
 
-	def _get_last_season(self):
-		return self.GAMES_REF.child('seasons').get()
+  def _get_last_season(self):
+    return self.GAMES_REF.child('seasons').get()
 
-	def _get_from_UTILS(self, key):
-		return self.UTILS_REF.child(key).get()
-	
-	def _post_to_UTILS(self, key, new_MD5):
-		try:
-			self.UTILS_REF.child(key).set(new_MD5)
-		except Exception as e:
-			print e
-			raise
-	
-	def _get_curr_MD5(self, url):
-		html = urllib2.urlopen(url).read()
-		return md5.new(html).hexdigest()
+  def _get_from_UTILS(self, key):
+    return self.UTILS_REF.child(key).get()
+  
+  def _post_to_UTILS(self, key, new_MD5):
+    try:
+      self.UTILS_REF.child(key).set(new_MD5)
+    except Exception as e:
+      print e
+      raise
+  
+  def _get_curr_MD5(self, url):
+    html = urllib2.urlopen(url).read()
+    return md5.new(html).hexdigest()
 
-	def check_maybe_update_season(self):
-		print "_check_season called!"
-		last_updated_date = self._get_from_UTILS('LAST_UPDATED_TIME')
-		date_diff = self._calc_date_diff(last_updated_date)
-		if date_diff > 3:
-			self.check_and_update_season()
+  def check_maybe_update_season(self):
+    print "_check_season called!"
+    last_updated_date = self._get_from_UTILS('LAST_UPDATED_TIME')
+    date_diff = self._calc_date_diff(last_updated_date)
+    if date_diff > 3:
+      self.check_and_update_season()
 
-	def check_and_update_season(self):
-		prev_MD5 = self._get_from_UTILS('SEASON_MD5')
-		prev_MD5 = prev_MD5.encode('utf8')
-		SEASON_URL = "http://j-archive.com/listseasons.php"
-		curr_MD5 = self._get_curr_MD5(SEASON_URL)
-		# TODO: log timestamp
-		if prev_MD5 != curr_MD5:
-			print "updated utils/SEASON_MD5 to", curr_MD5
-			self._post_to_UTILS('SEASON_MD5', curr_MD5)
-		else:
-			# TODO
-			print "timestamp, checked, utils/SEASON_MD5 did not change"
+  def check_and_update_season(self):
+    prev_MD5 = self._get_from_UTILS('SEASON_MD5')
+    prev_MD5 = prev_MD5.encode('utf8')
+    SEASON_URL = "http://j-archive.com/listseasons.php"
+    curr_MD5 = self._get_curr_MD5(SEASON_URL)
+    # TODO: log timestamp
+    if prev_MD5 != curr_MD5:
+      print "updated utils/SEASON_MD5 to", curr_MD5
+      self._post_to_UTILS('SEASON_MD5', curr_MD5)
+    else:
+      # TODO
+      print "timestamp, checked, utils/SEASON_MD5 did not change"
 
-	def check_and_update_game(self):
-		print "check_and_update_game called!"
-		last_season = self._get_last_season()
-		last_season = str(last_season)
-		prev_MD5 = self._get_from_UTILS('GAME_MD5')
-		prev_MD5 = prev_MD5.encode('utf8')
-		GAME_URL = "http://j-archive.com/showseason.php?season=" + last_season
-		curr_MD5 = self._get_curr_MD5(GAME_URL)
-		# TODO: log timestamp
-		if prev_MD5 != curr_MD5:
-			print "updated utils/GAME_MD5 to", curr_MD5
-			self._post_to_UTILS('GAME_MD5', curr_MD5)
-			current_date = datetime.datetime.today().strftime('%Y-%m-%d')
-			print "updated utils/LAST_UPDATED_TIME to", current_date
-			self._post_to_UTILS('LAST_UPDATED_TIME', current_date)
-		else:
-			# TODO
-			print "timestamp, checked, utils/GAME_MD5 did not change"
+  def check_and_update_game(self):
+    print "check_and_update_game called!"
+    last_season = self._get_last_season()
+    last_season = str(last_season)
+    prev_MD5 = self._get_from_UTILS('GAME_MD5')
+    prev_MD5 = prev_MD5.encode('utf8')
+    GAME_URL = "http://j-archive.com/showseason.php?season=" + last_season
+    curr_MD5 = self._get_curr_MD5(GAME_URL)
+    # TODO: log timestamp
+    if prev_MD5 != curr_MD5:
+      print "updated utils/GAME_MD5 to", curr_MD5
+      self._post_to_UTILS('GAME_MD5', curr_MD5)
+      current_date = datetime.datetime.today().strftime('%Y-%m-%d')
+      print "updated utils/LAST_UPDATED_TIME to", current_date
+      self._post_to_UTILS('LAST_UPDATED_TIME', current_date)
+    else:
+      # TODO
+      print "timestamp, checked, utils/GAME_MD5 did not change"
