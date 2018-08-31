@@ -1,5 +1,4 @@
 import re
-
 '''
 This function parses jeopardy clue solutions. 
 Specifically, it parses off optional contents, 
@@ -177,3 +176,22 @@ def main(s):
 # s = "sauages"
 # s = "Reno, Nevada"
 # print main(s)
+
+# '''
+# you need to run the following command on the first run
+
+# import nltk
+# nltk.download('punkt')
+
+# '''
+
+# from nltk.stem import PorterStemmer
+# from nltk.tokenize import sent_tokenize, word_tokenize
+ 
+# ps = PorterStemmer()
+ 
+# sentence = "gaming, the gamers play games"
+# words = word_tokenize(sentence)
+ 
+# for word in words:
+#     print(word + ":" + ps.stem(word))
