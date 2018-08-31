@@ -141,6 +141,8 @@ class Scheduler:
 		if prev_MD5 != curr_MD5:
 			print "updated utils/SEASON_MD5 to", curr_MD5
 			self._post_to_UTILS('SEASON_MD5', curr_MD5)
+			# TODO
+			# self._upload_to_firebase(last_season)
 		else:
 			# TODO
 			print "timestamp, checked, utils/SEASON_MD5 did not change"
@@ -160,6 +162,13 @@ class Scheduler:
 			current_date = datetime.datetime.today().strftime('%Y-%m-%d')
 			print "updated utils/LAST_UPDATED_TIME to", current_date
 			self._post_to_UTILS('LAST_UPDATED_TIME', current_date)
+			self._upload_to_firebase(last_season)
 		else:
 			# TODO
 			print "timestamp, checked, utils/GAME_MD5 did not change"
+	
+	def _upload_to_firebase(self, season):
+		season = int(season)
+		api = SeasonAPI(season)
+		d = Downloader(args.season, args.output, api)
+		d.download_and_parse_game(season)

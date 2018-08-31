@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys, os
-sys.path.append(os.path.abspath(__file__ + "/../"))
+sys.path.append(os.path.abspath(__file__ + "/../../"))
 
 from utils import Round
 
@@ -62,7 +62,7 @@ class Downloader:
 		self.season = season
 		self.output_type = output_type
 		self.api = api
-		self.run()
+		# self.run()
 
 	def run(self):
 		try:
@@ -77,6 +77,27 @@ class Downloader:
 			self.parse_specific_season()
 		else:
 			self.parse_season()
+	
+	def download_and_parse_game(self, season):
+		url, game_date = self._get_game_list_for_season(season)
+		print "url: {}, game_date: {}".format(url, game_date)
+		html = self.download_page(url)
+		if self.ERROR_MSG in html:
+			# Now we stop
+			print "Finished downloading. Now parse."
+			return False
+		elif html:
+			html_string = str(html)
+			html_lxml = BeautifulSoup(html_string, 'lxml')
+			self.upload_to_firebase(html_lxml, game_date)
+
+	def _get_game_list_for_season(self, season):
+		url = self.SEASON_URL % str(season)
+		season_html = self.download_page(url)
+		td = season_html.find_all('td',{'align':'left'})[0]
+		url = td.find("a")["href"]
+		game_date = td.a.contents[0].split()[2]
+		return url, game_date
 
 	def parse_specific_season(self):
 		url = self.SEASON_URL % self.season
@@ -132,7 +153,7 @@ class Downloader:
 		for thread in threadList:
 			thread.join()
 
-	def download_and_save_page(self, url, game_date, archive_folder):
+	def download_and_save_page(self, url, game_date=None, archive_folder=None):
 		new_file_name = "%s.html" % game_date if self.output_type == 'html' else "%s.json" % game_date
 		destination_file_path = os.path.join(archive_folder, new_file_name)
 		if not os.path.exists(destination_file_path):
@@ -187,6 +208,7 @@ class Downloader:
 		test.toJSON()
 	
 	def upload_to_firebase(self, html_string, game_date):
+		print "upload_to_firebase called!"
 		test = Round(html_string, game_date=game_date)
 		test.parseGame()
 		test.uploadToFirebase(self.api)
