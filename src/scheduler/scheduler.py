@@ -98,8 +98,9 @@ class Scheduler:
 
   def run(self):
     self.scheduler = BlockingScheduler()
-    self.scheduler.add_job(self.check_and_update_game, 'interval', seconds=5)
-    self.scheduler.add_job(self.check_maybe_update_season, 'interval', seconds=5)
+    self.scheduler.add_job(self.check_and_update_game, 'interval', seconds=10)
+    self.scheduler.add_job(self.heartbeat, 'interval', seconds=10)
+    self.scheduler.add_job(self.check_maybe_update_season, 'interval', seconds=10)
     # TODO: update and test cron scheduler
     # self.scheduler.add_job(self.myJob, 'cron', day_of_week='*', hour=17)
     self.scheduler.start()
@@ -129,6 +130,10 @@ class Scheduler:
   def _get_curr_MD5(self, url):
     html = urllib2.urlopen(url).read()
     return md5.new(html).hexdigest()
+
+  def heartbeat(self):
+    import time
+    self.UTILS_REF.child('heartbeat').set(str(int(time.time())))
 
   def check_maybe_update_season(self):
     print "_check_season called!"
