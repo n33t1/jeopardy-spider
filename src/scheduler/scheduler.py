@@ -81,6 +81,8 @@ import md5
 import requests
 import urllib2
 import datetime
+from firebase.SeasonAPI import SeasonAPI
+from downloader.multithreading_gevent import Downloader
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 
@@ -110,6 +112,9 @@ class Scheduler:
 
   def _get_last_season(self):
     return self.GAMES_REF.child('seasons').get()
+
+  def _set_last_season(self, season):
+    self.GAMES_REF.child('seasons').set(season)
 
   def _get_from_UTILS(self, key):
     return self.UTILS_REF.child(key).get()
@@ -141,6 +146,10 @@ class Scheduler:
     if prev_MD5 != curr_MD5:
       print "updated utils/SEASON_MD5 to", curr_MD5
       self._post_to_UTILS('SEASON_MD5', curr_MD5)
+      oldSeason = self._get_last_season()
+      self._post_to_UTILS('last_season', oldSeason + 1)
+      api = SeasonAPI(oldSeason + 1)
+      Downloader(oldSeason + 1, 'firebase', api)
     else:
       # TODO
       print "timestamp, checked, utils/SEASON_MD5 did not change"
@@ -160,6 +169,9 @@ class Scheduler:
       current_date = datetime.datetime.today().strftime('%Y-%m-%d')
       print "updated utils/LAST_UPDATED_TIME to", current_date
       self._post_to_UTILS('LAST_UPDATED_TIME', current_date)
+      season = self._get_last_season()
+      api = SeasonAPI(season)
+      api.upload_game(current_date, {"a": {"Asd": "Adsa"}, "b": "S"})
     else:
       # TODO
       print "timestamp, checked, utils/GAME_MD5 did not change"
