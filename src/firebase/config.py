@@ -6,7 +6,6 @@ from utils import service_credentials
 
 # Fetch the service account key JSON file contents
 # TODO: replace with relative path
-#cred = credentials.Certificate('/Users/n33t1/Dev/jeopardy-crawler/keys/rn-jeopardy-clues-firebase-adminsdk-tjzhw-a8735066d5.json')
 
 cred = credentials.Certificate(service_credentials.getcert())
 

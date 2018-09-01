@@ -1,12 +1,12 @@
 '''
 
-We want to have a scheduler that runs every day to check whether there is a epsode posted.
+We want to have a scheduler that runs every day to check whether there is an new epsode posted.
 
-More research need to be done on Python Scheduler, but these posts is a good start:
+More research need to be done on Python Scheduler, but these posts are a good start:
 https://devcenter.heroku.com/articles/clock-processes-python
 https://stackoverflow.com/questions/21214270/scheduling-a-function-to-run-every-hour-on-flaska
 
-Essentially, we want this scheduler to check whether a new game if added. And there are 
+Essentially, we want this scheduler to check whether a new game is added. And there are 
 two things we need to check:
   1. Season list: http://j-archive.com/listseasons.php
   2. Game/episode list for lastest season: http://j-archive.com/showseason.php?season=34
