@@ -94,13 +94,19 @@ class Scheduler:
     self.UTILS_REF = UTILS_REF
     self.GAMES_REF = GAMES_REF
 
-    self.run()
+    # disables autorun for heroku since scheduling is handled externally.
+    #self.run()
 
+  # not called from heroku
   def run(self):
     self.scheduler = BlockingScheduler()
     self.scheduler.add_job(self.check_and_update_game, 'cron', day_of_week='*', hour=2)
-    self.scheduler.add_job(self.heartbeat, 'interval', 'cron', day_of_week='*', hour=2)
+    self.scheduler.add_job(self.heartbeat, 'cron', day_of_week='*', hour=2)
     self.scheduler.add_job(self.check_maybe_update_season, 'cron', day_of_week='*', hour=2)
+    # for debug
+    self.scheduler.add_job(self.check_and_update_game, 'interval', seconds=10)
+    self.scheduler.add_job(self.check_maybe_update_season, 'interval', seconds=10)
+
     # TODO: update and test cron scheduler
     # self.scheduler.add_job(self.myJob, 'cron', day_of_week='*', hour=17)
     self.scheduler.start()
@@ -182,5 +188,5 @@ class Scheduler:
   def _upload_to_firebase(self, season):
     season = int(season)
     api = SeasonAPI(season)
-    d = Downloader(args.season, args.output, api)
+    d = Downloader(season, 'firebase', api)
     d.download_and_parse_game(season)

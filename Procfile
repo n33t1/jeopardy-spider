@@ -1,1 +1,1 @@
-worker: python src/run.py
+clock: python src/heroku_clock.py
