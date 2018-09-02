@@ -3,7 +3,7 @@ Python crawler for jeopardy games on [J! Archive](http://j-archive.com/).
 
 ## Setup
 ```bash
-git clone https://github.com/n33t1/sjeopardy-parser.git
+git clone https://github.com/n33t1/jeopardy-parser.git
 cd jeopardy-parser
 pip install -r requirements.txt
 ```
