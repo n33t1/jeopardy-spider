@@ -52,6 +52,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 # TODO: setup logging
 import logging
+# logger = logging.getLogger(__name__)
 
 class Scheduler:
     def __init__(self, GAMES_REF, UTILS_REF):

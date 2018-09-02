@@ -5,10 +5,10 @@ import sys
 import os
 sys.path.append(os.path.abspath(__file__ + "/../../"))
 
-from utils import Round
+# from utils import RoundParser
 import logging
 import urllib2
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup as soup
 import time
 import sys
 import concurrent.futures as futures
@@ -64,18 +64,101 @@ class Downloader:
 
 	BASE_URL = "http://j-archive.com/"
 	SEASON_URL = "http://www.j-archive.com/showseason.php?season=%s"
-	BASE_PAGE = urllib2.urlopen(BASE_URL).read()
-	soup = BeautifulSoup(BASE_PAGE, "html.parser")
+	GAME_URL = "http://www.j-archive.com/showgame.php?game_id=%s"
+	# BASE_PAGE = urllib2.urlopen(BASE_URL).read()
+	# soup = soup(BASE_PAGE, "html.parser")
 
-	def __init__(self, season, output_type, api=None):
-		self.season = season
-		self.output_type = output_type
+	def __init__(self, api=None):
 		self.api = api
-		self.test()
+	
+	def _get_all_games_for_season(self, season):
+		def _parser_season(season_html):
+			td = season_html.find_all('td', {'align': 'left'})[0]
+			url = td.find("a")["href"]
+			game_date = td.a.contents[0].split()[2]
+			return url, game_date
 
-	def test(self):
-		logger.info("Doing something!")
-		
+		logger.debug("Parsing game list for season %s", season)
+		season_url = self.SEASON_URL % str(season)
+		season_html = self._download_page(season_url)
+		return _parser_season(season_html)
+
+	def _download_page(self, url, parse=True):
+		try:
+			if parse:
+				logger.debug("Downloading %s", url)
+				html = soup(urllib2.urlopen(url), 'lxml')
+			else:
+				logger.debug("Downloading %s as html string", url)
+				html = urllib2.urlopen(url).decode('utf-8').encode('ascii', 'ignore')
+			
+			return html
+		except (Exception, urllib2.HTTPError) as e:
+			logger.error("failed to open %s", url)
+			raise e
+
+	def download_lastest_game_from_season(self, season, output_type="firebase", season_options=None):
+		"""Download lastest game for the given season with output_type of either html, json or uploading
+		to your firebase database (default option).
+
+		Args:
+			season(int): Season you want to download.
+			output_type(str): Output type, being html, json or uploading to firebase.
+			*season_options(int): range for season from 1 to season_options inclusively. 
+
+		Returns:
+			Beautiful soup object for html page for target game.
+
+		"""
+		try:
+			if season_options and season not in season_options:
+				raise Exception('Season does not exist!')
+			
+			game_url, game_date = self._get_all_games_for_season(season)
+			logger.debug("url: %s, game_date: %s fetched successfully.", game_url, game_date)
+			return self._download_page(game_url)
+		except Exception as e:
+			logger.error(e)
+			raise
+	
+	def download_specific_game(self, game_id, game_options, output_type="firebase"):
+		"""Download specific game for the given game_date and season with output_type of either html, json or uploading
+		to your firebase database.
+
+		Args:
+			game_id(str): Game id for the jeopady game you want.
+			game_options(dict): a dict of {game_id: game_date} for exisiting games for current season. 
+			output_type(str): Output type, being html, json or uploading to firebase.
+
+		Returns:
+			Beautiful soup object for html page for target game.
+
+		"""
+		try:
+			if game_id not in game_options.keys():
+				raise Exception('Game does not exist!')
+			
+			game_date = game_options[game_id]
+			game_url = self.GAME_URL % game_id
+			logger.debug("url: %s, game_date: %s fetched successfully.", game_url, game_date)
+			return self._download_page(game_url)
+		except Exception as e:
+			logger.error(e)
+			raise
+
+
+	# def parse_specific_season(self):
+	# 	url = self.SEASON_URL % self.season
+
+	# 	season_str = str(self.season)
+
+	# 	archive_folder = 'season_%s' % season_str
+	# 	self.create_archive_dir(archive_folder)
+
+	# 	season_html = self.download_page(url)
+	# 	print "Now download season %s" % season_str
+	# 	self.parse_game(season_html, archive_folder)	
+
 	# def download_season(self, season, output_type="firebase"):
 	# 	"""download the entire season with output_type of either html, json or uploading
 	# 	to your firebase database (default option).
@@ -90,52 +173,6 @@ class Downloader:
 	# 	"""
 	# 	pass
 
-	# def download_specific_season(self, season, game_date=None, game_id=None):
-	# 	"""Download specific game for the given game_date and season with output_type of either html, json or uploading
-	# 	to your firebase database.
-
-	# 	Args:
-	# 		season(int): Season you want to download.
-
-	# 		Please assign AND ONLY assign one of the two following params:
-
-	# 		game_date(str): Game date for the jeopady game you want. YYYY-MM-DDD.
-	# 		game_id(str): ID for for the jeopady game you want.
-
-	# 	Returns:
-	# 		The return value. True for success, False otherwise.
-
-	# 	"""
-	# 	pass
-
-	def download_lastest_game_from_season(self, season, output_type="firebase"):
-		"""Download lastest game for the given season with output_type of either html, json or uploading
-		to your firebase database (default option).
-
-		Args:
-			season(int): Season you want to download.
-
-			Please assign AND ONLY assign one of the two following params:
-
-			game_date(str): Game date for the jeopady game you want. YYYY-MM-DDD.
-			game_id(str): ID for for the jeopady game you want.
-
-		Returns:
-			The return value. True for success, False otherwise.
-
-		"""
-		url, game_date = self._get_game_list_for_season(season)
-		print "url: {}, game_date: {}".format(url, game_date)
-		html = self.download_page(url)
-		if self.ERROR_MSG in html:
-			# Now we stop
-			print "Finished downloading. Now parse."
-			return False
-		elif html:
-			html_string = str(html)
-			html_lxml = BeautifulSoup(html_string, 'lxml')
-			self.upload_to_firebase(html_lxml, game_date)
-
 	def run(self):
 		try:
 			import multiprocessing
@@ -149,26 +186,6 @@ class Downloader:
 			self.parse_specific_season()
 		else:
 			self.parse_season()
-
-	def _get_game_list_for_season(self, season):
-		url = self.SEASON_URL % str(season)
-		season_html = self.download_page(url)
-		td = season_html.find_all('td', {'align': 'left'})[0]
-		url = td.find("a")["href"]
-		game_date = td.a.contents[0].split()[2]
-		return url, game_date
-
-	def parse_specific_season(self):
-		url = self.SEASON_URL % self.season
-
-		season_str = str(self.season)
-
-		archive_folder = 'season_%s' % season_str
-		self.create_archive_dir(archive_folder)
-
-		season_html = self.download_page(url)
-		print "Now download season %s" % season_str
-		self.parse_game(season_html, archive_folder)
 
 	def parse_season(self):
 		for line in self.soup.select('a[href^="showseason.php"]'):
@@ -241,20 +258,6 @@ class Downloader:
 			print "Already downloaded %s" % destination_file_path
 		return True
 
-	def download_page(self, url):
-		html = None
-		try:
-			response = urllib2.urlopen(url)
-			if response.code == 200:
-				print "Downloading ", url
-				# html = response.read()
-				html = BeautifulSoup(response, "html.parser")
-			else:
-				print "Invalid URL: ", url
-		except urllib2.HTTPError:
-			print "failed to open ", url
-		return html
-
 	def save_file(self, html_string, filename):
 		try:
 			with open(filename, 'w') as f:
@@ -276,7 +279,3 @@ class Downloader:
 	def create_archive_dir(self, season):
 		if not os.path.isdir(season):
 			os.mkdir(season)
-
-
-if __name__ == "__main__":
-    d = Downloader(34, "json")

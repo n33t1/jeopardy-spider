@@ -57,7 +57,7 @@ class Contestants:
       res.append({"player_id": player_id, "player_info": player_info})
     return res
 
-class Round(JeopardyParser):
+class RoundParser(JeopardyParser):
   def __init__(self, soup, **kwargs):
     self.filename = kwargs.get('destination_file_path', None)
     self.game_date = kwargs.get('game_date', None)

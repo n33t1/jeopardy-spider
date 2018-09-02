@@ -6,11 +6,21 @@ import logging
 from logging.config import fileConfig
 
 fileConfig('logging_config.ini')
+
 logger = logging.getLogger()
+logging.getLogger('chardet.charsetprober').setLevel(logging.INFO)
 
 from downloader import Downloader
+from jeopardyParser import JeopardyParser
 
-d = Downloader(34, "json")
+downloader = Downloader()
+gameParser = JeopardyParser()
+
+game_soup = downloader.download_specific_game('6079', {'6079': 'Friday, July 27, 2018'})
+s = gameParser.parse_game(game_soup)
+# print s
+
+
 
 # schutil = Scheduler(GAMES_REF, UTILS_REF)
 
