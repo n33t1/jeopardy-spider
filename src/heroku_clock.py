@@ -1,17 +1,18 @@
-'''
-In the heroku branch, the scheduler has been separated from the clock worker
-so that it will not be necessary to have a self-writeen background process that
-sits idle for the entire day. 
+#!/usr/bin/env python -OO
+# -*- coding: utf-8 -*-
 
-In addition, it seems that logs are not visible until the program is halted with 
-the intergrated approach. It would be nice to have a logger, though.
-'''
-from firebase import GAMES_REF, UTILS_REF, SeasonAPI
+from fetcher import Fetcher
+from jeopardyParser import JeopardyParser
+from database import FirebaseAPI, SeasonAPI
 from scheduler import Scheduler
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-schutil = Scheduler(GAMES_REF, UTILS_REF)
+# init fetcher, parser and uploader
+fetcher = Fetcher()
+gameParser = JeopardyParser()
+uploader = SeasonAPI(FirebaseAPI())
 
+schutil = Scheduler(fetcher, gameParser, uploader)
 clock = BlockingScheduler()
 
 @clock.scheduled_job('cron', hour=2)
@@ -21,9 +22,5 @@ def checkSeason():
 @clock.scheduled_job('cron', hour=2)
 def checkGame():
   schutil.check_and_update_game()
-
-@clock.scheduled_job('interval', seconds = 10)
-def heartbeat():
-  schutil.heartbeat()
 
 clock.start()

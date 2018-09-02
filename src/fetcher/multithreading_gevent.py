@@ -9,6 +9,7 @@ sys.path.append(os.path.abspath(__file__ + "/../../"))
 import logging
 import urllib2
 from bs4 import BeautifulSoup as soup
+import md5
 import time
 import sys
 import concurrent.futures as futures
@@ -54,7 +55,7 @@ class threadDownload(threading.Thread):
             gevent.joinall(jobs)
 
 
-class Downloader:
+class Fetcher:
 	# TODO: parse clue answers
 	# TODO: filter media files
 
@@ -63,6 +64,7 @@ class Downloader:
 	NUM_THREADS = 2
 
 	BASE_URL = "http://j-archive.com/"
+	SEASON_LIST = "http://www.j-archive.com/listseasons.php"
 	SEASON_URL = "http://www.j-archive.com/showseason.php?season=%s"
 	GAME_URL = "http://www.j-archive.com/showgame.php?game_id=%s"
 	# BASE_PAGE = urllib2.urlopen(BASE_URL).read()
@@ -71,6 +73,22 @@ class Downloader:
 	def __init__(self, api=None):
 		self.api = api
 	
+	def get_latest_season(self):
+		logger.debug("Fetching latest season ...")
+		season_list_html = self._download_page(self.SEASON_LIST)
+		td = season_list_html.find_all('td')[0]
+		url = td.find("a")["href"]
+		lastest_season = td.a.contents[0].split()[1]
+		return url, lastest_season
+
+	def get_MD5(self, url):
+		try:
+			html = urllib2.urlopen(url).read()
+			return md5.new(html).hexdigest()
+		except Exception as e:
+			logger.error('Error getting MD5 for %s ! Error: %s', url, e)
+			raise
+
 	def _get_all_games_for_season(self, season):
 		def _parser_season(season_html):
 			td = season_html.find_all('td', {'align': 'left'})[0]
@@ -97,7 +115,7 @@ class Downloader:
 			logger.error("failed to open %s", url)
 			raise e
 
-	def download_lastest_game_from_season(self, season, output_type="firebase", season_options=None):
+	def fetch_lastest_game_from_season(self, season, output_type="firebase", season_options=None):
 		"""Download lastest game for the given season with output_type of either html, json or uploading
 		to your firebase database (default option).
 
@@ -116,7 +134,7 @@ class Downloader:
 			
 			game_url, game_date = self._get_all_games_for_season(season)
 			logger.debug("url: %s, game_date: %s fetched successfully.", game_url, game_date)
-			return self._download_page(game_url)
+			return self._download_page(game_url), game_date
 		except Exception as e:
 			logger.error(e)
 			raise
