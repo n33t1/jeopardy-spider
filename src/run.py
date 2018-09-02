@@ -3,16 +3,13 @@
 # because it's a singleton
 # better solutions?
 from firebase import GAMES_REF, UTILS_REF, SeasonAPI
-# from scheduler import Scheduler
+from scheduler import Scheduler
 
-# scheduler = Scheduler(GAMES_REF, UTILS_REF)
+scheduler = Scheduler(GAMES_REF, UTILS_REF)
 
 # api = SeasonAPI(14)
 # test = {"a": {"Asd": "Adsa"}, "b": "S"}
 # api.upload_game("2018-08-28", test)
-
-	
-# sched.start()
 
 
 from downloader import Downloader

@@ -1,1 +1,1 @@
-from .jeopardyParser import Round
+from .JeopardyParser import Round

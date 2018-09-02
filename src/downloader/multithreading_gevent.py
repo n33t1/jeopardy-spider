@@ -19,32 +19,32 @@ gevent.monkey.patch_all()
 # the downloader should run the html object and pass it into parser in src.run()
 # we should try to seperate downloader and parser as much as we can
 class threadDownload(threading.Thread):
-	def __init__(self, que, archive_folder, func):
-		threading.Thread.__init__(self)
-		self.que = que
-		self.archive_folder = archive_folder
-		self.func = func
+  def __init__(self, que, archive_folder, func):
+    threading.Thread.__init__(self)
+    self.que = que
+    self.archive_folder = archive_folder
+    self.func = func
 
-	def run(self):               
-		length = len(self.que)
-		coroutineNum = length # TODO: gevent wont be triggered if coroutineNum > length. need to be fixed. 
-		for i in range(coroutineNum):
-			jobs = []
-			left = i * (length // coroutineNum)
+  def run(self):               
+    length = len(self.que)
+    coroutineNum = length # TODO: gevent wont be triggered if coroutineNum > length. need to be fixed. 
+    for i in range(coroutineNum):
+      jobs = []
+      left = i * (length // coroutineNum)
 
-			if (i + 1) * (length // coroutineNum) < length:            
-				right = (i+1) * (length // coroutineNum)
-			else:
-				right = length
-			
-			print left, right, length
+      if (i + 1) * (length // coroutineNum) < length:            
+        right = (i+1) * (length // coroutineNum)
+      else:
+        right = length
+      
+      print left, right, length
 
-			for td in self.que[left:right]:
-				url = td.find("a")["href"]
-				game_date = td.a.contents[0].split()[2]
-				jobs.append(gevent.spawn(self.func, url, game_date, self.archive_folder))
-			gevent.joinall(jobs)
-				
+      for td in self.que[left:right]:
+        url = td.find("a")["href"]
+        game_date = td.a.contents[0].split()[2]
+        jobs.append(gevent.spawn(self.func, url, game_date, self.archive_folder))
+      gevent.joinall(jobs)
+        
 class Downloader:
 	# TODO: parse clue answers
 	# TODO: filter media files

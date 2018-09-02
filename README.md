@@ -7,10 +7,14 @@ git clone https://github.com/n33t1/jeopardy-parser.git
 cd jeopardy-parser
 pip install -r requirements.txt
 ```
+## Usage
+This crawler provides 2 kinds of output file formats: `json` and `html`. You can define the format you want with `-o json` or `-o html`.
 
-This crawler provides 2 kind of output file formats: json and html. You can define the format you want with `-o html` or `-o json`.
+If you want to download all seasons up to date, run `python download_multiprocessing.py` or `python download_threading_gevent.py`. `download_threading_gevent.py` uses multithreading and `gevent` while `download_multiprocessing.py` uses multiprocessing. Generally speaking, the former is faster than the latter. If you want to download a specific season in html files, say season 34, run `python download_threading_gevent.py -s 34 -o html`.
 
-If you want to download all seasons up to date, run `python download_multiprocessing.py` or `python download_threading_gevent.py`. `download_threading_gevent.py` uses multithreading and gevent while `download_multiprocessing.py` uses multiprocessing. Generally speaking, the former is faster than the latter. If you want to download a specific season in html files, say season 34, run `python download_threading_gevent.py -s 34 -o html`.
+This crawler also provides firebase upload capabilities (which can be done by calling `python src/run.py -s [season] -o firebase`) to a project-specific firebase realtime db. As of right now this functionality is not planned to be opened for other firebase databases.
+
+## Output
 
 Sample json output file is included [here](https://github.com/n33t1/jeopardy-parser/blob/master/2002-09-09.json). For each clue, we have the following attributes:
 
@@ -24,9 +28,8 @@ Sample json output file is included [here](https://github.com/n33t1/jeopardy-par
 * parsed_solution
 
 Each game contains the following fields:
-* keys: rounds in this game. If a game has keys equal to [1, 2], then it means that game onlys has Jeopardy! Round and Double Jeopardy! Round. 
+* keys: rounds in this game. If a game has keys equal to [1, 2], then it means that game only has Jeopardy! Round and Double Jeopardy! Round. 
 * 1: stands for Jeopardy! Round
 * 2: stands for Double Jeopardy! Round. Might be missing for some games. 
 * 3: stands for Final Jeopardy! Round. Might be missing for some games. 
 
-`python src/run.py -s 14 -o firebase`

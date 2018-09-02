@@ -8,3 +8,8 @@
 .DS_Store
 
 keys
+
+/.vscode
+.env
+
+season_*/

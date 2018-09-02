@@ -13,7 +13,7 @@ import concurrent.futures as futures
 
 ERROR_MSG = "ERROR: No game"
 SECONDS_BETWEEN_REQUESTS = 3
-NUM_THREADS = 2 
+NUM_THREADS = 2
 
 base_url = "http://j-archive.com/"
 base_page = urllib2.urlopen(base_url).read()
@@ -21,7 +21,7 @@ soup = BeautifulSoup(base_page, "html.parser")
 
 def main(season, output_type):
       try:
-            import multiprocessing 
+            import multiprocessing
             # Since it's a lot of IO let's double # of actual cores
             NUM_THREADS = multiprocessing.cpu_count() * 2
             print 'Using {} threads'.format(NUM_THREADS)
@@ -104,7 +104,7 @@ def download_and_save_page(url, game_date, archive_folder, output_type):
                   else:
                         raise NameError('File type not valid!')
 
-                  time.sleep(SECONDS_BETWEEN_REQUESTS)  
+                  time.sleep(SECONDS_BETWEEN_REQUESTS)
       else:
             print "Already downloaded %s" % destination_file_path
       return True
@@ -114,7 +114,7 @@ def download_page(url):
       try:
             response = urllib2.urlopen(url)
             if response.code == 200:
-                  print "Downloading ", url 
+                  print "Downloading ", url
                   # html = response.read()
                   html = BeautifulSoup(response, "html.parser")
             else:
@@ -133,7 +133,7 @@ def save_file(html_string, filename):
 def parse_to_json(html_string, destination_file_path):
       test = jparser.Round(html_string, destination_file_path)
       test.parseGame()
-            
+
 def create_archive_dir(season):
       if not os.path.isdir(season):
             os.mkdir(season)
