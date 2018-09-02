@@ -1,11 +1,12 @@
 #!/usr/bin/env python -OO
 # -*- coding: utf-8 -*-
 
-import sys, os
+import sys
+import os
 sys.path.append(os.path.abspath(__file__ + "/../../"))
 
 from utils import Round
-
+import logging
 import urllib2
 from bs4 import BeautifulSoup
 import time
@@ -15,43 +16,51 @@ import threading
 import gevent.monkey
 gevent.monkey.patch_all()
 
+import logging
+logger = logging.getLogger(__name__)
+
 # TODO: we should really use multothreading in src.run() instead of here
 # the downloader should run the html object and pass it into parser in src.run()
 # we should try to seperate downloader and parser as much as we can
+
+
 class threadDownload(threading.Thread):
-  def __init__(self, que, archive_folder, func):
-    threading.Thread.__init__(self)
-    self.que = que
-    self.archive_folder = archive_folder
-    self.func = func
+    def __init__(self, que, archive_folder, func):
+        threading.Thread.__init__(self)
+        self.que = que
+        self.archive_folder = archive_folder
+        self.func = func
 
-  def run(self):               
-    length = len(self.que)
-    coroutineNum = length # TODO: gevent wont be triggered if coroutineNum > length. need to be fixed. 
-    for i in range(coroutineNum):
-      jobs = []
-      left = i * (length // coroutineNum)
+    def run(self):
+        length = len(self.que)
+        # TODO: gevent wont be triggered if coroutineNum > length. need to be fixed.
+        coroutineNum = length
+        for i in range(coroutineNum):
+            jobs = []
+            left = i * (length // coroutineNum)
 
-      if (i + 1) * (length // coroutineNum) < length:            
-        right = (i+1) * (length // coroutineNum)
-      else:
-        right = length
-      
-      print left, right, length
+            if (i + 1) * (length // coroutineNum) < length:
+                right = (i+1) * (length // coroutineNum)
+            else:
+                right = length
 
-      for td in self.que[left:right]:
-        url = td.find("a")["href"]
-        game_date = td.a.contents[0].split()[2]
-        jobs.append(gevent.spawn(self.func, url, game_date, self.archive_folder))
-      gevent.joinall(jobs)
-        
+            print left, right, length
+
+            for td in self.que[left:right]:
+                url = td.find("a")["href"]
+                game_date = td.a.contents[0].split()[2]
+                jobs.append(gevent.spawn(self.func, url,
+                                         game_date, self.archive_folder))
+            gevent.joinall(jobs)
+
+
 class Downloader:
 	# TODO: parse clue answers
 	# TODO: filter media files
 
 	ERROR_MSG = "ERROR: No game"
 	SECONDS_BETWEEN_REQUESTS = 3
-	NUM_THREADS = 2 
+	NUM_THREADS = 2
 
 	BASE_URL = "http://j-archive.com/"
 	SEASON_URL = "http://www.j-archive.com/showseason.php?season=%s"
@@ -62,23 +71,59 @@ class Downloader:
 		self.season = season
 		self.output_type = output_type
 		self.api = api
-		# self.run()
+		self.test()
 
-	def run(self):
-		try:
-			import multiprocessing 
-			# Since it's a lot of IO let's double # of actual cores
-			self.NUM_THREADS = multiprocessing.cpu_count() * 2
-			print 'Using {} threads'.format(self.NUM_THREADS)
-		except (ImportError, NotImplementedError):
-			pass
+	def test(self):
+		logger.info("Doing something!")
+		
+	# def download_season(self, season, output_type="firebase"):
+	# 	"""download the entire season with output_type of either html, json or uploading
+	# 	to your firebase database (default option).
 
-		if self.season is not None:
-			self.parse_specific_season()
-		else:
-			self.parse_season()
-	
-	def download_and_parse_game(self, season):
+	# 	Args:
+	# 		season(int): Season you want to download.
+	# 		output_type(str): What format you want the output to be.
+
+	# 	Returns:
+	# 		The return value. True for success, False otherwise.
+
+	# 	"""
+	# 	pass
+
+	# def download_specific_season(self, season, game_date=None, game_id=None):
+	# 	"""Download specific game for the given game_date and season with output_type of either html, json or uploading
+	# 	to your firebase database.
+
+	# 	Args:
+	# 		season(int): Season you want to download.
+
+	# 		Please assign AND ONLY assign one of the two following params:
+
+	# 		game_date(str): Game date for the jeopady game you want. YYYY-MM-DDD.
+	# 		game_id(str): ID for for the jeopady game you want.
+
+	# 	Returns:
+	# 		The return value. True for success, False otherwise.
+
+	# 	"""
+	# 	pass
+
+	def download_lastest_game_from_season(self, season, output_type="firebase"):
+		"""Download lastest game for the given season with output_type of either html, json or uploading
+		to your firebase database (default option).
+
+		Args:
+			season(int): Season you want to download.
+
+			Please assign AND ONLY assign one of the two following params:
+
+			game_date(str): Game date for the jeopady game you want. YYYY-MM-DDD.
+			game_id(str): ID for for the jeopady game you want.
+
+		Returns:
+			The return value. True for success, False otherwise.
+
+		"""
 		url, game_date = self._get_game_list_for_season(season)
 		print "url: {}, game_date: {}".format(url, game_date)
 		html = self.download_page(url)
@@ -91,10 +136,24 @@ class Downloader:
 			html_lxml = BeautifulSoup(html_string, 'lxml')
 			self.upload_to_firebase(html_lxml, game_date)
 
+	def run(self):
+		try:
+			import multiprocessing
+			# Since it's a lot of IO let's double # of actual cores
+			self.NUM_THREADS = multiprocessing.cpu_count() * 2
+			print 'Using {} threads'.format(self.NUM_THREADS)
+		except (ImportError, NotImplementedError):
+			pass
+
+		if self.season is not None:
+			self.parse_specific_season()
+		else:
+			self.parse_season()
+
 	def _get_game_list_for_season(self, season):
 		url = self.SEASON_URL % str(season)
 		season_html = self.download_page(url)
-		td = season_html.find_all('td',{'align':'left'})[0]
+		td = season_html.find_all('td', {'align': 'left'})[0]
 		url = td.find("a")["href"]
 		game_date = td.a.contents[0].split()[2]
 		return url, game_date
@@ -127,16 +186,16 @@ class Downloader:
 			self.parse_game(season_html, archive_folder)
 
 	def parse_game(self, season_html, archive_folder):
-		tdlist = season_html.find_all('td',{'align':'left'})
+		tdlist = season_html.find_all('td', {'align': 'left'})
 		l = len(tdlist)
 
 		queList = []
-		threadNum = 6 # threads we are using here
+		threadNum = 6  # threads we are using here
 		for i in range(threadNum):
-			que = [] #Queue.Queue()
-			queDate = [] #Queue.Queue()
+			que = []  # Queue.Queue()
+			queDate = []  # Queue.Queue()
 			left = i * (l // threadNum)
-			if (i+1) * (l // threadNum) < l:            
+			if (i+1) * (l // threadNum) < l:
 				right = (i+1) * (l // threadNum)
 			else:
 				right = l
@@ -147,9 +206,10 @@ class Downloader:
 
 		threadList = []
 		for i in range(threadNum):
-			threadList.append(threadDownload(queList[i], archive_folder, self.download_and_save_page))
+			threadList.append(threadDownload(
+				queList[i], archive_folder, self.download_and_save_page))
 		for thread in threadList:
-			thread.start() # starting multithreading
+			thread.start()  # starting multithreading
 		for thread in threadList:
 			thread.join()
 
@@ -176,7 +236,7 @@ class Downloader:
 				else:
 					raise NameError('File type not valid!')
 
-				time.sleep(self.SECONDS_BETWEEN_REQUESTS)  
+				time.sleep(self.SECONDS_BETWEEN_REQUESTS)
 		else:
 			print "Already downloaded %s" % destination_file_path
 		return True
@@ -186,7 +246,7 @@ class Downloader:
 		try:
 			response = urllib2.urlopen(url)
 			if response.code == 200:
-				print "Downloading ", url 
+				print "Downloading ", url
 				# html = response.read()
 				html = BeautifulSoup(response, "html.parser")
 			else:
@@ -206,7 +266,7 @@ class Downloader:
 		test = Round(html_string, destination_file_path=destination_file_path)
 		test.parseGame()
 		test.toJSON()
-	
+
 	def upload_to_firebase(self, html_string, game_date):
 		print "upload_to_firebase called!"
 		test = Round(html_string, game_date=game_date)
@@ -216,3 +276,7 @@ class Downloader:
 	def create_archive_dir(self, season):
 		if not os.path.isdir(season):
 			os.mkdir(season)
+
+
+if __name__ == "__main__":
+    d = Downloader(34, "json")
