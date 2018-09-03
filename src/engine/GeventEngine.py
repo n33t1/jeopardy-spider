@@ -23,9 +23,10 @@ class GeventEngine:
 		game_date_url_list = self.fetch_game_list_for_season(season)
 		pool.map(self._fetch_parse_and_upload, game_date_url_list)
 		pool.join()
-		if self.uploader.fetch_keys() != self.all_games:
+		if len(self.uploader.fetch_keys()) != len(map(lambda (game_date, _): game_date, self.all_games)):
 			raise Exception('Some games was not uploaded for season %s!', season)
 		else:
+			logger.debug("Season %s uploaded successfully!", season)
 			self.all_games = None
 		
 	def _fetch_parse_and_upload(self, game_date_url_tuple):
@@ -43,8 +44,12 @@ class GeventEngine:
 			uploaded_games = self.uploader.fetch_keys()
 			all_games = self.fetcher.fetch_game_list_for_season(season)
 			self.all_games = all_games
+
+			# if uploaded_game is empty, meaning that season was not created in firebase DB
 			if not uploaded_games:
+				# we just return all games here 
 				return all_games
+			
 			return filter(lambda (game_date, _): game_date not in uploaded_games, all_games)
 		except Exception as e:
 			logger.error("Unable to fetch game list for season %s . Error: %s", season, e)

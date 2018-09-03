@@ -34,7 +34,7 @@ class Scheduler:
 
     def _calc_date_diff(self, last_updated_date):
         today = datetime.date.today()
-        prev = datetime.datetime.strptime(last_updated_date, "%d-%m-%Y").date()
+        prev = datetime.datetime.strptime(last_updated_date, "%Y-%m-%d").date()
         diff = today - prev
         return diff.days
 

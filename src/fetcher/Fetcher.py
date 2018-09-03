@@ -13,8 +13,6 @@ logger = logging.getLogger(__name__)
 
 class Fetcher:
 	# TODO: parse clue answers
-	# TODO: filter media files
-
 	ERROR_MSG = "ERROR: No game"
 	SECONDS_BETWEEN_REQUESTS = 3
 	NUM_THREADS = 2

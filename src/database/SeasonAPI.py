@@ -46,7 +46,7 @@ class SeasonAPI:
 				raise Exception("No self.season attribute found!")
 			logger.debug("Fetching keys for season %s ...", self.season)
 			keys = self.endpoint.child('keys').get()
-			return map(str, keys.keys())
+			return map(str, keys.keys()) if keys else keys
 		except Exception as e:
 			logger.error("Error fetching keys for season %s. Error: %s", self.season, e)
 			raise

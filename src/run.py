@@ -23,7 +23,7 @@ uploader = SeasonAPI(FirebaseAPI())
 engine = GeventEngine(fetcher, gameParser, uploader)
 
 # example: uploading season 2 to firebase DB
-engine.process_season(2)
+engine.process_season(3)
 
-# example: deleting season 3 from firebase DB
-uploader.delete_season(3)
+# # example: deleting season 3 from firebase DB
+# uploader.delete_season(3)
