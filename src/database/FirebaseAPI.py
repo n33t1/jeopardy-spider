@@ -16,7 +16,7 @@ class FirebaseAPI:
 			cred = credentials.Certificate(service_credentials.getcert())
 		except Exception:
 			logger.debug("Running locally!")
-			cred = credentials.Certificate('./keys/rn-jeopardy.json')
+			cred = credentials.Certificate('./keys/rn-jeopardy-admin-keys.json')
 
 		# Initialize the app with a service account, granting admin privileges
 		firebase_admin.initialize_app(cred, {
