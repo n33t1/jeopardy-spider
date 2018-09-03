@@ -24,12 +24,14 @@ new was added. But if we receive 200 as response, then we should
   4. Write to log
 
 Sadly, since J! Archive server does not return If-Modified-Since (response attached as following), we need plan B.
+```
   Date: Sun, 26 Aug 2018 19:48:25 GMT
   Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 mod_bwlimited/1.4
   X-Powered-By: PHP/5.5.37
   Connection: close
   Transfer-Encoding: chunked
   Content-Type: text/html; charset=utf-8
+```
 
 Plan B:
   Similar to the steps in Plan A, but now we are comparing previous md5 and current md5, instead of reponses 
