@@ -1,5 +1,10 @@
-#!/usr/bin/env python -OO
-# -*- coding: utf-8 -*-
+import logging
+from logging.config import fileConfig
+
+fileConfig('logging_config.ini')
+
+logger = logging.getLogger()
+logging.getLogger('chardet.charsetprober').setLevel(logging.INFO)
 
 from fetcher import Fetcher
 from jeopardyParser import JeopardyParser

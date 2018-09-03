@@ -34,7 +34,7 @@ class Scheduler:
 
     def _calc_date_diff(self, last_updated_date):
         today = datetime.date.today()
-        prev = datetime.datetime.strptime(last_updated_date, "%d-%m-%Y").date()
+        prev = datetime.datetime.strptime(last_updated_date, "%Y-%m-%d").date()
         diff = today - prev
         return diff.days
 
@@ -81,7 +81,6 @@ class Scheduler:
         GAME_URL = "http://j-archive.com/showseason.php?season=" + \
             str(lastest_season)
         curr_MD5 = self._get_curr_MD5(GAME_URL)
-        # TODO: log timestamp
         if prev_MD5 != curr_MD5:
             logger.debug(
                 "New game added! Updating utils/GAME_MD5 and utils/LAST_UPDATED_TIME ...")

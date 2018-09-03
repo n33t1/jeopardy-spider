@@ -1,35 +1,56 @@
-# jeopardy-parser
-Python crawler for jeopardy games on [J! Archive](http://j-archive.com/).
+# jeopardy-spider
+Python spider for jeopardy games on [J! Archive](http://j-archive.com/). This library provide 2 options: a spider monitoring and uploading newly added Jeopardy episodes in [heroku_scheduler](./src/heroku_scheduler.py) and a crawler with gevent for scraping and uploading a season of Jeopardy games in [run](./src/run.py). 
 
 ## Setup
+
 ```bash
 git clone https://github.com/n33t1/jeopardy-parser.git
-cd jeopardy-parser
+cd jeopardy-spider
 pip install -r requirements.txt
 ```
-## Usage
-This crawler provides 2 kinds of output file formats: `json` and `html`. You can define the format you want with `-o json` or `-o html`.
 
-If you want to download all seasons up to date, run `python download_multiprocessing.py` or `python download_threading_gevent.py`. `download_threading_gevent.py` uses multithreading and `gevent` while `download_multiprocessing.py` uses multiprocessing. Generally speaking, the former is faster than the latter. If you want to download a specific season in html files, say season 34, run `python download_threading_gevent.py -s 34 -o html`.
+Then you will need to set up firebase, download admin keys and store them in `./keys/rn-jeopardy-admin-keys.json` in order to use Firebase database.
 
-This crawler also provides firebase upload capabilities (which can be done by calling `python src/run.py -s [season] -o firebase`) to a project-specific firebase realtime db. As of right now this functionality is not planned to be opened for other firebase databases.
+### Heroku Setup
 
-## Output
+`heroku cli` is required for deploying the spider to heroku. ([Download link and guide here](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)). The following guide assumes you have installed the cli and have run `heroku login` with your heroku credentials.
 
-Sample json output file is included [here](https://github.com/n33t1/jeopardy-parser/blob/master/2002-09-09.json). For each clue, we have the following attributes:
+```bash
+git clone https://github.com/n33t1/jeopardy-spider.git
+cd jeopardy-spider
+heroku create # create a dyno
+heroku rename rn-jeopardy-spider-2 # (Optional) Rename the dyno
+heroku config:set CONFIG_VARIABLE_NAME=VALUE # Set config variables for heroku dyno, more details below
+git push heroku master # Deploys the spider
+```
 
-* Jtype:
-  * "single": single jeopardy. Prices for the corresponding clue should be either 200, 400, 600, 800 or 1000.
-  * "double": daily doubles. Prices various. 
-  * "placeholder": clue was missing from J! Archive website. All other fields are defined as null. 
-* price
-* prompt
-* solution
-* parsed_solution
+After deployment, the project will check for new seasons and episodes every day using heroku's `clock` worker. There is no web entrypoint, and logs can be obtained by `heroku logs --tail`
 
-Each game contains the following fields:
-* keys: rounds in this game. If a game has keys equal to [1, 2], then it means that game only has Jeopardy! Round and Double Jeopardy! Round. 
-* 1: stands for Jeopardy! Round
-* 2: stands for Double Jeopardy! Round. Might be missing for some games. 
-* 3: stands for Final Jeopardy! Round. Might be missing for some games. 
+#### Config Variables
 
+This project stores the credentials of firebase admin SDK using heroku's config variables. The names of the config vars in use in `database/service_credentials.py` are as follows:
+|Name in Heroku|Firebase Admin SDK Credentials Field|
+|:-------------------------:|:---------------------:|
+|`CERT-PROJECT-ID`          |`project_id`           |
+|`CERT-PRIVATE-KEY-ID`      |`private_key_id`       |
+|`CERT-PRIVATE-KEY`         |`private_key`          |
+|`CERT-CLIENT-EMAIL`        |`client_email`         |
+|`CERT-CLIENT-ID`           |`client_id`            |
+|`CERT-CLIENT-X509-CERT-URL`|`client_x509_cert_url` |
+
+Create the config vars using `heroku config:set NAME:VALUE` for the remote dyno. For testing heroku locally using `heroku local`, run `heroku config:get -s > ./.env` at project root so the variables are available to the program.
+
+## Example
+
+Examples use of crawling Jeopardy games by season:
+
+```bash
+python src/run.py -s 34 -d # delete season 34 from firebase DB
+python src/run.py -s 34 -u # upload season 34 to firebase DB
+```
+
+## TODO
+
+Some fancy AI/NLP stuff we can do:
+  1. Better Roman Numerals detection and smarter parsing for answers. Something to detect the semantic meaning.  
+  2. Classification over `What if` and `Who is`.
