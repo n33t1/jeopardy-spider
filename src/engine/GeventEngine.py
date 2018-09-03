@@ -1,10 +1,6 @@
 #!/usr/bin/env python -OO
 # -*- coding: utf-8 -*-
 
-from fetcher import Fetcher
-from jeopardyParser import JeopardyParser
-from database import FirebaseAPI, SeasonAPI
-
 import traceback
 import concurrent.futures as futures
 import threading
@@ -16,10 +12,10 @@ import logging
 logger = logging.getLogger(__name__)
 
 class GeventEngine:
-	def __init__(self):
-		self.fetcher = Fetcher()
-		self.gameParser = JeopardyParser()
-		self.uploader = SeasonAPI(FirebaseAPI())
+	def __init__(self, fetcher, gameParser, uploader):
+		self.fetcher = fetcher
+		self.gameParser = gameParser
+		self.uploader = uploader
 	
 	def process_season(self, season):
 		self.uploader.set_season_endpoint(season)

@@ -1,1 +1,1 @@
-clock: python src/run.py
+clock: python src/heroku_scheduler.py

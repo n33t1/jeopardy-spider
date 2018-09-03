@@ -1,6 +1,3 @@
-#!/usr/bin/env python -OO
-# -*- coding: utf-8 -*-
-
 import logging
 from logging.config import fileConfig
 
@@ -13,17 +10,22 @@ from fetcher import Fetcher
 from jeopardyParser import JeopardyParser
 from database import FirebaseAPI, SeasonAPI
 from scheduler import Scheduler
-from engine import GeventEngine
+from apscheduler.schedulers.blocking import BlockingScheduler
 
 # init fetcher, parser and uploader
 fetcher = Fetcher()
 gameParser = JeopardyParser()
 uploader = SeasonAPI(FirebaseAPI())
 
-engine = GeventEngine(fetcher, gameParser, uploader)
+schutil = Scheduler(fetcher, gameParser, uploader)
+clock = BlockingScheduler()
 
-# example: uploading season 2 to firebase DB
-engine.process_season(2)
+@clock.scheduled_job('cron', hour=2)
+def checkSeason():
+  schutil.check_maybe_update_season()
 
-# example: deleting season 3 from firebase DB
-uploader.delete_season(3)
+@clock.scheduled_job('cron', hour=2)
+def checkGame():
+  schutil.check_and_update_game()
+
+clock.start()
