@@ -1,1 +1,1 @@
-from .multithreading_gevent import Fetcher
+from .Fetcher import Fetcher

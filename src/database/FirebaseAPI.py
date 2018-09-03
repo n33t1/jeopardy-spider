@@ -6,10 +6,7 @@ from SeasonAPI import SeasonAPI
 
 class FirebaseAPI:
 	def __init__(self):
-		# TODO
-		# cred = credentials.Certificate(service_credentials.getcert())
-		cred = credentials.Certificate('/Users/n33t1/Dev/jeopardy-crawler/keys/rn-jeopardy-clues-firebase-adminsdk-tjzhw-a8735066d5.json')
-
+		cred = credentials.Certificate(service_credentials.getcert())
 		# Initialize the app with a service account, granting admin privileges
 		firebase_admin.initialize_app(cred, {
 			'databaseAuthVariableOverride': {'uid': 'crawlerserviceworker'},

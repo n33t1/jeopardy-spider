@@ -81,7 +81,6 @@ class Scheduler:
         GAME_URL = "http://j-archive.com/showseason.php?season=" + \
             str(lastest_season)
         curr_MD5 = self._get_curr_MD5(GAME_URL)
-        # TODO: log timestamp
         if prev_MD5 != curr_MD5:
             logger.debug(
                 "New game added! Updating utils/GAME_MD5 and utils/LAST_UPDATED_TIME ...")

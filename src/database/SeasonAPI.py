@@ -4,7 +4,6 @@
 import logging
 logger = logging.getLogger(__name__)
 
-
 class SeasonAPI:
 	def __init__(self, FirebaseAPI, season=None):
 		self.GAMES_REF = FirebaseAPI.GAMES_REF
@@ -16,6 +15,10 @@ class SeasonAPI:
 	def set_season_endpoint(self, season):
 		self.season = season
 		self.endpoint = self.GAMES_REF.child('season-' + str(season))
+
+	def unset_season_endpoint(self):
+		self.season = None 
+		self.endpoint = None
 
 	def get_seasons(self):
 		return self.GAMES_REF.child('seasons').get() 
@@ -37,11 +40,13 @@ class SeasonAPI:
 			print e
 			raise
 
-	def _fetch_keys(self):
+	def fetch_keys(self):
 		try:
+			if not self.season:
+				raise Exception("No self.season attribute found!")
 			logger.debug("Fetching keys for season %s ...", self.season)
 			keys = self.endpoint.child('keys').get()
-			return keys.keys()
+			return map(str, keys.keys())
 		except Exception as e:
 			logger.error("Error fetching keys for season %s. Error: %s", self.season, e)
 			raise
@@ -65,14 +70,13 @@ class SeasonAPI:
 			print e
 			raise e
 
-	def delete_season(self):
+	def delete_season(self, season):
 		try:
+			self.set_season_endpoint(season)
 			self.endpoint.delete()
-			logger.debug("%s deleted successfully!", self.season)
+			logger.debug("Season %s deleted successfully!", self.season)
+			self.unset_season_endpoint()
 		except Exception as e:
 			print e
 			raise e
 
-    # def read_keys(self):
-    #     keys = self._fetch_keys()
-    #     print keys
