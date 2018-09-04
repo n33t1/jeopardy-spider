@@ -29,6 +29,7 @@ After deployment, the project will check for new seasons and episodes every day 
 #### Config Variables
 
 This project stores the credentials of firebase admin SDK using heroku's config variables. The names of the config vars in use in `database/service_credentials.py` are as follows:
+
 |Name in Heroku|Firebase Admin SDK Credentials Field|
 |:-------------------------:|:---------------------:|
 |`CERT-PROJECT-ID`          |`project_id`           |
